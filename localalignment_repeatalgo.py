@@ -2,7 +2,7 @@
 
 import pandas as pd
 import sys
-from util import *
+from modules.util import *
 
 INT_MAX = sys.maxsize
 

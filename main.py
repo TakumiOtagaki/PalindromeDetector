@@ -4,7 +4,7 @@
 # python3 main.py: use the default values.
 
 import sys
-from util import *
+from modules.util import *
 from OSDDetector_with_restriction_in_linearspace import *
 
 

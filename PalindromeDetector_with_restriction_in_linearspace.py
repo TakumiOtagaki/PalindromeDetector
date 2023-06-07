@@ -3,7 +3,7 @@
 
 # import pandas as pd
 import sys
-from util import *
+from modules.util import *
 
 INT_MAX = sys.maxsize
 
@@ -14,7 +14,7 @@ INT_MAX = sys.maxsize
 # In other words, the loop is n-D < i + j <= n
 
 
-def OSD_detector_with_band_overlap_restriction_in_linearspace(seq1, match, mismatch, gap, Threshold, band_width):
+def palindrome_detector_with_band_overlap_restriction_in_linearspace(seq1, match, mismatch, gap, Threshold, band_width):
     seq2 = inverse_order_comlementary(seq1)
     gap = abs(gap)
     mismatch = - abs(mismatch)
@@ -31,7 +31,7 @@ def OSD_detector_with_band_overlap_restriction_in_linearspace(seq1, match, misma
         # return min(m, n - i)
         return n - i
 
-    def traceback_local_OSD(traceback, F):
+    def traceback_local_palindrome(traceback, F):
         (i, j) = n-1, traceback[n][0]
         # alignments = [(x_start, x_end, y_start, y_end, x_string, y_string) for alignment in all alignments]
         # x_start, x_end, y_start, y_end are 0-indexed.
@@ -81,7 +81,7 @@ def OSD_detector_with_band_overlap_restriction_in_linearspace(seq1, match, misma
                     score -= gap
 
                 else:
-                    print("invalid traceback matrix in OSD LinearSpace")
+                    print("invalid traceback matrix in palindrome LinearSpace")
                     # print(pd.DataFrame(F, index=list(" "+seq1)).T)
                     # print(pd.DataFrame(traceback, index=list(" "+seq1)).T)
                     sys.exit(1)
@@ -119,7 +119,7 @@ def OSD_detector_with_band_overlap_restriction_in_linearspace(seq1, match, misma
             # traceback[i][j - top_j(i)] = arrows[np.argmax(max_candidate)]
     # print(pd.DataFrame(F, index=list(" "+seq1)).T)
     # print(pd.DataFrame(traceback, index=list(" "+seq1)).T)
-    alignments = traceback_local_OSD(traceback, F)
+    alignments = traceback_local_palindrome(traceback, F)
     return F, traceback, alignments
 
 
@@ -131,7 +131,7 @@ def main():
     Threshold = 20
     D = 10
     seq2 = inverse_order_comlementary(seq1)
-    F, traceback, alignments = OSD_detector_with_band_overlap_restriction_in_linearspace(
+    F, traceback, alignments = palindrome_detector_with_band_overlap_restriction_in_linearspace(
         seq1, match, mismatch, gap, Threshold, D)
     print("Threshold = ", Threshold)
     print("______________________________________")

@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 import sys
 import time
-from util import *
+from modules.util import *
 
 INT_MAX = sys.maxsize
 
