@@ -17,3 +17,10 @@ Detect all Palindrome with distance restriction in Linear Time and Space.
   - Then, the result will be in your terminal.
 3. if you want to, do 
   - python3 main.py <your fasta file path> > <output file path>
+ 
+  
+# For example
+
+  python3 main.py ./testDNAseq.fasta > test_output.txt
+  
+  
