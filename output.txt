@@ -1,0 +1,5017 @@
+Parameters:
+Threshold, D, match, mismatch, gap
+(20, 10, 10, -5, -4)
+
+
+Results: alignments which score >= 20
+______________________________________
+(50, 6989, 6994, 6994, 6999, 'TTTTA', 'TTTTA')
+score =  50
+x_start, x_end = 6989, 6994, y_start, y_end = 6994, 6999
+seq[6989:6994) = TTTTA and seq[6994:6999) = TAAAA
+X, Y =  TTTTA TTTTA
+______________________________________
+(50, 6262, 6267, 6267, 6272, 'CATCC', 'CATCC')
+score =  50
+x_start, x_end = 6262, 6267, y_start, y_end = 6267, 6272
+seq[6262:6267) = CATCC and seq[6267:6272) = GGATG
+X, Y =  CATCC CATCC
+______________________________________
+(50, 5634, 5639, 5639, 5644, 'AATAA', 'AATAA')
+score =  50
+x_start, x_end = 5634, 5639, y_start, y_end = 5639, 5644
+seq[5634:5639) = AATAA and seq[5639:5644) = TTATT
+X, Y =  AATAA AATAA
+______________________________________
+(50, 4457, 4462, 4462, 4467, 'AAAAA', 'AAAAA')
+score =  50
+x_start, x_end = 4457, 4462, y_start, y_end = 4462, 4467
+seq[4457:4462) = AAAAA and seq[4462:4467) = TTTTT
+X, Y =  AAAAA AAAAA
+______________________________________
+(50, 4287, 4292, 4292, 4297, 'AAAAA', 'AAAAA')
+score =  50
+x_start, x_end = 4287, 4292, y_start, y_end = 4292, 4297
+seq[4287:4292) = AAAAA and seq[4292:4297) = TTTTT
+X, Y =  AAAAA AAAAA
+______________________________________
+(50, 4116, 4121, 4121, 4126, 'AAAAA', 'AAAAA')
+score =  50
+x_start, x_end = 4116, 4121, y_start, y_end = 4121, 4126
+seq[4116:4121) = AAAAA and seq[4121:4126) = TTTTT
+X, Y =  AAAAA AAAAA
+______________________________________
+(50, 3945, 3950, 3950, 3955, 'AAAAA', 'AAAAA')
+score =  50
+x_start, x_end = 3945, 3950, y_start, y_end = 3950, 3955
+seq[3945:3950) = AAAAA and seq[3950:3955) = TTTTT
+X, Y =  AAAAA AAAAA
+______________________________________
+(50, 3775, 3780, 3780, 3785, 'AAAAA', 'AAAAA')
+score =  50
+x_start, x_end = 3775, 3780, y_start, y_end = 3780, 3785
+seq[3775:3780) = AAAAA and seq[3780:3785) = TTTTT
+X, Y =  AAAAA AAAAA
+______________________________________
+(50, 3606, 3611, 3611, 3616, 'AAAAA', 'AAAAA')
+score =  50
+x_start, x_end = 3606, 3611, y_start, y_end = 3611, 3616
+seq[3606:3611) = AAAAA and seq[3611:3616) = TTTTT
+X, Y =  AAAAA AAAAA
+______________________________________
+(50, 3435, 3440, 3440, 3445, 'AAAAA', 'AAAAA')
+score =  50
+x_start, x_end = 3435, 3440, y_start, y_end = 3440, 3445
+seq[3435:3440) = AAAAA and seq[3440:3445) = TTTTT
+X, Y =  AAAAA AAAAA
+______________________________________
+(50, 3264, 3269, 3269, 3274, 'AAAAA', 'AAAAA')
+score =  50
+x_start, x_end = 3264, 3269, y_start, y_end = 3269, 3274
+seq[3264:3269) = AAAAA and seq[3269:3274) = TTTTT
+X, Y =  AAAAA AAAAA
+______________________________________
+(50, 3094, 3099, 3099, 3104, 'AAAAA', 'AAAAA')
+score =  50
+x_start, x_end = 3094, 3099, y_start, y_end = 3099, 3104
+seq[3094:3099) = AAAAA and seq[3099:3104) = TTTTT
+X, Y =  AAAAA AAAAA
+______________________________________
+(50, 2923, 2928, 2928, 2933, 'AAAAA', 'AAAAA')
+score =  50
+x_start, x_end = 2923, 2928, y_start, y_end = 2928, 2933
+seq[2923:2928) = AAAAA and seq[2928:2933) = TTTTT
+X, Y =  AAAAA AAAAA
+______________________________________
+(50, 2753, 2758, 2758, 2763, 'AAAAA', 'AAAAA')
+score =  50
+x_start, x_end = 2753, 2758, y_start, y_end = 2758, 2763
+seq[2753:2758) = AAAAA and seq[2758:2763) = TTTTT
+X, Y =  AAAAA AAAAA
+______________________________________
+(50, 2583, 2588, 2588, 2593, 'AAAAA', 'AAAAA')
+score =  50
+x_start, x_end = 2583, 2588, y_start, y_end = 2588, 2593
+seq[2583:2588) = AAAAA and seq[2588:2593) = TTTTT
+X, Y =  AAAAA AAAAA
+______________________________________
+(40, 9966, 9970, 9971, 9975, 'AAAT', 'AAAT')
+score =  40
+x_start, x_end = 9966, 9970, y_start, y_end = 9971, 9975
+seq[9966:9970) = AAAT and seq[9971:9975) = ATTT
+X, Y =  AAAT AAAT
+______________________________________
+(40, 9814, 9818, 9819, 9823, 'ATCG', 'ATCG')
+score =  40
+x_start, x_end = 9814, 9818, y_start, y_end = 9819, 9823
+seq[9814:9818) = ATCG and seq[9819:9823) = CGAT
+X, Y =  ATCG ATCG
+______________________________________
+(40, 9778, 9782, 9783, 9787, 'TGGG', 'TGGG')
+score =  40
+x_start, x_end = 9778, 9782, y_start, y_end = 9783, 9787
+seq[9778:9782) = TGGG and seq[9783:9787) = CCCA
+X, Y =  TGGG TGGG
+______________________________________
+(40, 9742, 9746, 9748, 9752, 'AAAG', 'AAAG')
+score =  40
+x_start, x_end = 9742, 9746, y_start, y_end = 9748, 9752
+seq[9742:9746) = AAAG and seq[9748:9752) = CTTT
+X, Y =  AAAG AAAG
+______________________________________
+(40, 9656, 9660, 9660, 9664, 'ATGA', 'ATGA')
+score =  40
+x_start, x_end = 9656, 9660, y_start, y_end = 9660, 9664
+seq[9656:9660) = ATGA and seq[9660:9664) = TCAT
+X, Y =  ATGA ATGA
+______________________________________
+(40, 9602, 9606, 9607, 9611, 'CAGA', 'CAGA')
+score =  40
+x_start, x_end = 9602, 9606, y_start, y_end = 9607, 9611
+seq[9602:9606) = CAGA and seq[9607:9611) = TCTG
+X, Y =  CAGA CAGA
+______________________________________
+(40, 9541, 9545, 9545, 9549, 'AAAG', 'AAAG')
+score =  40
+x_start, x_end = 9541, 9545, y_start, y_end = 9545, 9549
+seq[9541:9545) = AAAG and seq[9545:9549) = CTTT
+X, Y =  AAAG AAAG
+______________________________________
+(40, 9430, 9434, 9435, 9439, 'GAAA', 'GAAA')
+score =  40
+x_start, x_end = 9430, 9434, y_start, y_end = 9435, 9439
+seq[9430:9434) = GAAA and seq[9435:9439) = TTTC
+X, Y =  GAAA GAAA
+______________________________________
+(40, 9388, 9392, 9394, 9398, 'ATAA', 'ATAA')
+score =  40
+x_start, x_end = 9388, 9392, y_start, y_end = 9394, 9398
+seq[9388:9392) = ATAA and seq[9394:9398) = TTAT
+X, Y =  ATAA ATAA
+______________________________________
+(40, 9299, 9303, 9305, 9309, 'TCGA', 'TCGA')
+score =  40
+x_start, x_end = 9299, 9303, y_start, y_end = 9305, 9309
+seq[9299:9303) = TCGA and seq[9305:9309) = TCGA
+X, Y =  TCGA TCGA
+______________________________________
+(40, 9216, 9220, 9221, 9225, 'GTTT', 'GTTT')
+score =  40
+x_start, x_end = 9216, 9220, y_start, y_end = 9221, 9225
+seq[9216:9220) = GTTT and seq[9221:9225) = AAAC
+X, Y =  GTTT GTTT
+______________________________________
+(40, 9027, 9031, 9033, 9037, 'TTCA', 'TTCA')
+score =  40
+x_start, x_end = 9027, 9031, y_start, y_end = 9033, 9037
+seq[9027:9031) = TTCA and seq[9033:9037) = TGAA
+X, Y =  TTCA TTCA
+______________________________________
+(40, 8967, 8971, 8973, 8977, 'TTTG', 'TTTG')
+score =  40
+x_start, x_end = 8967, 8971, y_start, y_end = 8973, 8977
+seq[8967:8971) = TTTG and seq[8973:8977) = CAAA
+X, Y =  TTTG TTTG
+______________________________________
+(40, 8948, 8952, 8954, 8958, 'CTAT', 'CTAT')
+score =  40
+x_start, x_end = 8948, 8952, y_start, y_end = 8954, 8958
+seq[8948:8952) = CTAT and seq[8954:8958) = ATAG
+X, Y =  CTAT CTAT
+______________________________________
+(40, 8942, 8946, 8948, 8952, 'ATAG', 'ATAG')
+score =  40
+x_start, x_end = 8942, 8946, y_start, y_end = 8948, 8952
+seq[8942:8946) = ATAG and seq[8948:8952) = CTAT
+X, Y =  ATAG ATAG
+______________________________________
+(40, 8863, 8867, 8867, 8871, 'TTTC', 'TTTC')
+score =  40
+x_start, x_end = 8863, 8867, y_start, y_end = 8867, 8871
+seq[8863:8867) = TTTC and seq[8867:8871) = GAAA
+X, Y =  TTTC TTTC
+______________________________________
+(40, 8747, 8751, 8753, 8757, 'AAAA', 'AAAA')
+score =  40
+x_start, x_end = 8747, 8751, y_start, y_end = 8753, 8757
+seq[8747:8751) = AAAA and seq[8753:8757) = TTTT
+X, Y =  AAAA AAAA
+______________________________________
+(40, 8536, 8540, 8542, 8546, 'TCAA', 'TCAA')
+score =  40
+x_start, x_end = 8536, 8540, y_start, y_end = 8542, 8546
+seq[8536:8540) = TCAA and seq[8542:8546) = TTGA
+X, Y =  TCAA TCAA
+______________________________________
+(40, 8531, 8535, 8536, 8540, 'TTGA', 'TTGA')
+score =  40
+x_start, x_end = 8531, 8535, y_start, y_end = 8536, 8540
+seq[8531:8535) = TTGA and seq[8536:8540) = TCAA
+X, Y =  TTGA TTGA
+______________________________________
+(40, 8524, 8528, 8530, 8534, 'CAAA', 'CAAA')
+score =  40
+x_start, x_end = 8524, 8528, y_start, y_end = 8530, 8534
+seq[8524:8528) = CAAA and seq[8530:8534) = TTTG
+X, Y =  CAAA CAAA
+______________________________________
+(40, 8497, 8501, 8502, 8506, 'ATTT', 'ATTT')
+score =  40
+x_start, x_end = 8497, 8501, y_start, y_end = 8502, 8506
+seq[8497:8501) = ATTT and seq[8502:8506) = AAAT
+X, Y =  ATTT ATTT
+______________________________________
+(40, 8479, 8483, 8484, 8488, 'TTGC', 'TTGC')
+score =  40
+x_start, x_end = 8479, 8483, y_start, y_end = 8484, 8488
+seq[8479:8483) = TTGC and seq[8484:8488) = GCAA
+X, Y =  TTGC TTGC
+______________________________________
+(40, 8455, 8459, 8459, 8463, 'CCTC', 'CCTC')
+score =  40
+x_start, x_end = 8455, 8459, y_start, y_end = 8459, 8463
+seq[8455:8459) = CCTC and seq[8459:8463) = GAGG
+X, Y =  CCTC CCTC
+______________________________________
+(40, 8229, 8233, 8234, 8238, 'TTGT', 'TTGT')
+score =  40
+x_start, x_end = 8229, 8233, y_start, y_end = 8234, 8238
+seq[8229:8233) = TTGT and seq[8234:8238) = ACAA
+X, Y =  TTGT TTGT
+______________________________________
+(40, 8223, 8227, 8228, 8232, 'CAAT', 'CAAT')
+score =  40
+x_start, x_end = 8223, 8227, y_start, y_end = 8228, 8232
+seq[8223:8227) = CAAT and seq[8228:8232) = ATTG
+X, Y =  CAAT CAAT
+______________________________________
+(40, 8107, 8111, 8112, 8116, 'AACA', 'AACA')
+score =  40
+x_start, x_end = 8107, 8111, y_start, y_end = 8112, 8116
+seq[8107:8111) = AACA and seq[8112:8116) = TGTT
+X, Y =  AACA AACA
+______________________________________
+(40, 8064, 8068, 8069, 8073, 'AAAT', 'AAAT')
+score =  40
+x_start, x_end = 8064, 8068, y_start, y_end = 8069, 8073
+seq[8064:8068) = AAAT and seq[8069:8073) = ATTT
+X, Y =  AAAT AAAT
+______________________________________
+(40, 8015, 8019, 8020, 8024, 'TTAT', 'TTAT')
+score =  40
+x_start, x_end = 8015, 8019, y_start, y_end = 8020, 8024
+seq[8015:8019) = TTAT and seq[8020:8024) = ATAA
+X, Y =  TTAT TTAT
+______________________________________
+(40, 7801, 7805, 7807, 7811, 'AATT', 'AATT')
+score =  40
+x_start, x_end = 7801, 7805, y_start, y_end = 7807, 7811
+seq[7801:7805) = AATT and seq[7807:7811) = AATT
+X, Y =  AATT AATT
+______________________________________
+(40, 7791, 7795, 7797, 7801, 'TATT', 'TATT')
+score =  40
+x_start, x_end = 7791, 7795, y_start, y_end = 7797, 7801
+seq[7791:7795) = TATT and seq[7797:7801) = AATA
+X, Y =  TATT TATT
+______________________________________
+(40, 7586, 7590, 7591, 7595, 'TGTC', 'TGTC')
+score =  40
+x_start, x_end = 7586, 7590, y_start, y_end = 7591, 7595
+seq[7586:7590) = TGTC and seq[7591:7595) = GACA
+X, Y =  TGTC TGTC
+______________________________________
+(40, 7535, 7539, 7541, 7545, 'GGCC', 'GGCC')
+score =  40
+x_start, x_end = 7535, 7539, y_start, y_end = 7541, 7545
+seq[7535:7539) = GGCC and seq[7541:7545) = GGCC
+X, Y =  GGCC GGCC
+______________________________________
+(40, 7529, 7533, 7533, 7537, 'CCGG', 'CCGG')
+score =  40
+x_start, x_end = 7529, 7533, y_start, y_end = 7533, 7537
+seq[7529:7533) = CCGG and seq[7533:7537) = CCGG
+X, Y =  CCGG CCGG
+______________________________________
+(40, 7303, 7307, 7308, 7312, 'CGAG', 'CGAG')
+score =  40
+x_start, x_end = 7303, 7307, y_start, y_end = 7308, 7312
+seq[7303:7307) = CGAG and seq[7308:7312) = CTCG
+X, Y =  CGAG CGAG
+______________________________________
+(40, 7274, 7278, 7279, 7283, 'AAAA', 'AAAA')
+score =  40
+x_start, x_end = 7274, 7278, y_start, y_end = 7279, 7283
+seq[7274:7278) = AAAA and seq[7279:7283) = TTTT
+X, Y =  AAAA AAAA
+______________________________________
+(40, 7229, 7233, 7235, 7239, 'TCAA', 'TCAA')
+score =  40
+x_start, x_end = 7229, 7233, y_start, y_end = 7235, 7239
+seq[7229:7233) = TCAA and seq[7235:7239) = TTGA
+X, Y =  TCAA TCAA
+______________________________________
+(40, 7210, 7214, 7215, 7219, 'TCAA', 'TCAA')
+score =  40
+x_start, x_end = 7210, 7214, y_start, y_end = 7215, 7219
+seq[7210:7214) = TCAA and seq[7215:7219) = TTGA
+X, Y =  TCAA TCAA
+______________________________________
+(40, 7195, 7199, 7199, 7203, 'CGAT', 'CGAT')
+score =  40
+x_start, x_end = 7195, 7199, y_start, y_end = 7199, 7203
+seq[7195:7199) = CGAT and seq[7199:7203) = ATCG
+X, Y =  CGAT CGAT
+______________________________________
+(40, 7113, 7117, 7119, 7123, 'ATTT', 'ATTT')
+score =  40
+x_start, x_end = 7113, 7117, y_start, y_end = 7119, 7123
+seq[7113:7117) = ATTT and seq[7119:7123) = AAAT
+X, Y =  ATTT ATTT
+______________________________________
+(40, 6940, 6944, 6944, 6948, 'ACTC', 'ACTC')
+score =  40
+x_start, x_end = 6940, 6944, y_start, y_end = 6944, 6948
+seq[6940:6944) = ACTC and seq[6944:6948) = GAGT
+X, Y =  ACTC ACTC
+______________________________________
+(40, 6870, 6874, 6876, 6880, 'AATT', 'AATT')
+score =  40
+x_start, x_end = 6870, 6874, y_start, y_end = 6876, 6880
+seq[6870:6874) = AATT and seq[6876:6880) = AATT
+X, Y =  AATT AATT
+______________________________________
+(40, 6839, 6843, 6843, 6847, 'GAAA', 'GAAA')
+score =  40
+x_start, x_end = 6839, 6843, y_start, y_end = 6843, 6847
+seq[6839:6843) = GAAA and seq[6843:6847) = TTTC
+X, Y =  GAAA GAAA
+______________________________________
+(40, 6718, 6722, 6723, 6727, 'ATCG', 'ATCG')
+score =  40
+x_start, x_end = 6718, 6722, y_start, y_end = 6723, 6727
+seq[6718:6722) = ATCG and seq[6723:6727) = CGAT
+X, Y =  ATCG ATCG
+______________________________________
+(40, 6633, 6637, 6637, 6641, 'TTTC', 'TTTC')
+score =  40
+x_start, x_end = 6633, 6637, y_start, y_end = 6637, 6641
+seq[6633:6637) = TTTC and seq[6637:6641) = GAAA
+X, Y =  TTTC TTTC
+______________________________________
+(40, 6628, 6632, 6633, 6637, 'GAAA', 'GAAA')
+score =  40
+x_start, x_end = 6628, 6632, y_start, y_end = 6633, 6637
+seq[6628:6632) = GAAA and seq[6633:6637) = TTTC
+X, Y =  GAAA GAAA
+______________________________________
+(40, 6617, 6621, 6623, 6627, 'GCCC', 'GCCC')
+score =  40
+x_start, x_end = 6617, 6621, y_start, y_end = 6623, 6627
+seq[6617:6621) = GCCC and seq[6623:6627) = GGGC
+X, Y =  GCCC GCCC
+______________________________________
+(40, 6492, 6496, 6496, 6500, 'ATTG', 'ATTG')
+score =  40
+x_start, x_end = 6492, 6496, y_start, y_end = 6496, 6500
+seq[6492:6496) = ATTG and seq[6496:6500) = CAAT
+X, Y =  ATTG ATTG
+______________________________________
+(40, 6485, 6489, 6491, 6495, 'AATT', 'AATT')
+score =  40
+x_start, x_end = 6485, 6489, y_start, y_end = 6491, 6495
+seq[6485:6489) = AATT and seq[6491:6495) = AATT
+X, Y =  AATT AATT
+______________________________________
+(40, 6429, 6433, 6433, 6437, 'AAAG', 'AAAG')
+score =  40
+x_start, x_end = 6429, 6433, y_start, y_end = 6433, 6437
+seq[6429:6433) = AAAG and seq[6433:6437) = CTTT
+X, Y =  AAAG AAAG
+______________________________________
+(40, 6356, 6360, 6360, 6364, 'GCAG', 'GCAG')
+score =  40
+x_start, x_end = 6356, 6360, y_start, y_end = 6360, 6364
+seq[6356:6360) = GCAG and seq[6360:6364) = CTGC
+X, Y =  GCAG GCAG
+______________________________________
+(40, 6298, 6302, 6302, 6306, 'TTCA', 'TTCA')
+score =  40
+x_start, x_end = 6298, 6302, y_start, y_end = 6302, 6306
+seq[6298:6302) = TTCA and seq[6302:6306) = TGAA
+X, Y =  TTCA TTCA
+______________________________________
+(40, 6270, 6274, 6275, 6279, 'TGAA', 'TGAA')
+score =  40
+x_start, x_end = 6270, 6274, y_start, y_end = 6275, 6279
+seq[6270:6274) = TGAA and seq[6275:6279) = TTCA
+X, Y =  TGAA TGAA
+______________________________________
+(40, 6108, 6112, 6114, 6118, 'AAAA', 'AAAA')
+score =  40
+x_start, x_end = 6108, 6112, y_start, y_end = 6114, 6118
+seq[6108:6112) = AAAA and seq[6114:6118) = TTTT
+X, Y =  AAAA AAAA
+______________________________________
+(40, 6066, 6070, 6070, 6074, 'ATTA', 'ATTA')
+score =  40
+x_start, x_end = 6066, 6070, y_start, y_end = 6070, 6074
+seq[6066:6070) = ATTA and seq[6070:6074) = TAAT
+X, Y =  ATTA ATTA
+______________________________________
+(40, 6061, 6065, 6066, 6070, 'TAAT', 'TAAT')
+score =  40
+x_start, x_end = 6061, 6065, y_start, y_end = 6066, 6070
+seq[6061:6065) = TAAT and seq[6066:6070) = ATTA
+X, Y =  TAAT TAAT
+______________________________________
+(40, 6045, 6049, 6050, 6054, 'TAAT', 'TAAT')
+score =  40
+x_start, x_end = 6045, 6049, y_start, y_end = 6050, 6054
+seq[6045:6049) = TAAT and seq[6050:6054) = ATTA
+X, Y =  TAAT TAAT
+______________________________________
+(40, 5994, 5998, 5999, 6003, 'TTAA', 'TTAA')
+score =  40
+x_start, x_end = 5994, 5998, y_start, y_end = 5999, 6003
+seq[5994:5998) = TTAA and seq[5999:6003) = TTAA
+X, Y =  TTAA TTAA
+______________________________________
+(40, 5945, 5949, 5949, 5953, 'AAGT', 'AAGT')
+score =  40
+x_start, x_end = 5945, 5949, y_start, y_end = 5949, 5953
+seq[5945:5949) = AAGT and seq[5949:5953) = ACTT
+X, Y =  AAGT AAGT
+______________________________________
+(40, 5921, 5925, 5926, 5930, 'CAGT', 'CAGT')
+score =  40
+x_start, x_end = 5921, 5925, y_start, y_end = 5926, 5930
+seq[5921:5925) = CAGT and seq[5926:5930) = ACTG
+X, Y =  CAGT CAGT
+______________________________________
+(40, 5784, 5788, 5790, 5794, 'CTTT', 'CTTT')
+score =  40
+x_start, x_end = 5784, 5788, y_start, y_end = 5790, 5794
+seq[5784:5788) = CTTT and seq[5790:5794) = AAAG
+X, Y =  CTTT CTTT
+______________________________________
+(40, 5680, 5684, 5684, 5688, 'ATTA', 'ATTA')
+score =  40
+x_start, x_end = 5680, 5684, y_start, y_end = 5684, 5688
+seq[5680:5684) = ATTA and seq[5684:5688) = TAAT
+X, Y =  ATTA ATTA
+______________________________________
+(40, 5643, 5647, 5647, 5651, 'TGCG', 'TGCG')
+score =  40
+x_start, x_end = 5643, 5647, y_start, y_end = 5647, 5651
+seq[5643:5647) = TGCG and seq[5647:5651) = CGCA
+X, Y =  TGCG TGCG
+______________________________________
+(40, 5627, 5631, 5633, 5637, 'ATTC', 'ATTC')
+score =  40
+x_start, x_end = 5627, 5631, y_start, y_end = 5633, 5637
+seq[5627:5631) = ATTC and seq[5633:5637) = GAAT
+X, Y =  ATTC ATTC
+______________________________________
+(40, 5544, 5548, 5550, 5554, 'ATTT', 'ATTT')
+score =  40
+x_start, x_end = 5544, 5548, y_start, y_end = 5550, 5554
+seq[5544:5548) = ATTT and seq[5550:5554) = AAAT
+X, Y =  ATTT ATTT
+______________________________________
+(40, 5148, 5152, 5152, 5156, 'AATT', 'AATT')
+score =  40
+x_start, x_end = 5148, 5152, y_start, y_end = 5152, 5156
+seq[5148:5152) = AATT and seq[5152:5156) = AATT
+X, Y =  AATT AATT
+______________________________________
+(40, 4940, 4944, 4945, 4949, 'ATTT', 'ATTT')
+score =  40
+x_start, x_end = 4940, 4944, y_start, y_end = 4945, 4949
+seq[4940:4944) = ATTT and seq[4945:4949) = AAAT
+X, Y =  ATTT ATTT
+______________________________________
+(40, 4822, 4826, 4828, 4832, 'AAGG', 'AAGG')
+score =  40
+x_start, x_end = 4822, 4826, y_start, y_end = 4828, 4832
+seq[4822:4826) = AAGG and seq[4828:4832) = CCTT
+X, Y =  AAGG AAGG
+______________________________________
+(40, 4766, 4770, 4772, 4776, 'ATGA', 'ATGA')
+score =  40
+x_start, x_end = 4766, 4770, y_start, y_end = 4772, 4776
+seq[4766:4770) = ATGA and seq[4772:4776) = TCAT
+X, Y =  ATGA ATGA
+______________________________________
+(40, 4747, 4751, 4753, 4757, 'CAAA', 'CAAA')
+score =  40
+x_start, x_end = 4747, 4751, y_start, y_end = 4753, 4757
+seq[4747:4751) = CAAA and seq[4753:4757) = TTTG
+X, Y =  CAAA CAAA
+______________________________________
+(40, 4576, 4580, 4580, 4584, 'AAAA', 'AAAA')
+score =  40
+x_start, x_end = 4576, 4580, y_start, y_end = 4580, 4584
+seq[4576:4580) = AAAA and seq[4580:4584) = TTTT
+X, Y =  AAAA AAAA
+______________________________________
+(40, 4571, 4575, 4576, 4580, 'TTTT', 'TTTT')
+score =  40
+x_start, x_end = 4571, 4575, y_start, y_end = 4576, 4580
+seq[4571:4575) = TTTT and seq[4576:4580) = AAAA
+X, Y =  TTTT TTTT
+______________________________________
+(40, 4546, 4550, 4552, 4556, 'AAAT', 'AAAT')
+score =  40
+x_start, x_end = 4546, 4550, y_start, y_end = 4552, 4556
+seq[4546:4550) = AAAT and seq[4552:4556) = ATTT
+X, Y =  AAAT AAAT
+______________________________________
+(40, 4442, 4446, 4448, 4452, 'GATG', 'GATG')
+score =  40
+x_start, x_end = 4442, 4446, y_start, y_end = 4448, 4452
+seq[4442:4446) = GATG and seq[4448:4452) = CATC
+X, Y =  GATG GATG
+______________________________________
+(40, 4271, 4275, 4277, 4281, 'GATG', 'GATG')
+score =  40
+x_start, x_end = 4271, 4275, y_start, y_end = 4277, 4281
+seq[4271:4275) = GATG and seq[4277:4281) = CATC
+X, Y =  GATG GATG
+______________________________________
+(40, 4234, 4238, 4238, 4242, 'AAAA', 'AAAA')
+score =  40
+x_start, x_end = 4234, 4238, y_start, y_end = 4238, 4242
+seq[4234:4238) = AAAA and seq[4238:4242) = TTTT
+X, Y =  AAAA AAAA
+______________________________________
+(40, 4229, 4233, 4234, 4238, 'TTTT', 'TTTT')
+score =  40
+x_start, x_end = 4229, 4233, y_start, y_end = 4234, 4238
+seq[4229:4233) = TTTT and seq[4234:4238) = AAAA
+X, Y =  TTTT TTTT
+______________________________________
+(40, 4222, 4226, 4228, 4232, 'AAAT', 'AAAT')
+score =  40
+x_start, x_end = 4222, 4226, y_start, y_end = 4228, 4232
+seq[4222:4226) = AAAT and seq[4228:4232) = ATTT
+X, Y =  AAAT AAAT
+______________________________________
+(40, 4101, 4105, 4107, 4111, 'GATG', 'GATG')
+score =  40
+x_start, x_end = 4101, 4105, y_start, y_end = 4107, 4111
+seq[4101:4105) = GATG and seq[4107:4111) = CATC
+X, Y =  GATG GATG
+______________________________________
+(40, 4052, 4056, 4058, 4062, 'AAAT', 'AAAT')
+score =  40
+x_start, x_end = 4052, 4056, y_start, y_end = 4058, 4062
+seq[4052:4056) = AAAT and seq[4058:4062) = ATTT
+X, Y =  AAAT AAAT
+______________________________________
+(40, 3930, 3934, 3936, 3940, 'GATG', 'GATG')
+score =  40
+x_start, x_end = 3930, 3934, y_start, y_end = 3936, 3940
+seq[3930:3934) = GATG and seq[3936:3940) = CATC
+X, Y =  GATG GATG
+______________________________________
+(40, 3889, 3893, 3893, 3897, 'TTTC', 'TTTC')
+score =  40
+x_start, x_end = 3889, 3893, y_start, y_end = 3893, 3897
+seq[3889:3893) = TTTC and seq[3893:3897) = GAAA
+X, Y =  TTTC TTTC
+______________________________________
+(40, 3762, 3766, 3768, 3772, 'GATG', 'GATG')
+score =  40
+x_start, x_end = 3762, 3766, y_start, y_end = 3768, 3772
+seq[3762:3766) = GATG and seq[3768:3772) = CATC
+X, Y =  GATG GATG
+______________________________________
+(40, 3725, 3729, 3729, 3733, 'AAAA', 'AAAA')
+score =  40
+x_start, x_end = 3725, 3729, y_start, y_end = 3729, 3733
+seq[3725:3729) = AAAA and seq[3729:3733) = TTTT
+X, Y =  AAAA AAAA
+______________________________________
+(40, 3720, 3724, 3725, 3729, 'TTTT', 'TTTT')
+score =  40
+x_start, x_end = 3720, 3724, y_start, y_end = 3725, 3729
+seq[3720:3724) = TTTT and seq[3725:3729) = AAAA
+X, Y =  TTTT TTTT
+______________________________________
+(40, 3591, 3595, 3597, 3601, 'GATG', 'GATG')
+score =  40
+x_start, x_end = 3591, 3595, y_start, y_end = 3597, 3601
+seq[3591:3595) = GATG and seq[3597:3601) = CATC
+X, Y =  GATG GATG
+______________________________________
+(40, 3554, 3558, 3558, 3562, 'AAAA', 'AAAA')
+score =  40
+x_start, x_end = 3554, 3558, y_start, y_end = 3558, 3562
+seq[3554:3558) = AAAA and seq[3558:3562) = TTTT
+X, Y =  AAAA AAAA
+______________________________________
+(40, 3549, 3553, 3554, 3558, 'TTTT', 'TTTT')
+score =  40
+x_start, x_end = 3549, 3553, y_start, y_end = 3554, 3558
+seq[3549:3553) = TTTT and seq[3554:3558) = AAAA
+X, Y =  TTTT TTTT
+______________________________________
+(40, 3383, 3387, 3387, 3391, 'AAAA', 'AAAA')
+score =  40
+x_start, x_end = 3383, 3387, y_start, y_end = 3387, 3391
+seq[3383:3387) = AAAA and seq[3387:3391) = TTTT
+X, Y =  AAAA AAAA
+______________________________________
+(40, 3378, 3382, 3383, 3387, 'TTTT', 'TTTT')
+score =  40
+x_start, x_end = 3378, 3382, y_start, y_end = 3383, 3387
+seq[3378:3382) = TTTT and seq[3383:3387) = AAAA
+X, Y =  TTTT TTTT
+______________________________________
+(40, 3249, 3253, 3255, 3259, 'GATG', 'GATG')
+score =  40
+x_start, x_end = 3249, 3253, y_start, y_end = 3255, 3259
+seq[3249:3253) = GATG and seq[3255:3259) = CATC
+X, Y =  GATG GATG
+______________________________________
+(40, 3212, 3216, 3216, 3220, 'AAAA', 'AAAA')
+score =  40
+x_start, x_end = 3212, 3216, y_start, y_end = 3216, 3220
+seq[3212:3216) = AAAA and seq[3216:3220) = TTTT
+X, Y =  AAAA AAAA
+______________________________________
+(40, 3203, 3207, 3209, 3213, 'TGAA', 'TGAA')
+score =  40
+x_start, x_end = 3203, 3207, y_start, y_end = 3209, 3213
+seq[3203:3207) = TGAA and seq[3209:3213) = TTCA
+X, Y =  TGAA TGAA
+______________________________________
+(40, 3041, 3045, 3045, 3049, 'AAAA', 'AAAA')
+score =  40
+x_start, x_end = 3041, 3045, y_start, y_end = 3045, 3049
+seq[3041:3045) = AAAA and seq[3045:3049) = TTTT
+X, Y =  AAAA AAAA
+______________________________________
+(40, 3036, 3040, 3041, 3045, 'TTTT', 'TTTT')
+score =  40
+x_start, x_end = 3036, 3040, y_start, y_end = 3041, 3045
+seq[3036:3040) = TTTT and seq[3041:3045) = AAAA
+X, Y =  TTTT TTTT
+______________________________________
+(40, 3029, 3033, 3035, 3039, 'AAAT', 'AAAT')
+score =  40
+x_start, x_end = 3029, 3033, y_start, y_end = 3035, 3039
+seq[3029:3033) = AAAT and seq[3035:3039) = ATTT
+X, Y =  AAAT AAAT
+______________________________________
+(40, 2908, 2912, 2914, 2918, 'GATG', 'GATG')
+score =  40
+x_start, x_end = 2908, 2912, y_start, y_end = 2914, 2918
+seq[2908:2912) = GATG and seq[2914:2918) = CATC
+X, Y =  GATG GATG
+______________________________________
+(40, 2859, 2863, 2865, 2869, 'AAAT', 'AAAT')
+score =  40
+x_start, x_end = 2859, 2863, y_start, y_end = 2865, 2869
+seq[2859:2863) = AAAT and seq[2865:2869) = ATTT
+X, Y =  AAAT AAAT
+______________________________________
+(40, 2738, 2742, 2744, 2748, 'GATG', 'GATG')
+score =  40
+x_start, x_end = 2738, 2742, y_start, y_end = 2744, 2748
+seq[2738:2742) = GATG and seq[2744:2748) = CATC
+X, Y =  GATG GATG
+______________________________________
+(40, 2697, 2701, 2701, 2705, 'TTTC', 'TTTC')
+score =  40
+x_start, x_end = 2697, 2701, y_start, y_end = 2701, 2705
+seq[2697:2701) = TTTC and seq[2701:2705) = GAAA
+X, Y =  TTTC TTTC
+______________________________________
+(40, 2569, 2573, 2575, 2579, 'GATG', 'GATG')
+score =  40
+x_start, x_end = 2569, 2573, y_start, y_end = 2575, 2579
+seq[2569:2573) = GATG and seq[2575:2579) = CATC
+X, Y =  GATG GATG
+______________________________________
+(40, 2533, 2537, 2537, 2541, 'AAAA', 'AAAA')
+score =  40
+x_start, x_end = 2533, 2537, y_start, y_end = 2537, 2541
+seq[2533:2537) = AAAA and seq[2537:2541) = TTTT
+X, Y =  AAAA AAAA
+______________________________________
+(40, 2524, 2528, 2530, 2534, 'TGAA', 'TGAA')
+score =  40
+x_start, x_end = 2524, 2528, y_start, y_end = 2530, 2534
+seq[2524:2528) = TGAA and seq[2530:2534) = TTCA
+X, Y =  TGAA TGAA
+______________________________________
+(36, 9927, 9932, 9933, 9937, 'ATCTC', 'ATC-C')
+score =  36
+x_start, x_end = 9927, 9932, y_start, y_end = 9933, 9937
+seq[9927:9932) = ATCTC and seq[9933:9937) = GGAT
+X, Y =  ATCTC ATC-C
+______________________________________
+(36, 9871, 9875, 9876, 9881, 'AT-TC', 'ATCTC')
+score =  36
+x_start, x_end = 9871, 9875, y_start, y_end = 9876, 9881
+seq[9871:9875) = ATTC and seq[9876:9881) = GAGAT
+X, Y =  AT-TC ATCTC
+______________________________________
+(36, 9731, 9735, 9736, 9741, 'T-GAC', 'TCGAC')
+score =  36
+x_start, x_end = 9731, 9735, y_start, y_end = 9736, 9741
+seq[9731:9735) = TGAC and seq[9736:9741) = GTCGA
+X, Y =  T-GAC TCGAC
+______________________________________
+(36, 9723, 9728, 9728, 9732, 'ACGCT', 'ACG-T')
+score =  36
+x_start, x_end = 9723, 9728, y_start, y_end = 9728, 9732
+seq[9723:9728) = ACGCT and seq[9728:9732) = ACGT
+X, Y =  ACGCT ACG-T
+______________________________________
+(36, 9696, 9701, 9701, 9705, 'TTCAG', 'TTC-G')
+score =  36
+x_start, x_end = 9696, 9701, y_start, y_end = 9701, 9705
+seq[9696:9701) = TTCAG and seq[9701:9705) = CGAA
+X, Y =  TTCAG TTC-G
+______________________________________
+(36, 9667, 9671, 9672, 9677, 'GA-AA', 'GACAA')
+score =  36
+x_start, x_end = 9667, 9671, y_start, y_end = 9672, 9677
+seq[9667:9671) = GAAA and seq[9672:9677) = TTGTC
+X, Y =  GA-AA GACAA
+______________________________________
+(36, 9651, 9655, 9655, 9660, 'TC-TG', 'TCATG')
+score =  36
+x_start, x_end = 9651, 9655, y_start, y_end = 9655, 9660
+seq[9651:9655) = TCTG and seq[9655:9660) = CATGA
+X, Y =  TC-TG TCATG
+______________________________________
+(36, 9476, 9481, 9482, 9486, 'GAAGA', 'GAA-A')
+score =  36
+x_start, x_end = 9476, 9481, y_start, y_end = 9482, 9486
+seq[9476:9481) = GAAGA and seq[9482:9486) = TTTC
+X, Y =  GAAGA GAA-A
+______________________________________
+(36, 9359, 9364, 9365, 9369, 'GAGGA', 'G-GGA')
+score =  36
+x_start, x_end = 9359, 9364, y_start, y_end = 9365, 9369
+seq[9359:9364) = GAGGA and seq[9365:9369) = TCCC
+X, Y =  GAGGA G-GGA
+______________________________________
+(36, 9316, 9320, 9320, 9325, 'T-GTA', 'TCGTA')
+score =  36
+x_start, x_end = 9316, 9320, y_start, y_end = 9320, 9325
+seq[9316:9320) = TGTA and seq[9320:9325) = TACGA
+X, Y =  T-GTA TCGTA
+______________________________________
+(36, 9260, 9264, 9265, 9270, 'AAG-C', 'AAGAC')
+score =  36
+x_start, x_end = 9260, 9264, y_start, y_end = 9265, 9270
+seq[9260:9264) = AAGC and seq[9265:9270) = GTCTT
+X, Y =  AAG-C AAGAC
+______________________________________
+(36, 9209, 9213, 9214, 9219, 'AA-AA', 'AACAA')
+score =  36
+x_start, x_end = 9209, 9213, y_start, y_end = 9214, 9219
+seq[9209:9213) = AAAA and seq[9214:9219) = TTGTT
+X, Y =  AA-AA AACAA
+______________________________________
+(36, 9156, 9160, 9160, 9165, 'AGA-C', 'AGATC')
+score =  36
+x_start, x_end = 9156, 9160, y_start, y_end = 9160, 9165
+seq[9156:9160) = AGAC and seq[9160:9165) = GATCT
+X, Y =  AGA-C AGATC
+______________________________________
+(36, 9077, 9081, 9082, 9087, 'GGA-A', 'GGAGA')
+score =  36
+x_start, x_end = 9077, 9081, y_start, y_end = 9082, 9087
+seq[9077:9081) = GGAA and seq[9082:9087) = TCTCC
+X, Y =  GGA-A GGAGA
+______________________________________
+(36, 9058, 9062, 9062, 9067, 'AGG-A', 'AGGCA')
+score =  36
+x_start, x_end = 9058, 9062, y_start, y_end = 9062, 9067
+seq[9058:9062) = AGGA and seq[9062:9067) = TGCCT
+X, Y =  AGG-A AGGCA
+______________________________________
+(36, 9018, 9022, 9022, 9027, 'AAC-C', 'AACGC')
+score =  36
+x_start, x_end = 9018, 9022, y_start, y_end = 9022, 9027
+seq[9018:9022) = AACC and seq[9022:9027) = GCGTT
+X, Y =  AAC-C AACGC
+______________________________________
+(36, 8991, 8996, 8996, 9000, 'TCCGA', 'T-CGA')
+score =  36
+x_start, x_end = 8991, 8996, y_start, y_end = 8996, 9000
+seq[8991:8996) = TCCGA and seq[8996:9000) = TCGA
+X, Y =  TCCGA T-CGA
+______________________________________
+(36, 8875, 8879, 8879, 8884, 'AAC-G', 'AACTG')
+score =  36
+x_start, x_end = 8875, 8879, y_start, y_end = 8879, 8884
+seq[8875:8879) = AACG and seq[8879:8884) = CAGTT
+X, Y =  AAC-G AACTG
+______________________________________
+(36, 8822, 8826, 8826, 8831, 'TAG-T', 'TAGCT')
+score =  36
+x_start, x_end = 8822, 8826, y_start, y_end = 8826, 8831
+seq[8822:8826) = TAGT and seq[8826:8831) = AGCTA
+X, Y =  TAG-T TAGCT
+______________________________________
+(36, 8741, 8746, 8747, 8751, 'TTCTT', 'TT-TT')
+score =  36
+x_start, x_end = 8741, 8746, y_start, y_end = 8747, 8751
+seq[8741:8746) = TTCTT and seq[8747:8751) = AAAA
+X, Y =  TTCTT TT-TT
+______________________________________
+(36, 8710, 8714, 8714, 8719, 'CCG-T', 'CCGAT')
+score =  36
+x_start, x_end = 8710, 8714, y_start, y_end = 8714, 8719
+seq[8710:8714) = CCGT and seq[8714:8719) = ATCGG
+X, Y =  CCG-T CCGAT
+______________________________________
+(36, 8684, 8689, 8690, 8694, 'GCGAT', 'G-GAT')
+score =  36
+x_start, x_end = 8684, 8689, y_start, y_end = 8690, 8694
+seq[8684:8689) = GCGAT and seq[8690:8694) = ATCC
+X, Y =  GCGAT G-GAT
+______________________________________
+(36, 8585, 8590, 8591, 8595, 'AAGAA', 'AA-AA')
+score =  36
+x_start, x_end = 8585, 8590, y_start, y_end = 8591, 8595
+seq[8585:8590) = AAGAA and seq[8591:8595) = TTTT
+X, Y =  AAGAA AA-AA
+______________________________________
+(36, 8568, 8573, 8573, 8577, 'TCCAG', 'T-CAG')
+score =  36
+x_start, x_end = 8568, 8573, y_start, y_end = 8573, 8577
+seq[8568:8573) = TCCAG and seq[8573:8577) = CTGA
+X, Y =  TCCAG T-CAG
+______________________________________
+(36, 8541, 8546, 8547, 8551, 'TTTGA', 'TTT-A')
+score =  36
+x_start, x_end = 8541, 8546, y_start, y_end = 8547, 8551
+seq[8541:8546) = TTTGA and seq[8547:8551) = TAAA
+X, Y =  TTTGA TTT-A
+______________________________________
+(36, 8473, 8478, 8479, 8483, 'GCTAA', 'GC-AA')
+score =  36
+x_start, x_end = 8473, 8478, y_start, y_end = 8479, 8483
+seq[8473:8478) = GCTAA and seq[8479:8483) = TTGC
+X, Y =  GCTAA GC-AA
+______________________________________
+(36, 8419, 8423, 8424, 8429, 'TTA-G', 'TTATG')
+score =  36
+x_start, x_end = 8419, 8423, y_start, y_end = 8424, 8429
+seq[8419:8423) = TTAG and seq[8424:8429) = CATAA
+X, Y =  TTA-G TTATG
+______________________________________
+(36, 8365, 8370, 8371, 8375, 'GAGAT', 'GA-AT')
+score =  36
+x_start, x_end = 8365, 8370, y_start, y_end = 8371, 8375
+seq[8365:8370) = GAGAT and seq[8371:8375) = ATTC
+X, Y =  GAGAT GA-AT
+______________________________________
+(36, 8262, 8266, 8266, 8271, 'G-TTT', 'GCTTT')
+score =  36
+x_start, x_end = 8262, 8266, y_start, y_end = 8266, 8271
+seq[8262:8266) = GTTT and seq[8266:8271) = AAAGC
+X, Y =  G-TTT GCTTT
+______________________________________
+(36, 8213, 8217, 8218, 8223, 'TT-TC', 'TTATC')
+score =  36
+x_start, x_end = 8213, 8217, y_start, y_end = 8218, 8223
+seq[8213:8217) = TTTC and seq[8218:8223) = GATAA
+X, Y =  TT-TC TTATC
+______________________________________
+(36, 8164, 8169, 8169, 8173, 'CGTCA', 'CGT-A')
+score =  36
+x_start, x_end = 8164, 8169, y_start, y_end = 8169, 8173
+seq[8164:8169) = CGTCA and seq[8169:8173) = TACG
+X, Y =  CGTCA CGT-A
+______________________________________
+(36, 8120, 8124, 8124, 8129, 'TCA-A', 'TCAGA')
+score =  36
+x_start, x_end = 8120, 8124, y_start, y_end = 8124, 8129
+seq[8120:8124) = TCAA and seq[8124:8129) = TCTGA
+X, Y =  TCA-A TCAGA
+______________________________________
+(36, 8084, 8088, 8088, 8093, 'TAG-G', 'TAGAG')
+score =  36
+x_start, x_end = 8084, 8088, y_start, y_end = 8088, 8093
+seq[8084:8088) = TAGG and seq[8088:8093) = CTCTA
+X, Y =  TAG-G TAGAG
+______________________________________
+(36, 8040, 8045, 8046, 8050, 'CCGTA', 'CCG-A')
+score =  36
+x_start, x_end = 8040, 8045, y_start, y_end = 8046, 8050
+seq[8040:8045) = CCGTA and seq[8046:8050) = TCGG
+X, Y =  CCGTA CCG-A
+______________________________________
+(36, 7969, 7973, 7974, 7979, 'TA-TA', 'TATTA')
+score =  36
+x_start, x_end = 7969, 7973, y_start, y_end = 7974, 7979
+seq[7969:7973) = TATA and seq[7974:7979) = TAATA
+X, Y =  TA-TA TATTA
+______________________________________
+(36, 7945, 7950, 7950, 7954, 'AAATC', 'AAA-C')
+score =  36
+x_start, x_end = 7945, 7950, y_start, y_end = 7950, 7954
+seq[7945:7950) = AAATC and seq[7950:7954) = GTTT
+X, Y =  AAATC AAA-C
+______________________________________
+(36, 7931, 7936, 7937, 7941, 'ATTGT', 'ATT-T')
+score =  36
+x_start, x_end = 7931, 7936, y_start, y_end = 7937, 7941
+seq[7931:7936) = ATTGT and seq[7937:7941) = AAAT
+X, Y =  ATTGT ATT-T
+______________________________________
+(36, 7925, 7929, 7930, 7935, 'C-ATC', 'CAATC')
+score =  36
+x_start, x_end = 7925, 7929, y_start, y_end = 7930, 7935
+seq[7925:7929) = CATC and seq[7930:7935) = GATTG
+X, Y =  C-ATC CAATC
+______________________________________
+(36, 7862, 7867, 7867, 7871, 'CTGAC', 'C-GAC')
+score =  36
+x_start, x_end = 7862, 7867, y_start, y_end = 7867, 7871
+seq[7862:7867) = CTGAC and seq[7867:7871) = GTCG
+X, Y =  CTGAC C-GAC
+______________________________________
+(36, 7836, 7840, 7840, 7845, 'TT-AC', 'TTGAC')
+score =  36
+x_start, x_end = 7836, 7840, y_start, y_end = 7840, 7845
+seq[7836:7840) = TTAC and seq[7840:7845) = GTCAA
+X, Y =  TT-AC TTGAC
+______________________________________
+(36, 7758, 7762, 7762, 7767, 'TGG-T', 'TGGCT')
+score =  36
+x_start, x_end = 7758, 7762, y_start, y_end = 7762, 7767
+seq[7758:7762) = TGGT and seq[7762:7767) = AGCCA
+X, Y =  TGG-T TGGCT
+______________________________________
+(36, 7736, 7740, 7740, 7745, 'AG-AG', 'AGAAG')
+score =  36
+x_start, x_end = 7736, 7740, y_start, y_end = 7740, 7745
+seq[7736:7740) = AGAG and seq[7740:7745) = CTTCT
+X, Y =  AG-AG AGAAG
+______________________________________
+(36, 7638, 7643, 7643, 7647, 'GATGT', 'GAT-T')
+score =  36
+x_start, x_end = 7638, 7643, y_start, y_end = 7643, 7647
+seq[7638:7643) = GATGT and seq[7643:7647) = AATC
+X, Y =  GATGT GAT-T
+______________________________________
+(36, 7495, 7499, 7499, 7504, 'C-CGG', 'CGCGG')
+score =  36
+x_start, x_end = 7495, 7499, y_start, y_end = 7499, 7504
+seq[7495:7499) = CCGG and seq[7499:7504) = CCGCG
+X, Y =  C-CGG CGCGG
+______________________________________
+(36, 7449, 7453, 7454, 7459, 'AA-GG', 'AATGG')
+score =  36
+x_start, x_end = 7449, 7453, y_start, y_end = 7454, 7459
+seq[7449:7453) = AAGG and seq[7454:7459) = CCATT
+X, Y =  AA-GG AATGG
+______________________________________
+(36, 7426, 7431, 7431, 7435, 'AAATC', 'AAA-C')
+score =  36
+x_start, x_end = 7426, 7431, y_start, y_end = 7431, 7435
+seq[7426:7431) = AAATC and seq[7431:7435) = GTTT
+X, Y =  AAATC AAA-C
+______________________________________
+(36, 7387, 7391, 7392, 7397, 'A-AAG', 'AGAAG')
+score =  36
+x_start, x_end = 7387, 7391, y_start, y_end = 7392, 7397
+seq[7387:7391) = AAAG and seq[7392:7397) = CTTCT
+X, Y =  A-AAG AGAAG
+______________________________________
+(36, 7308, 7312, 7312, 7317, 'CT-CG', 'CTGCG')
+score =  36
+x_start, x_end = 7308, 7312, y_start, y_end = 7312, 7317
+seq[7308:7312) = CTCG and seq[7312:7317) = CGCAG
+X, Y =  CT-CG CTGCG
+______________________________________
+(36, 7248, 7252, 7253, 7258, 'AGG-C', 'AGGAC')
+score =  36
+x_start, x_end = 7248, 7252, y_start, y_end = 7253, 7258
+seq[7248:7252) = AGGC and seq[7253:7258) = GTCCT
+X, Y =  AGG-C AGGAC
+______________________________________
+(36, 7166, 7170, 7170, 7175, 'G-GGC', 'GTGGC')
+score =  36
+x_start, x_end = 7166, 7170, y_start, y_end = 7170, 7175
+seq[7166:7170) = GGGC and seq[7170:7175) = GCCAC
+X, Y =  G-GGC GTGGC
+______________________________________
+(36, 7092, 7097, 7097, 7101, 'ACGCA', 'ACG-A')
+score =  36
+x_start, x_end = 7092, 7097, y_start, y_end = 7097, 7101
+seq[7092:7097) = ACGCA and seq[7097:7101) = TCGT
+X, Y =  ACGCA ACG-A
+______________________________________
+(36, 6962, 6967, 6968, 6972, 'ATCGA', 'AT-GA')
+score =  36
+x_start, x_end = 6962, 6967, y_start, y_end = 6968, 6972
+seq[6962:6967) = ATCGA and seq[6968:6972) = TCAT
+X, Y =  ATCGA AT-GA
+______________________________________
+(36, 6952, 6957, 6957, 6961, 'CGTGC', 'CG-GC')
+score =  36
+x_start, x_end = 6952, 6957, y_start, y_end = 6957, 6961
+seq[6952:6957) = CGTGC and seq[6957:6961) = GCCG
+X, Y =  CGTGC CG-GC
+______________________________________
+(36, 6892, 6896, 6896, 6901, 'T-TTC', 'TCTTC')
+score =  36
+x_start, x_end = 6892, 6896, y_start, y_end = 6896, 6901
+seq[6892:6896) = TTTC and seq[6896:6901) = GAAGA
+X, Y =  T-TTC TCTTC
+______________________________________
+(36, 6794, 6798, 6798, 6803, 'A-TCA', 'ACTCA')
+score =  36
+x_start, x_end = 6794, 6798, y_start, y_end = 6798, 6803
+seq[6794:6798) = ATCA and seq[6798:6803) = TGAGT
+X, Y =  A-TCA ACTCA
+______________________________________
+(36, 6676, 6680, 6681, 6686, 'AGA-A', 'AGAGA')
+score =  36
+x_start, x_end = 6676, 6680, y_start, y_end = 6681, 6686
+seq[6676:6680) = AGAA and seq[6681:6686) = TCTCT
+X, Y =  AGA-A AGAGA
+______________________________________
+(36, 6665, 6670, 6671, 6675, 'CTCTT', 'C-CTT')
+score =  36
+x_start, x_end = 6665, 6670, y_start, y_end = 6671, 6675
+seq[6665:6670) = CTCTT and seq[6671:6675) = AAGG
+X, Y =  CTCTT C-CTT
+______________________________________
+(36, 6562, 6567, 6568, 6572, 'ACCAA', 'A-CAA')
+score =  36
+x_start, x_end = 6562, 6567, y_start, y_end = 6568, 6572
+seq[6562:6567) = ACCAA and seq[6568:6572) = TTGT
+X, Y =  ACCAA A-CAA
+______________________________________
+(36, 6392, 6396, 6396, 6401, 'A-AAT', 'AGAAT')
+score =  36
+x_start, x_end = 6392, 6396, y_start, y_end = 6396, 6401
+seq[6392:6396) = AAAT and seq[6396:6401) = ATTCT
+X, Y =  A-AAT AGAAT
+______________________________________
+(36, 6275, 6280, 6280, 6284, 'TTCAG', 'TTC-G')
+score =  36
+x_start, x_end = 6275, 6280, y_start, y_end = 6280, 6284
+seq[6275:6280) = TTCAG and seq[6280:6284) = CGAA
+X, Y =  TTCAG TTC-G
+______________________________________
+(36, 6187, 6191, 6192, 6197, 'C-TTT', 'CGTTT')
+score =  36
+x_start, x_end = 6187, 6191, y_start, y_end = 6192, 6197
+seq[6187:6191) = CTTT and seq[6192:6197) = AAACG
+X, Y =  C-TTT CGTTT
+______________________________________
+(36, 6102, 6107, 6108, 6112, 'TGTTT', 'T-TTT')
+score =  36
+x_start, x_end = 6102, 6107, y_start, y_end = 6108, 6112
+seq[6102:6107) = TGTTT and seq[6108:6112) = AAAA
+X, Y =  TGTTT T-TTT
+______________________________________
+(36, 6006, 6011, 6011, 6015, 'TAATG', 'TAA-G')
+score =  36
+x_start, x_end = 6006, 6011, y_start, y_end = 6011, 6015
+seq[6006:6011) = TAATG and seq[6011:6015) = CTTA
+X, Y =  TAATG TAA-G
+______________________________________
+(36, 5999, 6003, 6004, 6009, 'TTA-A', 'TTACA')
+score =  36
+x_start, x_end = 5999, 6003, y_start, y_end = 6004, 6009
+seq[5999:6003) = TTAA and seq[6004:6009) = TGTAA
+X, Y =  TTA-A TTACA
+______________________________________
+(36, 5983, 5987, 5987, 5992, 'G-TTA', 'GATTA')
+score =  36
+x_start, x_end = 5983, 5987, y_start, y_end = 5987, 5992
+seq[5983:5987) = GTTA and seq[5987:5992) = TAATC
+X, Y =  G-TTA GATTA
+______________________________________
+(36, 5977, 5982, 5983, 5987, 'TAATC', 'TAA-C')
+score =  36
+x_start, x_end = 5977, 5982, y_start, y_end = 5983, 5987
+seq[5977:5982) = TAATC and seq[5983:5987) = GTTA
+X, Y =  TAATC TAA-C
+______________________________________
+(36, 5888, 5893, 5893, 5897, 'TTGAC', 'TTG-C')
+score =  36
+x_start, x_end = 5888, 5893, y_start, y_end = 5893, 5897
+seq[5888:5893) = TTGAC and seq[5893:5897) = GCAA
+X, Y =  TTGAC TTG-C
+______________________________________
+(36, 5882, 5886, 5887, 5892, 'T-AAG', 'TCAAG')
+score =  36
+x_start, x_end = 5882, 5886, y_start, y_end = 5887, 5892
+seq[5882:5886) = TAAG and seq[5887:5892) = CTTGA
+X, Y =  T-AAG TCAAG
+______________________________________
+(36, 5855, 5859, 5859, 5864, 'G-AGA', 'GAAGA')
+score =  36
+x_start, x_end = 5855, 5859, y_start, y_end = 5859, 5864
+seq[5855:5859) = GAGA and seq[5859:5864) = TCTTC
+X, Y =  G-AGA GAAGA
+______________________________________
+(36, 5846, 5850, 5850, 5855, 'CAG-A', 'CAGTA')
+score =  36
+x_start, x_end = 5846, 5850, y_start, y_end = 5850, 5855
+seq[5846:5850) = CAGA and seq[5850:5855) = TACTG
+X, Y =  CAG-A CAGTA
+______________________________________
+(36, 5829, 5834, 5834, 5838, 'GCAAG', 'G-AAG')
+score =  36
+x_start, x_end = 5829, 5834, y_start, y_end = 5834, 5838
+seq[5829:5834) = GCAAG and seq[5834:5838) = CTTC
+X, Y =  GCAAG G-AAG
+______________________________________
+(36, 5805, 5810, 5811, 5815, 'AGGCA', 'AGG-A')
+score =  36
+x_start, x_end = 5805, 5810, y_start, y_end = 5811, 5815
+seq[5805:5810) = AGGCA and seq[5811:5815) = TCCT
+X, Y =  AGGCA AGG-A
+______________________________________
+(36, 5737, 5742, 5743, 5747, 'CGATC', 'CG-TC')
+score =  36
+x_start, x_end = 5737, 5742, y_start, y_end = 5743, 5747
+seq[5737:5742) = CGATC and seq[5743:5747) = GACG
+X, Y =  CGATC CG-TC
+______________________________________
+(36, 5653, 5657, 5658, 5663, 'A-TTA', 'ATTTA')
+score =  36
+x_start, x_end = 5653, 5657, y_start, y_end = 5658, 5663
+seq[5653:5657) = ATTA and seq[5658:5663) = TAAAT
+X, Y =  A-TTA ATTTA
+______________________________________
+(36, 5601, 5605, 5605, 5610, 'TC-AT', 'TCAAT')
+score =  36
+x_start, x_end = 5601, 5605, y_start, y_end = 5605, 5610
+seq[5601:5605) = TCAT and seq[5605:5610) = ATTGA
+X, Y =  TC-AT TCAAT
+______________________________________
+(36, 5576, 5581, 5582, 5586, 'AAATC', 'AAA-C')
+score =  36
+x_start, x_end = 5576, 5581, y_start, y_end = 5582, 5586
+seq[5576:5581) = AAATC and seq[5582:5586) = GTTT
+X, Y =  AAATC AAA-C
+______________________________________
+(36, 5560, 5564, 5565, 5570, 'CAT-C', 'CATGC')
+score =  36
+x_start, x_end = 5560, 5564, y_start, y_end = 5565, 5570
+seq[5560:5564) = CATC and seq[5565:5570) = GCATG
+X, Y =  CAT-C CATGC
+______________________________________
+(36, 5508, 5512, 5513, 5518, 'T-AGC', 'TAAGC')
+score =  36
+x_start, x_end = 5508, 5512, y_start, y_end = 5513, 5518
+seq[5508:5512) = TAGC and seq[5513:5518) = GCTTA
+X, Y =  T-AGC TAAGC
+______________________________________
+(36, 5476, 5481, 5481, 5485, 'ACTGT', 'A-TGT')
+score =  36
+x_start, x_end = 5476, 5481, y_start, y_end = 5481, 5485
+seq[5476:5481) = ACTGT and seq[5481:5485) = ACAT
+X, Y =  ACTGT A-TGT
+______________________________________
+(36, 5364, 5369, 5369, 5373, 'ATCGA', 'A-CGA')
+score =  36
+x_start, x_end = 5364, 5369, y_start, y_end = 5369, 5373
+seq[5364:5369) = ATCGA and seq[5369:5373) = TCGT
+X, Y =  ATCGA A-CGA
+______________________________________
+(36, 5348, 5353, 5354, 5358, 'CTATG', 'CT-TG')
+score =  36
+x_start, x_end = 5348, 5353, y_start, y_end = 5354, 5358
+seq[5348:5353) = CTATG and seq[5354:5358) = CAAG
+X, Y =  CTATG CT-TG
+______________________________________
+(36, 5201, 5205, 5205, 5210, 'AGA-T', 'AGAGT')
+score =  36
+x_start, x_end = 5201, 5205, y_start, y_end = 5205, 5210
+seq[5201:5205) = AGAT and seq[5205:5210) = ACTCT
+X, Y =  AGA-T AGAGT
+______________________________________
+(36, 5114, 5118, 5118, 5123, 'TTG-A', 'TTGTA')
+score =  36
+x_start, x_end = 5114, 5118, y_start, y_end = 5118, 5123
+seq[5114:5118) = TTGA and seq[5118:5123) = TACAA
+X, Y =  TTG-A TTGTA
+______________________________________
+(36, 5099, 5103, 5103, 5108, 'T-CCG', 'TCCCG')
+score =  36
+x_start, x_end = 5099, 5103, y_start, y_end = 5103, 5108
+seq[5099:5103) = TCCG and seq[5103:5108) = CGGGA
+X, Y =  T-CCG TCCCG
+______________________________________
+(36, 5054, 5059, 5059, 5063, 'TACAG', 'T-CAG')
+score =  36
+x_start, x_end = 5054, 5059, y_start, y_end = 5059, 5063
+seq[5054:5059) = TACAG and seq[5059:5063) = CTGA
+X, Y =  TACAG T-CAG
+______________________________________
+(36, 5023, 5027, 5028, 5033, 'TT-CA', 'TTCCA')
+score =  36
+x_start, x_end = 5023, 5027, y_start, y_end = 5028, 5033
+seq[5023:5027) = TTCA and seq[5028:5033) = TGGAA
+X, Y =  TT-CA TTCCA
+______________________________________
+(36, 4999, 5003, 5004, 5009, 'TC-TA', 'TCGTA')
+score =  36
+x_start, x_end = 4999, 5003, y_start, y_end = 5004, 5009
+seq[4999:5003) = TCTA and seq[5004:5009) = TACGA
+X, Y =  TC-TA TCGTA
+______________________________________
+(36, 4969, 4973, 4973, 4978, 'T-CAA', 'TGCAA')
+score =  36
+x_start, x_end = 4969, 4973, y_start, y_end = 4973, 4978
+seq[4969:4973) = TCAA and seq[4973:4978) = TTGCA
+X, Y =  T-CAA TGCAA
+______________________________________
+(36, 4906, 4910, 4911, 4916, 'C-ATA', 'CAATA')
+score =  36
+x_start, x_end = 4906, 4910, y_start, y_end = 4911, 4916
+seq[4906:4910) = CATA and seq[4911:4916) = TATTG
+X, Y =  C-ATA CAATA
+______________________________________
+(36, 4884, 4889, 4890, 4894, 'TATAC', 'TA-AC')
+score =  36
+x_start, x_end = 4884, 4889, y_start, y_end = 4890, 4894
+seq[4884:4889) = TATAC and seq[4890:4894) = GTTA
+X, Y =  TATAC TA-AC
+______________________________________
+(36, 4801, 4805, 4805, 4810, 'T-ACG', 'TAACG')
+score =  36
+x_start, x_end = 4801, 4805, y_start, y_end = 4805, 4810
+seq[4801:4805) = TACG and seq[4805:4810) = CGTTA
+X, Y =  T-ACG TAACG
+______________________________________
+(36, 4687, 4691, 4691, 4696, 'CC-AA', 'CCTAA')
+score =  36
+x_start, x_end = 4687, 4691, y_start, y_end = 4691, 4696
+seq[4687:4691) = CCAA and seq[4691:4696) = TTAGG
+X, Y =  CC-AA CCTAA
+______________________________________
+(36, 4672, 4676, 4677, 4682, 'A-CGG', 'ATCGG')
+score =  36
+x_start, x_end = 4672, 4676, y_start, y_end = 4677, 4682
+seq[4672:4676) = ACGG and seq[4677:4682) = CCGAT
+X, Y =  A-CGG ATCGG
+______________________________________
+(36, 4655, 4659, 4660, 4665, 'A-ATT', 'ATATT')
+score =  36
+x_start, x_end = 4655, 4659, y_start, y_end = 4660, 4665
+seq[4655:4659) = AATT and seq[4660:4665) = AATAT
+X, Y =  A-ATT ATATT
+______________________________________
+(36, 4601, 4606, 4606, 4610, 'ATTCA', 'A-TCA')
+score =  36
+x_start, x_end = 4601, 4606, y_start, y_end = 4606, 4610
+seq[4601:4606) = ATTCA and seq[4606:4610) = TGAT
+X, Y =  ATTCA A-TCA
+______________________________________
+(36, 4564, 4569, 4570, 4574, 'AAACG', 'AAA-G')
+score =  36
+x_start, x_end = 4564, 4569, y_start, y_end = 4570, 4574
+seq[4564:4569) = AAACG and seq[4570:4574) = CTTT
+X, Y =  AAACG AAA-G
+______________________________________
+(36, 4430, 4435, 4435, 4439, 'ATTCA', 'A-TCA')
+score =  36
+x_start, x_end = 4430, 4435, y_start, y_end = 4435, 4439
+seq[4430:4435) = ATTCA and seq[4435:4439) = TGAT
+X, Y =  ATTCA A-TCA
+______________________________________
+(36, 4362, 4367, 4368, 4372, 'GCAGA', 'GC-GA')
+score =  36
+x_start, x_end = 4362, 4367, y_start, y_end = 4368, 4372
+seq[4362:4367) = GCAGA and seq[4368:4372) = TCGC
+X, Y =  GCAGA GC-GA
+______________________________________
+(36, 4259, 4264, 4264, 4268, 'ATTCA', 'A-TCA')
+score =  36
+x_start, x_end = 4259, 4264, y_start, y_end = 4264, 4268
+seq[4259:4264) = ATTCA and seq[4264:4268) = TGAT
+X, Y =  ATTCA A-TCA
+______________________________________
+(36, 4089, 4094, 4094, 4098, 'ATTCA', 'A-TCA')
+score =  36
+x_start, x_end = 4089, 4094, y_start, y_end = 4094, 4098
+seq[4089:4094) = ATTCA and seq[4094:4098) = TGAT
+X, Y =  ATTCA A-TCA
+______________________________________
+(36, 3918, 3923, 3923, 3927, 'ATTCA', 'A-TCA')
+score =  36
+x_start, x_end = 3918, 3923, y_start, y_end = 3923, 3927
+seq[3918:3923) = ATTCA and seq[3923:3927) = TGAT
+X, Y =  ATTCA A-TCA
+______________________________________
+(36, 3750, 3755, 3755, 3759, 'ATTCA', 'A-TCA')
+score =  36
+x_start, x_end = 3750, 3755, y_start, y_end = 3755, 3759
+seq[3750:3755) = ATTCA and seq[3755:3759) = TGAT
+X, Y =  ATTCA A-TCA
+______________________________________
+(36, 3579, 3584, 3584, 3588, 'ATTCA', 'A-TCA')
+score =  36
+x_start, x_end = 3579, 3584, y_start, y_end = 3584, 3588
+seq[3579:3584) = ATTCA and seq[3584:3588) = TGAT
+X, Y =  ATTCA A-TCA
+______________________________________
+(36, 3408, 3413, 3413, 3417, 'ATTCA', 'A-TCA')
+score =  36
+x_start, x_end = 3408, 3413, y_start, y_end = 3413, 3417
+seq[3408:3413) = ATTCA and seq[3413:3417) = TGAT
+X, Y =  ATTCA A-TCA
+______________________________________
+(36, 3372, 3377, 3378, 3382, 'AACAA', 'AA-AA')
+score =  36
+x_start, x_end = 3372, 3377, y_start, y_end = 3378, 3382
+seq[3372:3377) = AACAA and seq[3378:3382) = TTTT
+X, Y =  AACAA AA-AA
+______________________________________
+(36, 3237, 3242, 3242, 3246, 'ATTCA', 'A-TCA')
+score =  36
+x_start, x_end = 3237, 3242, y_start, y_end = 3242, 3246
+seq[3237:3242) = ATTCA and seq[3242:3246) = TGAT
+X, Y =  ATTCA A-TCA
+______________________________________
+(36, 3066, 3071, 3071, 3075, 'ATTCA', 'A-TCA')
+score =  36
+x_start, x_end = 3066, 3071, y_start, y_end = 3071, 3075
+seq[3066:3071) = ATTCA and seq[3071:3075) = TGAT
+X, Y =  ATTCA A-TCA
+______________________________________
+(36, 2896, 2901, 2901, 2905, 'ATTCA', 'A-TCA')
+score =  36
+x_start, x_end = 2896, 2901, y_start, y_end = 2901, 2905
+seq[2896:2901) = ATTCA and seq[2901:2905) = TGAT
+X, Y =  ATTCA A-TCA
+______________________________________
+(36, 2830, 2834, 2835, 2840, 'GAA-A', 'GAACA')
+score =  36
+x_start, x_end = 2830, 2834, y_start, y_end = 2835, 2840
+seq[2830:2834) = GAAA and seq[2835:2840) = TGTTC
+X, Y =  GAA-A GAACA
+______________________________________
+(36, 2726, 2731, 2731, 2735, 'ATTCA', 'A-TCA')
+score =  36
+x_start, x_end = 2726, 2731, y_start, y_end = 2731, 2735
+seq[2726:2731) = ATTCA and seq[2731:2735) = TGAT
+X, Y =  ATTCA A-TCA
+______________________________________
+(36, 2557, 2562, 2562, 2566, 'ATTCA', 'A-TCA')
+score =  36
+x_start, x_end = 2557, 2562, y_start, y_end = 2562, 2566
+seq[2557:2562) = ATTCA and seq[2562:2566) = TGAT
+X, Y =  ATTCA A-TCA
+______________________________________
+(35, 9944, 9949, 9949, 9954, 'TAAGC', 'TAATC')
+score =  35
+x_start, x_end = 9944, 9949, y_start, y_end = 9949, 9954
+seq[9944:9949) = TAAGC and seq[9949:9954) = GATTA
+X, Y =  TAAGC TAATC
+______________________________________
+(35, 9096, 9101, 9101, 9106, 'TGCTC', 'TACTC')
+score =  35
+x_start, x_end = 9096, 9101, y_start, y_end = 9101, 9106
+seq[9096:9101) = TGCTC and seq[9101:9106) = GAGTA
+X, Y =  TGCTC TACTC
+______________________________________
+(35, 8893, 8898, 8898, 8903, 'GCTAA', 'GATAA')
+score =  35
+x_start, x_end = 8893, 8898, y_start, y_end = 8898, 8903
+seq[8893:8898) = GCTAA and seq[8898:8903) = TTATC
+X, Y =  GCTAA GATAA
+______________________________________
+(35, 8756, 8761, 8761, 8766, 'TGGAC', 'TAGAC')
+score =  35
+x_start, x_end = 8756, 8761, y_start, y_end = 8761, 8766
+seq[8756:8761) = TGGAC and seq[8761:8766) = GTCTA
+X, Y =  TGGAC TAGAC
+______________________________________
+(35, 8663, 8668, 8668, 8673, 'GTGAA', 'GAGAA')
+score =  35
+x_start, x_end = 8663, 8668, y_start, y_end = 8668, 8673
+seq[8663:8668) = GTGAA and seq[8668:8673) = TTCTC
+X, Y =  GTGAA GAGAA
+______________________________________
+(35, 8626, 8631, 8631, 8636, 'CTTGA', 'CTTCA')
+score =  35
+x_start, x_end = 8626, 8631, y_start, y_end = 8631, 8636
+seq[8626:8631) = CTTGA and seq[8631:8636) = TGAAG
+X, Y =  CTTGA CTTCA
+______________________________________
+(35, 7595, 7600, 7600, 7605, 'AACGA', 'AATGA')
+score =  35
+x_start, x_end = 7595, 7600, y_start, y_end = 7600, 7605
+seq[7595:7600) = AACGA and seq[7600:7605) = TCATT
+X, Y =  AACGA AATGA
+______________________________________
+(35, 7563, 7568, 7568, 7573, 'CTATC', 'CTAGC')
+score =  35
+x_start, x_end = 7563, 7568, y_start, y_end = 7568, 7573
+seq[7563:7568) = CTATC and seq[7568:7573) = GCTAG
+X, Y =  CTATC CTAGC
+______________________________________
+(35, 7370, 7375, 7375, 7380, 'TGTGC', 'TGAGC')
+score =  35
+x_start, x_end = 7370, 7375, y_start, y_end = 7375, 7380
+seq[7370:7375) = TGTGC and seq[7375:7380) = GCTCA
+X, Y =  TGTGC TGAGC
+______________________________________
+(35, 6306, 6311, 6311, 6316, 'AATCA', 'AAGCA')
+score =  35
+x_start, x_end = 6306, 6311, y_start, y_end = 6311, 6316
+seq[6306:6311) = AATCA and seq[6311:6316) = TGCTT
+X, Y =  AATCA AAGCA
+______________________________________
+(35, 6147, 6152, 6152, 6157, 'ATACG', 'ATAAG')
+score =  35
+x_start, x_end = 6147, 6152, y_start, y_end = 6152, 6157
+seq[6147:6152) = ATACG and seq[6152:6157) = CTTAT
+X, Y =  ATACG ATAAG
+______________________________________
+(35, 5838, 5843, 5843, 5848, 'TACAG', 'TGCAG')
+score =  35
+x_start, x_end = 5838, 5843, y_start, y_end = 5843, 5848
+seq[5838:5843) = TACAG and seq[5843:5848) = CTGCA
+X, Y =  TACAG TGCAG
+______________________________________
+(35, 5791, 5796, 5796, 5801, 'AAGAC', 'AAGTC')
+score =  35
+x_start, x_end = 5791, 5796, y_start, y_end = 5796, 5801
+seq[5791:5796) = AAGAC and seq[5796:5801) = GACTT
+X, Y =  AAGAC AAGTC
+______________________________________
+(35, 5660, 5665, 5665, 5670, 'AATTC', 'AATGC')
+score =  35
+x_start, x_end = 5660, 5665, y_start, y_end = 5665, 5670
+seq[5660:5665) = AATTC and seq[5665:5670) = GCATT
+X, Y =  AATTC AATGC
+______________________________________
+(35, 5325, 5330, 5330, 5335, 'GTGCT', 'GTTCT')
+score =  35
+x_start, x_end = 5325, 5330, y_start, y_end = 5330, 5335
+seq[5325:5330) = GTGCT and seq[5330:5335) = AGAAC
+X, Y =  GTGCT GTTCT
+______________________________________
+(35, 4931, 4936, 4936, 4941, 'TCTTC', 'TCATC')
+score =  35
+x_start, x_end = 4931, 4936, y_start, y_end = 4936, 4941
+seq[4931:4936) = TCTTC and seq[4936:4941) = GATGA
+X, Y =  TCTTC TCATC
+______________________________________
+(35, 4536, 4541, 4541, 4546, 'GAAAC', 'GCAAC')
+score =  35
+x_start, x_end = 4536, 4541, y_start, y_end = 4541, 4546
+seq[4536:4541) = GAAAC and seq[4541:4546) = GTTGC
+X, Y =  GAAAC GCAAC
+______________________________________
+(32, 9973, 9977, 9977, 9983, 'T-T-CG', 'TCTCCG')
+score =  32
+x_start, x_end = 9973, 9977, y_start, y_end = 9977, 9983
+seq[9973:9977) = TTCG and seq[9977:9983) = CGGAGA
+X, Y =  T-T-CG TCTCCG
+______________________________________
+(32, 9886, 9891, 9891, 9896, 'GCGA-A', 'G-GATA')
+score =  32
+x_start, x_end = 9886, 9891, y_start, y_end = 9891, 9896
+seq[9886:9891) = GCGAA and seq[9891:9896) = TATCC
+X, Y =  GCGA-A G-GATA
+______________________________________
+(32, 9436, 9440, 9440, 9446, 'T-TC-G', 'TCTCTG')
+score =  32
+x_start, x_end = 9436, 9440, y_start, y_end = 9440, 9446
+seq[9436:9440) = TTCG and seq[9440:9446) = CAGAGA
+X, Y =  T-TC-G TCTCTG
+______________________________________
+(32, 9424, 9428, 9428, 9434, 'TTT--A', 'TTTCGA')
+score =  32
+x_start, x_end = 9424, 9428, y_start, y_end = 9428, 9434
+seq[9424:9428) = TTTA and seq[9428:9434) = TCGAAA
+X, Y =  TTT--A TTTCGA
+______________________________________
+(32, 9416, 9422, 9422, 9426, 'ATAGAC', 'A-A-AC')
+score =  32
+x_start, x_end = 9416, 9422, y_start, y_end = 9422, 9426
+seq[9416:9422) = ATAGAC and seq[9422:9426) = GTTT
+X, Y =  ATAGAC A-A-AC
+______________________________________
+(32, 9365, 9369, 9369, 9375, 'TC-C-C', 'TCTCTC')
+score =  32
+x_start, x_end = 9365, 9369, y_start, y_end = 9369, 9375
+seq[9365:9369) = TCCC and seq[9369:9375) = GAGAGA
+X, Y =  TC-C-C TCTCTC
+______________________________________
+(32, 8561, 8567, 8567, 8571, 'GAGACA', 'G-GA-A')
+score =  32
+x_start, x_end = 8561, 8567, y_start, y_end = 8567, 8571
+seq[8561:8567) = GAGACA and seq[8567:8571) = TTCC
+X, Y =  GAGACA G-GA-A
+______________________________________
+(32, 8435, 8440, 8440, 8445, 'CT-GAC', 'CTAG-C')
+score =  32
+x_start, x_end = 8435, 8440, y_start, y_end = 8440, 8445
+seq[8435:8440) = CTGAC and seq[8440:8445) = GCTAG
+X, Y =  CT-GAC CTAG-C
+______________________________________
+(32, 8234, 8238, 8238, 8244, 'ACA--A', 'ACAGCA')
+score =  32
+x_start, x_end = 8234, 8238, y_start, y_end = 8238, 8244
+seq[8234:8238) = ACAA and seq[8238:8244) = TGCTGT
+X, Y =  ACA--A ACAGCA
+______________________________________
+(32, 8182, 8187, 8187, 8192, 'TCT-AA', 'T-TGAA')
+score =  32
+x_start, x_end = 8182, 8187, y_start, y_end = 8187, 8192
+seq[8182:8187) = TCTAA and seq[8187:8192) = TTCAA
+X, Y =  TCT-AA T-TGAA
+______________________________________
+(32, 8074, 8079, 8079, 8084, 'ACG-TC', 'A-GATC')
+score =  32
+x_start, x_end = 8074, 8079, y_start, y_end = 8079, 8084
+seq[8074:8079) = ACGTC and seq[8079:8084) = GATCT
+X, Y =  ACG-TC A-GATC
+______________________________________
+(32, 7961, 7965, 7965, 7971, 'T-C-AA', 'TACGAA')
+score =  32
+x_start, x_end = 7961, 7965, y_start, y_end = 7965, 7971
+seq[7961:7965) = TCAA and seq[7965:7971) = TTCGTA
+X, Y =  T-C-AA TACGAA
+______________________________________
+(32, 7768, 7773, 7773, 7778, 'T-TAGG', 'TCT-GG')
+score =  32
+x_start, x_end = 7768, 7773, y_start, y_end = 7773, 7778
+seq[7768:7773) = TTAGG and seq[7773:7778) = CCAGA
+X, Y =  T-TAGG TCT-GG
+______________________________________
+(32, 7569, 7575, 7575, 7579, 'CTAGAT', 'C-A-AT')
+score =  32
+x_start, x_end = 7569, 7575, y_start, y_end = 7575, 7579
+seq[7569:7575) = CTAGAT and seq[7575:7579) = ATTG
+X, Y =  CTAGAT C-A-AT
+______________________________________
+(32, 7082, 7087, 7087, 7092, 'TCA-CC', 'T-ATCC')
+score =  32
+x_start, x_end = 7082, 7087, y_start, y_end = 7087, 7092
+seq[7082:7087) = TCACC and seq[7087:7092) = GGATA
+X, Y =  TCA-CC T-ATCC
+______________________________________
+(32, 7045, 7050, 7050, 7055, 'AGAT-T', 'A-ATAT')
+score =  32
+x_start, x_end = 7045, 7050, y_start, y_end = 7050, 7055
+seq[7045:7050) = AGATT and seq[7050:7055) = ATATT
+X, Y =  AGAT-T A-ATAT
+______________________________________
+(32, 7024, 7030, 7030, 7034, 'TTCAAG', 'TTC--G')
+score =  32
+x_start, x_end = 7024, 7030, y_start, y_end = 7030, 7034
+seq[7024:7030) = TTCAAG and seq[7030:7034) = CGAA
+X, Y =  TTCAAG TTC--G
+______________________________________
+(32, 6881, 6887, 6887, 6891, 'ATTACC', 'A--ACC')
+score =  32
+x_start, x_end = 6881, 6887, y_start, y_end = 6887, 6891
+seq[6881:6887) = ATTACC and seq[6887:6891) = GGTT
+X, Y =  ATTACC A--ACC
+______________________________________
+(32, 6752, 6758, 6758, 6762, 'ACAGAG', 'A-A-AG')
+score =  32
+x_start, x_end = 6752, 6758, y_start, y_end = 6758, 6762
+seq[6752:6758) = ACAGAG and seq[6758:6762) = CTTT
+X, Y =  ACAGAG A-A-AG
+______________________________________
+(32, 6705, 6711, 6711, 6715, 'AATGGA', 'AA--GA')
+score =  32
+x_start, x_end = 6705, 6711, y_start, y_end = 6711, 6715
+seq[6705:6711) = AATGGA and seq[6711:6715) = TCTT
+X, Y =  AATGGA AA--GA
+______________________________________
+(32, 6685, 6690, 6690, 6695, 'TGA-CC', 'T-ATCC')
+score =  32
+x_start, x_end = 6685, 6690, y_start, y_end = 6690, 6695
+seq[6685:6690) = TGACC and seq[6690:6695) = GGATA
+X, Y =  TGA-CC T-ATCC
+______________________________________
+(32, 6656, 6660, 6660, 6666, 'GA-A-A', 'GAGACA')
+score =  32
+x_start, x_end = 6656, 6660, y_start, y_end = 6660, 6666
+seq[6656:6660) = GAAA and seq[6660:6666) = TGTCTC
+X, Y =  GA-A-A GAGACA
+______________________________________
+(32, 6586, 6592, 6592, 6596, 'ATGGTT', 'AT--TT')
+score =  32
+x_start, x_end = 6586, 6592, y_start, y_end = 6592, 6596
+seq[6586:6592) = ATGGTT and seq[6592:6596) = AAAT
+X, Y =  ATGGTT AT--TT
+______________________________________
+(32, 6516, 6521, 6521, 6526, 'ATTG-T', 'A-TGAT')
+score =  32
+x_start, x_end = 6516, 6521, y_start, y_end = 6521, 6526
+seq[6516:6521) = ATTGT and seq[6521:6526) = ATCAT
+X, Y =  ATTG-T A-TGAT
+______________________________________
+(32, 6463, 6467, 6467, 6473, 'AA--AA', 'AATTAA')
+score =  32
+x_start, x_end = 6463, 6467, y_start, y_end = 6467, 6473
+seq[6463:6467) = AAAA and seq[6467:6473) = TTAATT
+X, Y =  AA--AA AATTAA
+______________________________________
+(32, 6444, 6448, 6448, 6454, 'T-A-TC', 'TAATTC')
+score =  32
+x_start, x_end = 6444, 6448, y_start, y_end = 6448, 6454
+seq[6444:6448) = TATC and seq[6448:6454) = GAATTA
+X, Y =  T-A-TC TAATTC
+______________________________________
+(32, 6369, 6373, 6373, 6379, 'AA-G-A', 'AATGCA')
+score =  32
+x_start, x_end = 6369, 6373, y_start, y_end = 6373, 6379
+seq[6369:6373) = AAGA and seq[6373:6379) = TGCATT
+X, Y =  AA-G-A AATGCA
+______________________________________
+(32, 6350, 6354, 6354, 6360, 'C-G-AA', 'CTGCAA')
+score =  32
+x_start, x_end = 6350, 6354, y_start, y_end = 6354, 6360
+seq[6350:6354) = CGAA and seq[6354:6360) = TTGCAG
+X, Y =  C-G-AA CTGCAA
+______________________________________
+(32, 6255, 6259, 6259, 6265, 'A--AAT', 'ATGAAT')
+score =  32
+x_start, x_end = 6255, 6259, y_start, y_end = 6259, 6265
+seq[6255:6259) = AAAT and seq[6259:6265) = ATTCAT
+X, Y =  A--AAT ATGAAT
+______________________________________
+(32, 6203, 6209, 6209, 6213, 'TGCTTC', 'T-C-TC')
+score =  32
+x_start, x_end = 6203, 6209, y_start, y_end = 6209, 6213
+seq[6203:6209) = TGCTTC and seq[6209:6213) = GAGA
+X, Y =  TGCTTC T-C-TC
+______________________________________
+(32, 6198, 6202, 6202, 6208, 'AA--AA', 'AAGCAA')
+score =  32
+x_start, x_end = 6198, 6202, y_start, y_end = 6202, 6208
+seq[6198:6202) = AAAA and seq[6202:6208) = TTGCTT
+X, Y =  AA--AA AAGCAA
+______________________________________
+(32, 6155, 6161, 6161, 6165, 'ATTGGC', 'A--GGC')
+score =  32
+x_start, x_end = 6155, 6161, y_start, y_end = 6161, 6165
+seq[6155:6161) = ATTGGC and seq[6161:6165) = GCCT
+X, Y =  ATTGGC A--GGC
+______________________________________
+(32, 5912, 5917, 5917, 5922, 'GAAC-C', 'G-ACGC')
+score =  32
+x_start, x_end = 5912, 5917, y_start, y_end = 5917, 5922
+seq[5912:5917) = GAACC and seq[5917:5922) = GCGTC
+X, Y =  GAAC-C G-ACGC
+______________________________________
+(32, 5821, 5827, 5827, 5831, 'GCCGGA', 'GCC--A')
+score =  32
+x_start, x_end = 5821, 5827, y_start, y_end = 5827, 5831
+seq[5821:5827) = GCCGGA and seq[5827:5831) = TGGC
+X, Y =  GCCGGA GCC--A
+______________________________________
+(32, 5759, 5763, 5763, 5769, 'AA-T-G', 'AACTCG')
+score =  32
+x_start, x_end = 5759, 5763, y_start, y_end = 5763, 5769
+seq[5759:5763) = AATG and seq[5763:5769) = CGAGTT
+X, Y =  AA-T-G AACTCG
+______________________________________
+(32, 5731, 5735, 5735, 5741, 'A-C-TG', 'ATCGTG')
+score =  32
+x_start, x_end = 5731, 5735, y_start, y_end = 5735, 5741
+seq[5731:5735) = ACTG and seq[5735:5741) = CACGAT
+X, Y =  A-C-TG ATCGTG
+______________________________________
+(32, 5716, 5722, 5722, 5726, 'GATTCT', 'GA--CT')
+score =  32
+x_start, x_end = 5716, 5722, y_start, y_end = 5722, 5726
+seq[5716:5722) = GATTCT and seq[5722:5726) = AGTC
+X, Y =  GATTCT GA--CT
+______________________________________
+(32, 5608, 5612, 5612, 5618, 'GA--AT', 'GAGCAT')
+score =  32
+x_start, x_end = 5608, 5612, y_start, y_end = 5612, 5618
+seq[5608:5612) = GAAT and seq[5612:5618) = ATGCTC
+X, Y =  GA--AT GAGCAT
+______________________________________
+(32, 5465, 5471, 5471, 5475, 'TGTTGA', 'T-TT-A')
+score =  32
+x_start, x_end = 5465, 5471, y_start, y_end = 5471, 5475
+seq[5465:5471) = TGTTGA and seq[5471:5475) = TAAA
+X, Y =  TGTTGA T-TT-A
+______________________________________
+(32, 5455, 5461, 5461, 5465, 'CGTACG', 'C--ACG')
+score =  32
+x_start, x_end = 5455, 5461, y_start, y_end = 5461, 5465
+seq[5455:5461) = CGTACG and seq[5461:5465) = CGTG
+X, Y =  CGTACG C--ACG
+______________________________________
+(32, 5358, 5362, 5362, 5368, 'CG--AG', 'CGATAG')
+score =  32
+x_start, x_end = 5358, 5362, y_start, y_end = 5362, 5368
+seq[5358:5362) = CGAG and seq[5362:5368) = CTATCG
+X, Y =  CG--AG CGATAG
+______________________________________
+(32, 5307, 5313, 5313, 5317, 'CGCTCA', 'CG-T-A')
+score =  32
+x_start, x_end = 5307, 5313, y_start, y_end = 5313, 5317
+seq[5307:5313) = CGCTCA and seq[5313:5317) = TACG
+X, Y =  CGCTCA CG-T-A
+______________________________________
+(32, 5295, 5300, 5300, 5305, 'ATG-AT', 'A-GCAT')
+score =  32
+x_start, x_end = 5295, 5300, y_start, y_end = 5300, 5305
+seq[5295:5300) = ATGAT and seq[5300:5305) = ATGCT
+X, Y =  ATG-AT A-GCAT
+______________________________________
+(32, 5280, 5284, 5284, 5290, 'A-T-AA', 'AGTGAA')
+score =  32
+x_start, x_end = 5280, 5284, y_start, y_end = 5284, 5290
+seq[5280:5284) = ATAA and seq[5284:5290) = TTCACT
+X, Y =  A-T-AA AGTGAA
+______________________________________
+(32, 5242, 5246, 5246, 5252, 'G-T-TT', 'GATATT')
+score =  32
+x_start, x_end = 5242, 5246, y_start, y_end = 5246, 5252
+seq[5242:5246) = GTTT and seq[5246:5252) = AATATC
+X, Y =  G-T-TT GATATT
+______________________________________
+(32, 5218, 5223, 5223, 5228, 'GTCA-C', 'GT-ATC')
+score =  32
+x_start, x_end = 5218, 5223, y_start, y_end = 5223, 5228
+seq[5218:5223) = GTCAC and seq[5223:5228) = GATAC
+X, Y =  GTCA-C GT-ATC
+______________________________________
+(32, 5067, 5073, 5073, 5077, 'CGTTTC', 'CG--TC')
+score =  32
+x_start, x_end = 5067, 5073, y_start, y_end = 5073, 5077
+seq[5067:5073) = CGTTTC and seq[5073:5077) = GACG
+X, Y =  CGTTTC CG--TC
+______________________________________
+(32, 4899, 4905, 4905, 4909, 'ACTGGT', 'A-T-GT')
+score =  32
+x_start, x_end = 4899, 4905, y_start, y_end = 4905, 4909
+seq[4899:4905) = ACTGGT and seq[4905:4909) = ACAT
+X, Y =  ACTGGT A-T-GT
+______________________________________
+(32, 4712, 4718, 4718, 4722, 'AATCAC', 'AA-C-C')
+score =  32
+x_start, x_end = 4712, 4718, y_start, y_end = 4718, 4722
+seq[4712:4718) = AATCAC and seq[4718:4722) = GGTT
+X, Y =  AATCAC AA-C-C
+______________________________________
+(32, 4701, 4706, 4706, 4711, 'T-ATTG', 'TCA-TG')
+score =  32
+x_start, x_end = 4701, 4706, y_start, y_end = 4706, 4711
+seq[4701:4706) = TATTG and seq[4706:4711) = CATGA
+X, Y =  T-ATTG TCA-TG
+______________________________________
+(32, 4344, 4350, 4350, 4354, 'AATGAC', 'AA-G-C')
+score =  32
+x_start, x_end = 4344, 4350, y_start, y_end = 4350, 4354
+seq[4344:4350) = AATGAC and seq[4350:4354) = GCTT
+X, Y =  AATGAC AA-G-C
+______________________________________
+(32, 4003, 4009, 4009, 4013, 'AATGAC', 'AA-G-C')
+score =  32
+x_start, x_end = 4003, 4009, y_start, y_end = 4009, 4013
+seq[4003:4009) = AATGAC and seq[4009:4013) = GCTT
+X, Y =  AATGAC AA-G-C
+______________________________________
+(32, 3882, 3888, 3888, 3892, 'AACGAG', 'AA--AG')
+score =  32
+x_start, x_end = 3882, 3888, y_start, y_end = 3888, 3892
+seq[3882:3888) = AACGAG and seq[3888:3892) = CTTT
+X, Y =  AACGAG AA--AG
+______________________________________
+(32, 3713, 3717, 3717, 3723, 'AAA--C', 'AAATTC')
+score =  32
+x_start, x_end = 3713, 3717, y_start, y_end = 3717, 3723
+seq[3713:3717) = AAAC and seq[3717:3723) = GAATTT
+X, Y =  AAA--C AAATTC
+______________________________________
+(32, 3664, 3670, 3670, 3674, 'AATGAC', 'AA-G-C')
+score =  32
+x_start, x_end = 3664, 3670, y_start, y_end = 3670, 3674
+seq[3664:3670) = AATGAC and seq[3670:3674) = GCTT
+X, Y =  AATGAC AA-G-C
+______________________________________
+(32, 3542, 3546, 3546, 3552, 'AAA--C', 'AAATTC')
+score =  32
+x_start, x_end = 3542, 3546, y_start, y_end = 3546, 3552
+seq[3542:3546) = AAAC and seq[3546:3552) = GAATTT
+X, Y =  AAA--C AAATTC
+______________________________________
+(32, 3151, 3157, 3157, 3161, 'AATGAC', 'AA-G-C')
+score =  32
+x_start, x_end = 3151, 3157, y_start, y_end = 3157, 3161
+seq[3151:3157) = AATGAC and seq[3157:3161) = GCTT
+X, Y =  AATGAC AA-G-C
+______________________________________
+(32, 3125, 3130, 3130, 3135, 'CGT-TT', 'C-TCTT')
+score =  32
+x_start, x_end = 3125, 3130, y_start, y_end = 3130, 3135
+seq[3125:3130) = CGTTT and seq[3130:3135) = AAGAG
+X, Y =  CGT-TT C-TCTT
+______________________________________
+(32, 2810, 2816, 2816, 2820, 'AATGAC', 'AA-G-C')
+score =  32
+x_start, x_end = 2810, 2816, y_start, y_end = 2816, 2820
+seq[2810:2816) = AATGAC and seq[2816:2820) = GCTT
+X, Y =  AATGAC AA-G-C
+______________________________________
+(32, 2690, 2696, 2696, 2700, 'AACGAG', 'AA--AG')
+score =  32
+x_start, x_end = 2690, 2696, y_start, y_end = 2696, 2700
+seq[2690:2696) = AACGAG and seq[2696:2700) = CTTT
+X, Y =  AACGAG AA--AG
+______________________________________
+(32, 0, 6, 6, 10, 'AGTTAC', 'A--TAC')
+score =  32
+x_start, x_end = 0, 6, y_start, y_end = 6, 10
+seq[0:6) = AGTTAC and seq[6:10) = GTAT
+X, Y =  AGTTAC A--TAC
+______________________________________
+(30, 9979, 9982, 9986, 9989, 'GAG', 'GAG')
+score =  30
+x_start, x_end = 9979, 9982, y_start, y_end = 9986, 9989
+seq[9979:9982) = GAG and seq[9986:9989) = CTC
+X, Y =  GAG GAG
+______________________________________
+(30, 9936, 9939, 9943, 9946, 'TAT', 'TAT')
+score =  30
+x_start, x_end = 9936, 9939, y_start, y_end = 9943, 9946
+seq[9936:9939) = TAT and seq[9943:9946) = ATA
+X, Y =  TAT TAT
+______________________________________
+(30, 9906, 9909, 9909, 9912, 'TTA', 'TTA')
+score =  30
+x_start, x_end = 9906, 9909, y_start, y_end = 9909, 9912
+seq[9906:9909) = TTA and seq[9909:9912) = TAA
+X, Y =  TTA TTA
+______________________________________
+(30, 9902, 9905, 9909, 9912, 'TTA', 'TTA')
+score =  30
+x_start, x_end = 9902, 9905, y_start, y_end = 9909, 9912
+seq[9902:9905) = TTA and seq[9909:9912) = TAA
+X, Y =  TTA TTA
+______________________________________
+(30, 9896, 9899, 9901, 9904, 'AAA', 'AAA')
+score =  30
+x_start, x_end = 9896, 9899, y_start, y_end = 9901, 9904
+seq[9896:9899) = AAA and seq[9901:9904) = TTT
+X, Y =  AAA AAA
+______________________________________
+(30, 9841, 9844, 9844, 9847, 'ATT', 'ATT')
+score =  30
+x_start, x_end = 9841, 9844, y_start, y_end = 9844, 9847
+seq[9841:9844) = ATT and seq[9844:9847) = AAT
+X, Y =  ATT ATT
+______________________________________
+(30, 9836, 9839, 9841, 9844, 'AAT', 'AAT')
+score =  30
+x_start, x_end = 9836, 9839, y_start, y_end = 9841, 9844
+seq[9836:9839) = AAT and seq[9841:9844) = ATT
+X, Y =  AAT AAT
+______________________________________
+(30, 9803, 9806, 9809, 9812, 'AGT', 'AGT')
+score =  30
+x_start, x_end = 9803, 9806, y_start, y_end = 9809, 9812
+seq[9803:9806) = AGT and seq[9809:9812) = ACT
+X, Y =  AGT AGT
+______________________________________
+(30, 9799, 9802, 9803, 9806, 'ACT', 'ACT')
+score =  30
+x_start, x_end = 9799, 9802, y_start, y_end = 9803, 9806
+seq[9799:9802) = ACT and seq[9803:9806) = AGT
+X, Y =  ACT ACT
+______________________________________
+(30, 9747, 9750, 9754, 9757, 'GCT', 'GCT')
+score =  30
+x_start, x_end = 9747, 9750, y_start, y_end = 9754, 9757
+seq[9747:9750) = GCT and seq[9754:9757) = AGC
+X, Y =  GCT GCT
+______________________________________
+(30, 9714, 9717, 9718, 9721, 'TTG', 'TTG')
+score =  30
+x_start, x_end = 9714, 9717, y_start, y_end = 9718, 9721
+seq[9714:9717) = TTG and seq[9718:9721) = CAA
+X, Y =  TTG TTG
+______________________________________
+(30, 9702, 9705, 9708, 9711, 'GAA', 'GAA')
+score =  30
+x_start, x_end = 9702, 9705, y_start, y_end = 9708, 9711
+seq[9702:9705) = GAA and seq[9708:9711) = TTC
+X, Y =  GAA GAA
+______________________________________
+(30, 9661, 9664, 9665, 9668, 'CAT', 'CAT')
+score =  30
+x_start, x_end = 9661, 9664, y_start, y_end = 9665, 9668
+seq[9661:9664) = CAT and seq[9665:9668) = ATG
+X, Y =  CAT CAT
+______________________________________
+(30, 9635, 9638, 9639, 9642, 'GTA', 'GTA')
+score =  30
+x_start, x_end = 9635, 9638, y_start, y_end = 9639, 9642
+seq[9635:9638) = GTA and seq[9639:9642) = TAC
+X, Y =  GTA GTA
+______________________________________
+(30, 9559, 9562, 9565, 9568, 'CTT', 'CTT')
+score =  30
+x_start, x_end = 9559, 9562, y_start, y_end = 9565, 9568
+seq[9559:9562) = CTT and seq[9565:9568) = AAG
+X, Y =  CTT CTT
+______________________________________
+(30, 9550, 9553, 9555, 9558, 'GAA', 'GAA')
+score =  30
+x_start, x_end = 9550, 9553, y_start, y_end = 9555, 9558
+seq[9550:9553) = GAA and seq[9555:9558) = TTC
+X, Y =  GAA GAA
+______________________________________
+(30, 9534, 9537, 9537, 9540, 'TTG', 'TTG')
+score =  30
+x_start, x_end = 9534, 9537, y_start, y_end = 9537, 9540
+seq[9534:9537) = TTG and seq[9537:9540) = CAA
+X, Y =  TTG TTG
+______________________________________
+(30, 9530, 9533, 9534, 9537, 'CAA', 'CAA')
+score =  30
+x_start, x_end = 9530, 9533, y_start, y_end = 9534, 9537
+seq[9530:9533) = CAA and seq[9534:9537) = TTG
+X, Y =  CAA CAA
+______________________________________
+(30, 9526, 9529, 9532, 9535, 'AAT', 'AAT')
+score =  30
+x_start, x_end = 9526, 9529, y_start, y_end = 9532, 9535
+seq[9526:9529) = AAT and seq[9532:9535) = ATT
+X, Y =  AAT AAT
+______________________________________
+(30, 9513, 9516, 9519, 9522, 'AGA', 'AGA')
+score =  30
+x_start, x_end = 9513, 9516, y_start, y_end = 9519, 9522
+seq[9513:9516) = AGA and seq[9519:9522) = TCT
+X, Y =  AGA AGA
+______________________________________
+(30, 9507, 9510, 9510, 9513, 'AGC', 'AGC')
+score =  30
+x_start, x_end = 9507, 9510, y_start, y_end = 9510, 9513
+seq[9507:9510) = AGC and seq[9510:9513) = GCT
+X, Y =  AGC AGC
+______________________________________
+(30, 9451, 9454, 9455, 9458, 'TTG', 'TTG')
+score =  30
+x_start, x_end = 9451, 9454, y_start, y_end = 9455, 9458
+seq[9451:9454) = TTG and seq[9455:9458) = CAA
+X, Y =  TTG TTG
+______________________________________
+(30, 9343, 9346, 9350, 9353, 'GAA', 'GAA')
+score =  30
+x_start, x_end = 9343, 9346, y_start, y_end = 9350, 9353
+seq[9343:9346) = GAA and seq[9350:9353) = TTC
+X, Y =  GAA GAA
+______________________________________
+(30, 9322, 9325, 9328, 9331, 'CGA', 'CGA')
+score =  30
+x_start, x_end = 9322, 9325, y_start, y_end = 9328, 9331
+seq[9322:9325) = CGA and seq[9328:9331) = TCG
+X, Y =  CGA CGA
+______________________________________
+(30, 9251, 9254, 9256, 9259, 'ACG', 'ACG')
+score =  30
+x_start, x_end = 9251, 9254, y_start, y_end = 9256, 9259
+seq[9251:9254) = ACG and seq[9256:9259) = CGT
+X, Y =  ACG ACG
+______________________________________
+(30, 9242, 9245, 9247, 9250, 'TAA', 'TAA')
+score =  30
+x_start, x_end = 9242, 9245, y_start, y_end = 9247, 9250
+seq[9242:9245) = TAA and seq[9247:9250) = TTA
+X, Y =  TAA TAA
+______________________________________
+(30, 9204, 9207, 9211, 9214, 'TTT', 'TTT')
+score =  30
+x_start, x_end = 9204, 9207, y_start, y_end = 9211, 9214
+seq[9204:9207) = TTT and seq[9211:9214) = AAA
+X, Y =  TTT TTT
+______________________________________
+(30, 9194, 9197, 9199, 9202, 'ATC', 'ATC')
+score =  30
+x_start, x_end = 9194, 9197, y_start, y_end = 9199, 9202
+seq[9194:9197) = ATC and seq[9199:9202) = GAT
+X, Y =  ATC ATC
+______________________________________
+(30, 9185, 9188, 9188, 9191, 'TTC', 'TTC')
+score =  30
+x_start, x_end = 9185, 9188, y_start, y_end = 9188, 9191
+seq[9185:9188) = TTC and seq[9188:9191) = GAA
+X, Y =  TTC TTC
+______________________________________
+(30, 9128, 9131, 9134, 9137, 'TTC', 'TTC')
+score =  30
+x_start, x_end = 9128, 9131, y_start, y_end = 9134, 9137
+seq[9128:9131) = TTC and seq[9134:9137) = GAA
+X, Y =  TTC TTC
+______________________________________
+(30, 9117, 9120, 9120, 9123, 'TCT', 'TCT')
+score =  30
+x_start, x_end = 9117, 9120, y_start, y_end = 9120, 9123
+seq[9117:9120) = TCT and seq[9120:9123) = AGA
+X, Y =  TCT TCT
+______________________________________
+(30, 9034, 9037, 9037, 9040, 'GAA', 'GAA')
+score =  30
+x_start, x_end = 9034, 9037, y_start, y_end = 9037, 9040
+seq[9034:9037) = GAA and seq[9037:9040) = TTC
+X, Y =  GAA GAA
+______________________________________
+(30, 8974, 8977, 8979, 8982, 'AAA', 'AAA')
+score =  30
+x_start, x_end = 8974, 8977, y_start, y_end = 8979, 8982
+seq[8974:8977) = AAA and seq[8979:8982) = TTT
+X, Y =  AAA AAA
+______________________________________
+(30, 8936, 8939, 8940, 8943, 'TCG', 'TCG')
+score =  30
+x_start, x_end = 8936, 8939, y_start, y_end = 8940, 8943
+seq[8936:8939) = TCG and seq[8940:8943) = CGA
+X, Y =  TCG TCG
+______________________________________
+(30, 8927, 8930, 8931, 8934, 'TAA', 'TAA')
+score =  30
+x_start, x_end = 8927, 8930, y_start, y_end = 8931, 8934
+seq[8927:8930) = TAA and seq[8931:8934) = TTA
+X, Y =  TAA TAA
+______________________________________
+(30, 8914, 8917, 8918, 8921, 'CTT', 'CTT')
+score =  30
+x_start, x_end = 8914, 8917, y_start, y_end = 8918, 8921
+seq[8914:8917) = CTT and seq[8918:8921) = AAG
+X, Y =  CTT CTT
+______________________________________
+(30, 8906, 8909, 8910, 8913, 'TTC', 'TTC')
+score =  30
+x_start, x_end = 8906, 8909, y_start, y_end = 8910, 8913
+seq[8906:8909) = TTC and seq[8910:8913) = GAA
+X, Y =  TTC TTC
+______________________________________
+(30, 8871, 8874, 8875, 8878, 'GTT', 'GTT')
+score =  30
+x_start, x_end = 8871, 8874, y_start, y_end = 8875, 8878
+seq[8871:8874) = GTT and seq[8875:8878) = AAC
+X, Y =  GTT GTT
+______________________________________
+(30, 8659, 8662, 8666, 8669, 'ATT', 'ATT')
+score =  30
+x_start, x_end = 8659, 8662, y_start, y_end = 8666, 8669
+seq[8659:8662) = ATT and seq[8666:8669) = AAT
+X, Y =  ATT ATT
+______________________________________
+(30, 8654, 8657, 8660, 8663, 'CAA', 'CAA')
+score =  30
+x_start, x_end = 8654, 8657, y_start, y_end = 8660, 8663
+seq[8654:8657) = CAA and seq[8660:8663) = TTG
+X, Y =  CAA CAA
+______________________________________
+(30, 8519, 8522, 8526, 8529, 'GTT', 'GTT')
+score =  30
+x_start, x_end = 8519, 8522, y_start, y_end = 8526, 8529
+seq[8519:8522) = GTT and seq[8526:8529) = AAC
+X, Y =  GTT GTT
+______________________________________
+(30, 8513, 8516, 8517, 8520, 'CTA', 'CTA')
+score =  30
+x_start, x_end = 8513, 8516, y_start, y_end = 8517, 8520
+seq[8513:8516) = CTA and seq[8517:8520) = TAG
+X, Y =  CTA CTA
+______________________________________
+(30, 8487, 8490, 8491, 8494, 'AGC', 'AGC')
+score =  30
+x_start, x_end = 8487, 8490, y_start, y_end = 8491, 8494
+seq[8487:8490) = AGC and seq[8491:8494) = GCT
+X, Y =  AGC AGC
+______________________________________
+(30, 8431, 8434, 8436, 8439, 'TCA', 'TCA')
+score =  30
+x_start, x_end = 8431, 8434, y_start, y_end = 8436, 8439
+seq[8431:8434) = TCA and seq[8436:8439) = TGA
+X, Y =  TCA TCA
+______________________________________
+(30, 8382, 8385, 8388, 8391, 'ACA', 'ACA')
+score =  30
+x_start, x_end = 8382, 8385, y_start, y_end = 8388, 8391
+seq[8382:8385) = ACA and seq[8388:8391) = TGT
+X, Y =  ACA ACA
+______________________________________
+(30, 8357, 8360, 8362, 8365, 'CAA', 'CAA')
+score =  30
+x_start, x_end = 8357, 8360, y_start, y_end = 8362, 8365
+seq[8357:8360) = CAA and seq[8362:8365) = TTG
+X, Y =  CAA CAA
+______________________________________
+(30, 8311, 8314, 8316, 8319, 'GAT', 'GAT')
+score =  30
+x_start, x_end = 8311, 8314, y_start, y_end = 8316, 8319
+seq[8311:8314) = GAT and seq[8316:8319) = ATC
+X, Y =  GAT GAT
+______________________________________
+(30, 8286, 8289, 8291, 8294, 'AAT', 'AAT')
+score =  30
+x_start, x_end = 8286, 8289, y_start, y_end = 8291, 8294
+seq[8286:8289) = AAT and seq[8291:8294) = ATT
+X, Y =  AAT AAT
+______________________________________
+(30, 8258, 8261, 8265, 8268, 'TTA', 'TTA')
+score =  30
+x_start, x_end = 8258, 8261, y_start, y_end = 8265, 8268
+seq[8258:8261) = TTA and seq[8265:8268) = TAA
+X, Y =  TTA TTA
+______________________________________
+(30, 8141, 8144, 8145, 8148, 'TGA', 'TGA')
+score =  30
+x_start, x_end = 8141, 8144, y_start, y_end = 8145, 8148
+seq[8141:8144) = TGA and seq[8145:8148) = TCA
+X, Y =  TGA TGA
+______________________________________
+(30, 8057, 8060, 8062, 8065, 'TGG', 'TGG')
+score =  30
+x_start, x_end = 8057, 8060, y_start, y_end = 8062, 8065
+seq[8057:8060) = TGG and seq[8062:8065) = CCA
+X, Y =  TGG TGG
+______________________________________
+(30, 8010, 8013, 8015, 8018, 'TAA', 'TAA')
+score =  30
+x_start, x_end = 8010, 8013, y_start, y_end = 8015, 8018
+seq[8010:8013) = TAA and seq[8015:8018) = TTA
+X, Y =  TAA TAA
+______________________________________
+(30, 8003, 8006, 8009, 8012, 'TAG', 'TAG')
+score =  30
+x_start, x_end = 8003, 8006, y_start, y_end = 8009, 8012
+seq[8003:8006) = TAG and seq[8009:8012) = CTA
+X, Y =  TAG TAG
+______________________________________
+(30, 7939, 7942, 7946, 7949, 'ATT', 'ATT')
+score =  30
+x_start, x_end = 7939, 7942, y_start, y_end = 7946, 7949
+seq[7939:7942) = ATT and seq[7946:7949) = AAT
+X, Y =  ATT ATT
+______________________________________
+(30, 7911, 7914, 7918, 7921, 'GAA', 'GAA')
+score =  30
+x_start, x_end = 7911, 7914, y_start, y_end = 7918, 7921
+seq[7911:7914) = GAA and seq[7918:7921) = TTC
+X, Y =  GAA GAA
+______________________________________
+(30, 7894, 7897, 7899, 7902, 'CAA', 'CAA')
+score =  30
+x_start, x_end = 7894, 7897, y_start, y_end = 7899, 7902
+seq[7894:7897) = CAA and seq[7899:7902) = TTG
+X, Y =  CAA CAA
+______________________________________
+(30, 7887, 7890, 7892, 7895, 'GGG', 'GGG')
+score =  30
+x_start, x_end = 7887, 7890, y_start, y_end = 7892, 7895
+seq[7887:7890) = GGG and seq[7892:7895) = CCC
+X, Y =  GGG GGG
+______________________________________
+(30, 7854, 7857, 7858, 7861, 'ATT', 'ATT')
+score =  30
+x_start, x_end = 7854, 7857, y_start, y_end = 7858, 7861
+seq[7854:7857) = ATT and seq[7858:7861) = AAT
+X, Y =  ATT ATT
+______________________________________
+(30, 7797, 7800, 7802, 7805, 'AAT', 'AAT')
+score =  30
+x_start, x_end = 7797, 7800, y_start, y_end = 7802, 7805
+seq[7797:7800) = AAT and seq[7802:7805) = ATT
+X, Y =  AAT AAT
+______________________________________
+(30, 7744, 7747, 7747, 7750, 'TTT', 'TTT')
+score =  30
+x_start, x_end = 7744, 7747, y_start, y_end = 7747, 7750
+seq[7744:7747) = TTT and seq[7747:7750) = AAA
+X, Y =  TTT TTT
+______________________________________
+(30, 7664, 7667, 7668, 7671, 'AAT', 'AAT')
+score =  30
+x_start, x_end = 7664, 7667, y_start, y_end = 7668, 7671
+seq[7664:7667) = AAT and seq[7668:7671) = ATT
+X, Y =  AAT AAT
+______________________________________
+(30, 7518, 7521, 7524, 7527, 'AGC', 'AGC')
+score =  30
+x_start, x_end = 7518, 7521, y_start, y_end = 7524, 7527
+seq[7518:7521) = AGC and seq[7524:7527) = GCT
+X, Y =  AGC AGC
+______________________________________
+(30, 7514, 7517, 7518, 7521, 'GCT', 'GCT')
+score =  30
+x_start, x_end = 7514, 7517, y_start, y_end = 7518, 7521
+seq[7514:7517) = GCT and seq[7518:7521) = AGC
+X, Y =  GCT GCT
+______________________________________
+(30, 7470, 7473, 7474, 7477, 'TTA', 'TTA')
+score =  30
+x_start, x_end = 7470, 7473, y_start, y_end = 7474, 7477
+seq[7470:7473) = TTA and seq[7474:7477) = TAA
+X, Y =  TTA TTA
+______________________________________
+(30, 7437, 7440, 7443, 7446, 'TTG', 'TTG')
+score =  30
+x_start, x_end = 7437, 7440, y_start, y_end = 7443, 7446
+seq[7437:7440) = TTG and seq[7443:7446) = CAA
+X, Y =  TTG TTG
+______________________________________
+(30, 7404, 7407, 7410, 7413, 'CTT', 'CTT')
+score =  30
+x_start, x_end = 7404, 7407, y_start, y_end = 7410, 7413
+seq[7404:7407) = CTT and seq[7410:7413) = AAG
+X, Y =  CTT CTT
+______________________________________
+(30, 7360, 7363, 7364, 7367, 'TTC', 'TTC')
+score =  30
+x_start, x_end = 7360, 7363, y_start, y_end = 7364, 7367
+seq[7360:7363) = TTC and seq[7364:7367) = GAA
+X, Y =  TTC TTC
+______________________________________
+(30, 7350, 7353, 7354, 7357, 'AAA', 'AAA')
+score =  30
+x_start, x_end = 7350, 7353, y_start, y_end = 7354, 7357
+seq[7350:7353) = AAA and seq[7354:7357) = TTT
+X, Y =  AAA AAA
+______________________________________
+(30, 7346, 7349, 7352, 7355, 'ATT', 'ATT')
+score =  30
+x_start, x_end = 7346, 7349, y_start, y_end = 7352, 7355
+seq[7346:7349) = ATT and seq[7352:7355) = AAT
+X, Y =  ATT ATT
+______________________________________
+(30, 7287, 7290, 7290, 7293, 'CAG', 'CAG')
+score =  30
+x_start, x_end = 7287, 7290, y_start, y_end = 7290, 7293
+seq[7287:7290) = CAG and seq[7290:7293) = CTG
+X, Y =  CAG CAG
+______________________________________
+(30, 7282, 7285, 7286, 7289, 'TGA', 'TGA')
+score =  30
+x_start, x_end = 7282, 7285, y_start, y_end = 7286, 7289
+seq[7282:7285) = TGA and seq[7286:7289) = TCA
+X, Y =  TGA TGA
+______________________________________
+(30, 7241, 7244, 7245, 7248, 'GAT', 'GAT')
+score =  30
+x_start, x_end = 7241, 7244, y_start, y_end = 7245, 7248
+seq[7241:7244) = GAT and seq[7245:7248) = ATC
+X, Y =  GAT GAT
+______________________________________
+(30, 7216, 7219, 7222, 7225, 'TGA', 'TGA')
+score =  30
+x_start, x_end = 7216, 7219, y_start, y_end = 7222, 7225
+seq[7216:7219) = TGA and seq[7222:7225) = TCA
+X, Y =  TGA TGA
+______________________________________
+(30, 7172, 7175, 7175, 7178, 'CAC', 'CAC')
+score =  30
+x_start, x_end = 7172, 7175, y_start, y_end = 7175, 7178
+seq[7172:7175) = CAC and seq[7175:7178) = GTG
+X, Y =  CAC CAC
+______________________________________
+(30, 7148, 7151, 7154, 7157, 'CAA', 'CAA')
+score =  30
+x_start, x_end = 7148, 7151, y_start, y_end = 7154, 7157
+seq[7148:7151) = CAA and seq[7154:7157) = TTG
+X, Y =  CAA CAA
+______________________________________
+(30, 7130, 7133, 7135, 7138, 'TCA', 'TCA')
+score =  30
+x_start, x_end = 7130, 7133, y_start, y_end = 7135, 7138
+seq[7130:7133) = TCA and seq[7135:7138) = TGA
+X, Y =  TCA TCA
+______________________________________
+(30, 7098, 7101, 7105, 7108, 'CGT', 'CGT')
+score =  30
+x_start, x_end = 7098, 7101, y_start, y_end = 7105, 7108
+seq[7098:7101) = CGT and seq[7105:7108) = ACG
+X, Y =  CGT CGT
+______________________________________
+(30, 7062, 7065, 7067, 7070, 'AAA', 'AAA')
+score =  30
+x_start, x_end = 7062, 7065, y_start, y_end = 7067, 7070
+seq[7062:7065) = AAA and seq[7067:7070) = TTT
+X, Y =  AAA AAA
+______________________________________
+(30, 7057, 7060, 7061, 7064, 'TTC', 'TTC')
+score =  30
+x_start, x_end = 7057, 7060, y_start, y_end = 7061, 7064
+seq[7057:7060) = TTC and seq[7061:7064) = GAA
+X, Y =  TTC TTC
+______________________________________
+(30, 7007, 7010, 7012, 7015, 'GCG', 'GCG')
+score =  30
+x_start, x_end = 7007, 7010, y_start, y_end = 7012, 7015
+seq[7007:7010) = GCG and seq[7012:7015) = CGC
+X, Y =  GCG GCG
+______________________________________
+(30, 6975, 6978, 6980, 6983, 'AAA', 'AAA')
+score =  30
+x_start, x_end = 6975, 6978, y_start, y_end = 6980, 6983
+seq[6975:6978) = AAA and seq[6980:6983) = TTT
+X, Y =  AAA AAA
+______________________________________
+(30, 6968, 6971, 6973, 6976, 'TCA', 'TCA')
+score =  30
+x_start, x_end = 6968, 6971, y_start, y_end = 6973, 6976
+seq[6968:6971) = TCA and seq[6973:6976) = TGA
+X, Y =  TCA TCA
+______________________________________
+(30, 6935, 6938, 6941, 6944, 'GAG', 'GAG')
+score =  30
+x_start, x_end = 6935, 6938, y_start, y_end = 6941, 6944
+seq[6935:6938) = GAG and seq[6941:6944) = CTC
+X, Y =  GAG GAG
+______________________________________
+(30, 6876, 6879, 6881, 6884, 'AAT', 'AAT')
+score =  30
+x_start, x_end = 6876, 6879, y_start, y_end = 6881, 6884
+seq[6876:6879) = AAT and seq[6881:6884) = ATT
+X, Y =  AAT AAT
+______________________________________
+(30, 6815, 6818, 6820, 6823, 'AAG', 'AAG')
+score =  30
+x_start, x_end = 6815, 6818, y_start, y_end = 6820, 6823
+seq[6815:6818) = AAG and seq[6820:6823) = CTT
+X, Y =  AAG AAG
+______________________________________
+(30, 6651, 6654, 6657, 6660, 'TTT', 'TTT')
+score =  30
+x_start, x_end = 6651, 6654, y_start, y_end = 6657, 6660
+seq[6651:6654) = TTT and seq[6657:6660) = AAA
+X, Y =  TTT TTT
+______________________________________
+(30, 6647, 6650, 6653, 6656, 'AAA', 'AAA')
+score =  30
+x_start, x_end = 6647, 6650, y_start, y_end = 6653, 6656
+seq[6647:6650) = AAA and seq[6653:6656) = TTT
+X, Y =  AAA AAA
+______________________________________
+(30, 6507, 6510, 6512, 6515, 'GAG', 'GAG')
+score =  30
+x_start, x_end = 6507, 6510, y_start, y_end = 6512, 6515
+seq[6507:6510) = GAG and seq[6512:6515) = CTC
+X, Y =  GAG GAG
+______________________________________
+(30, 6480, 6483, 6487, 6490, 'GAA', 'GAA')
+score =  30
+x_start, x_end = 6480, 6483, y_start, y_end = 6487, 6490
+seq[6480:6483) = GAA and seq[6487:6490) = TTC
+X, Y =  GAA GAA
+______________________________________
+(30, 6468, 6471, 6471, 6474, 'TAA', 'TAA')
+score =  30
+x_start, x_end = 6468, 6471, y_start, y_end = 6471, 6474
+seq[6468:6471) = TAA and seq[6471:6474) = TTA
+X, Y =  TAA TAA
+______________________________________
+(30, 6449, 6452, 6453, 6456, 'AAT', 'AAT')
+score =  30
+x_start, x_end = 6449, 6452, y_start, y_end = 6453, 6456
+seq[6449:6452) = AAT and seq[6453:6456) = ATT
+X, Y =  AAT AAT
+______________________________________
+(30, 6425, 6428, 6432, 6435, 'AGC', 'AGC')
+score =  30
+x_start, x_end = 6425, 6428, y_start, y_end = 6432, 6435
+seq[6425:6428) = AGC and seq[6432:6435) = GCT
+X, Y =  AGC AGC
+______________________________________
+(30, 6406, 6409, 6412, 6415, 'TTA', 'TTA')
+score =  30
+x_start, x_end = 6406, 6409, y_start, y_end = 6412, 6415
+seq[6406:6409) = TTA and seq[6412:6415) = TAA
+X, Y =  TTA TTA
+______________________________________
+(30, 6398, 6401, 6402, 6405, 'TCT', 'TCT')
+score =  30
+x_start, x_end = 6398, 6401, y_start, y_end = 6402, 6405
+seq[6398:6401) = TCT and seq[6402:6405) = AGA
+X, Y =  TCT TCT
+______________________________________
+(30, 6321, 6324, 6326, 6329, 'GCG', 'GCG')
+score =  30
+x_start, x_end = 6321, 6324, y_start, y_end = 6326, 6329
+seq[6321:6324) = GCG and seq[6326:6329) = CGC
+X, Y =  GCG GCG
+______________________________________
+(30, 6290, 6293, 6296, 6299, 'ATT', 'ATT')
+score =  30
+x_start, x_end = 6290, 6293, y_start, y_end = 6296, 6299
+seq[6290:6293) = ATT and seq[6296:6299) = AAT
+X, Y =  ATT ATT
+______________________________________
+(30, 6282, 6285, 6286, 6289, 'AAC', 'AAC')
+score =  30
+x_start, x_end = 6282, 6285, y_start, y_end = 6286, 6289
+seq[6282:6285) = AAC and seq[6286:6289) = GTT
+X, Y =  AAC AAC
+______________________________________
+(30, 6239, 6242, 6246, 6249, 'TCT', 'TCT')
+score =  30
+x_start, x_end = 6239, 6242, y_start, y_end = 6246, 6249
+seq[6239:6242) = TCT and seq[6246:6249) = AGA
+X, Y =  TCT TCT
+______________________________________
+(30, 6218, 6221, 6223, 6226, 'GCT', 'GCT')
+score =  30
+x_start, x_end = 6218, 6221, y_start, y_end = 6223, 6226
+seq[6218:6221) = GCT and seq[6223:6226) = AGC
+X, Y =  GCT GCT
+______________________________________
+(30, 6124, 6127, 6128, 6131, 'TCC', 'TCC')
+score =  30
+x_start, x_end = 6124, 6127, y_start, y_end = 6128, 6131
+seq[6124:6127) = TCC and seq[6128:6131) = GGA
+X, Y =  TCC TCC
+______________________________________
+(30, 6013, 6016, 6017, 6020, 'TAA', 'TAA')
+score =  30
+x_start, x_end = 6013, 6016, y_start, y_end = 6017, 6020
+seq[6013:6016) = TAA and seq[6017:6020) = TTA
+X, Y =  TAA TAA
+______________________________________
+(30, 5971, 5974, 5977, 5980, 'TTA', 'TTA')
+score =  30
+x_start, x_end = 5971, 5974, y_start, y_end = 5977, 5980
+seq[5971:5974) = TTA and seq[5977:5980) = TAA
+X, Y =  TTA TTA
+______________________________________
+(30, 5957, 5960, 5962, 5965, 'ATA', 'ATA')
+score =  30
+x_start, x_end = 5957, 5960, y_start, y_end = 5962, 5965
+seq[5957:5960) = ATA and seq[5962:5965) = TAT
+X, Y =  ATA ATA
+______________________________________
+(30, 5874, 5877, 5880, 5883, 'ATC', 'ATC')
+score =  30
+x_start, x_end = 5874, 5877, y_start, y_end = 5880, 5883
+seq[5874:5877) = ATC and seq[5880:5883) = GAT
+X, Y =  ATC ATC
+______________________________________
+(30, 5865, 5868, 5870, 5873, 'AGG', 'AGG')
+score =  30
+x_start, x_end = 5865, 5868, y_start, y_end = 5870, 5873
+seq[5865:5868) = AGG and seq[5870:5873) = CCT
+X, Y =  AGG AGG
+______________________________________
+(30, 5816, 5819, 5821, 5824, 'GGC', 'GGC')
+score =  30
+x_start, x_end = 5816, 5819, y_start, y_end = 5821, 5824
+seq[5816:5819) = GGC and seq[5821:5824) = GCC
+X, Y =  GGC GGC
+______________________________________
+(30, 5798, 5801, 5804, 5807, 'CTT', 'CTT')
+score =  30
+x_start, x_end = 5798, 5801, y_start, y_end = 5804, 5807
+seq[5798:5801) = CTT and seq[5804:5807) = AAG
+X, Y =  CTT CTT
+______________________________________
+(30, 5596, 5599, 5599, 5602, 'AAA', 'AAA')
+score =  30
+x_start, x_end = 5596, 5599, y_start, y_end = 5599, 5602
+seq[5596:5599) = AAA and seq[5599:5602) = TTT
+X, Y =  AAA AAA
+______________________________________
+(30, 5539, 5542, 5545, 5548, 'AAA', 'AAA')
+score =  30
+x_start, x_end = 5539, 5542, y_start, y_end = 5545, 5548
+seq[5539:5542) = AAA and seq[5545:5548) = TTT
+X, Y =  AAA AAA
+______________________________________
+(30, 5532, 5535, 5538, 5541, 'TTG', 'TTG')
+score =  30
+x_start, x_end = 5532, 5535, y_start, y_end = 5538, 5541
+seq[5532:5535) = TTG and seq[5538:5541) = CAA
+X, Y =  TTG TTG
+______________________________________
+(30, 5483, 5486, 5487, 5490, 'ATA', 'ATA')
+score =  30
+x_start, x_end = 5483, 5486, y_start, y_end = 5487, 5490
+seq[5483:5486) = ATA and seq[5487:5490) = TAT
+X, Y =  ATA ATA
+______________________________________
+(30, 5451, 5454, 5456, 5459, 'TAC', 'TAC')
+score =  30
+x_start, x_end = 5451, 5454, y_start, y_end = 5456, 5459
+seq[5451:5454) = TAC and seq[5456:5459) = GTA
+X, Y =  TAC TAC
+______________________________________
+(30, 5446, 5449, 5450, 5453, 'TAA', 'TAA')
+score =  30
+x_start, x_end = 5446, 5449, y_start, y_end = 5450, 5453
+seq[5446:5449) = TAA and seq[5450:5453) = TTA
+X, Y =  TAA TAA
+______________________________________
+(30, 5416, 5419, 5421, 5424, 'ATT', 'ATT')
+score =  30
+x_start, x_end = 5416, 5419, y_start, y_end = 5421, 5424
+seq[5416:5419) = ATT and seq[5421:5424) = AAT
+X, Y =  ATT ATT
+______________________________________
+(30, 5399, 5402, 5404, 5407, 'ATT', 'ATT')
+score =  30
+x_start, x_end = 5399, 5402, y_start, y_end = 5404, 5407
+seq[5399:5402) = ATT and seq[5404:5407) = AAT
+X, Y =  ATT ATT
+______________________________________
+(30, 5388, 5391, 5395, 5398, 'ATG', 'ATG')
+score =  30
+x_start, x_end = 5388, 5391, y_start, y_end = 5395, 5398
+seq[5388:5391) = ATG and seq[5395:5398) = CAT
+X, Y =  ATG ATG
+______________________________________
+(30, 5379, 5382, 5384, 5387, 'TTC', 'TTC')
+score =  30
+x_start, x_end = 5379, 5382, y_start, y_end = 5384, 5387
+seq[5379:5382) = TTC and seq[5384:5387) = GAA
+X, Y =  TTC TTC
+______________________________________
+(30, 5276, 5279, 5283, 5286, 'AAT', 'AAT')
+score =  30
+x_start, x_end = 5276, 5279, y_start, y_end = 5283, 5286
+seq[5276:5279) = AAT and seq[5283:5286) = ATT
+X, Y =  AAT AAT
+______________________________________
+(30, 5225, 5228, 5229, 5232, 'TAC', 'TAC')
+score =  30
+x_start, x_end = 5225, 5228, y_start, y_end = 5229, 5232
+seq[5225:5228) = TAC and seq[5229:5232) = GTA
+X, Y =  TAC TAC
+______________________________________
+(30, 5196, 5199, 5201, 5204, 'TCT', 'TCT')
+score =  30
+x_start, x_end = 5196, 5199, y_start, y_end = 5201, 5204
+seq[5196:5199) = TCT and seq[5201:5204) = AGA
+X, Y =  TCT TCT
+______________________________________
+(30, 5184, 5187, 5189, 5192, 'CTT', 'CTT')
+score =  30
+x_start, x_end = 5184, 5187, y_start, y_end = 5189, 5192
+seq[5184:5187) = CTT and seq[5189:5192) = AAG
+X, Y =  CTT CTT
+______________________________________
+(30, 5174, 5177, 5180, 5183, 'TTA', 'TTA')
+score =  30
+x_start, x_end = 5174, 5177, y_start, y_end = 5180, 5183
+seq[5174:5177) = TTA and seq[5180:5183) = TAA
+X, Y =  TTA TTA
+______________________________________
+(30, 5153, 5156, 5160, 5163, 'ATT', 'ATT')
+score =  30
+x_start, x_end = 5153, 5156, y_start, y_end = 5160, 5163
+seq[5153:5156) = ATT and seq[5160:5163) = AAT
+X, Y =  ATT ATT
+______________________________________
+(30, 5082, 5085, 5086, 5089, 'ACA', 'ACA')
+score =  30
+x_start, x_end = 5082, 5085, y_start, y_end = 5086, 5089
+seq[5082:5085) = ACA and seq[5086:5089) = TGT
+X, Y =  ACA ACA
+______________________________________
+(30, 5041, 5044, 5044, 5047, 'ATG', 'ATG')
+score =  30
+x_start, x_end = 5041, 5044, y_start, y_end = 5044, 5047
+seq[5041:5044) = ATG and seq[5044:5047) = CAT
+X, Y =  ATG ATG
+______________________________________
+(30, 5019, 5022, 5024, 5027, 'TGA', 'TGA')
+score =  30
+x_start, x_end = 5019, 5022, y_start, y_end = 5024, 5027
+seq[5019:5022) = TGA and seq[5024:5027) = TCA
+X, Y =  TGA TGA
+______________________________________
+(30, 4981, 4984, 4986, 4989, 'AAC', 'AAC')
+score =  30
+x_start, x_end = 4981, 4984, y_start, y_end = 4986, 4989
+seq[4981:4984) = AAC and seq[4986:4989) = GTT
+X, Y =  AAC AAC
+______________________________________
+(30, 4958, 4961, 4963, 4966, 'AGA', 'AGA')
+score =  30
+x_start, x_end = 4958, 4961, y_start, y_end = 4963, 4966
+seq[4958:4961) = AGA and seq[4963:4966) = TCT
+X, Y =  AGA AGA
+______________________________________
+(30, 4945, 4948, 4948, 4951, 'AAA', 'AAA')
+score =  30
+x_start, x_end = 4945, 4948, y_start, y_end = 4948, 4951
+seq[4945:4948) = AAA and seq[4948:4951) = TTT
+X, Y =  AAA AAA
+______________________________________
+(30, 4914, 4917, 4921, 4924, 'TGA', 'TGA')
+score =  30
+x_start, x_end = 4914, 4917, y_start, y_end = 4921, 4924
+seq[4914:4917) = TGA and seq[4921:4924) = TCA
+X, Y =  TGA TGA
+______________________________________
+(30, 4873, 4876, 4880, 4883, 'ACT', 'ACT')
+score =  30
+x_start, x_end = 4873, 4876, y_start, y_end = 4880, 4883
+seq[4873:4876) = ACT and seq[4880:4883) = AGT
+X, Y =  ACT ACT
+______________________________________
+(30, 4861, 4864, 4866, 4869, 'ATT', 'ATT')
+score =  30
+x_start, x_end = 4861, 4864, y_start, y_end = 4866, 4869
+seq[4861:4864) = ATT and seq[4866:4869) = AAT
+X, Y =  ATT ATT
+______________________________________
+(30, 4850, 4853, 4856, 4859, 'TTA', 'TTA')
+score =  30
+x_start, x_end = 4850, 4853, y_start, y_end = 4856, 4859
+seq[4850:4853) = TTA and seq[4856:4859) = TAA
+X, Y =  TTA TTA
+______________________________________
+(30, 4838, 4841, 4844, 4847, 'CCG', 'CCG')
+score =  30
+x_start, x_end = 4838, 4841, y_start, y_end = 4844, 4847
+seq[4838:4841) = CCG and seq[4844:4847) = CGG
+X, Y =  CCG CCG
+______________________________________
+(30, 4810, 4813, 4816, 4819, 'TTT', 'TTT')
+score =  30
+x_start, x_end = 4810, 4813, y_start, y_end = 4816, 4819
+seq[4810:4813) = TTT and seq[4816:4819) = AAA
+X, Y =  TTT TTT
+______________________________________
+(30, 4758, 4761, 4765, 4768, 'ATG', 'ATG')
+score =  30
+x_start, x_end = 4758, 4761, y_start, y_end = 4765, 4768
+seq[4758:4761) = ATG and seq[4765:4768) = CAT
+X, Y =  ATG ATG
+______________________________________
+(30, 4741, 4744, 4746, 4749, 'TGG', 'TGG')
+score =  30
+x_start, x_end = 4741, 4744, y_start, y_end = 4746, 4749
+seq[4741:4744) = TGG and seq[4746:4749) = CCA
+X, Y =  TGG TGG
+______________________________________
+(30, 4736, 4739, 4739, 4742, 'ATT', 'ATT')
+score =  30
+x_start, x_end = 4736, 4739, y_start, y_end = 4739, 4742
+seq[4736:4739) = ATT and seq[4739:4742) = AAT
+X, Y =  ATT ATT
+______________________________________
+(30, 4725, 4728, 4731, 4734, 'TCG', 'TCG')
+score =  30
+x_start, x_end = 4725, 4728, y_start, y_end = 4731, 4734
+seq[4725:4728) = TCG and seq[4731:4734) = CGA
+X, Y =  TCG TCG
+______________________________________
+(30, 4719, 4722, 4722, 4725, 'GTT', 'GTT')
+score =  30
+x_start, x_end = 4719, 4722, y_start, y_end = 4722, 4725
+seq[4719:4722) = GTT and seq[4722:4725) = AAC
+X, Y =  GTT GTT
+______________________________________
+(30, 4708, 4711, 4714, 4717, 'TGA', 'TGA')
+score =  30
+x_start, x_end = 4708, 4711, y_start, y_end = 4714, 4717
+seq[4708:4711) = TGA and seq[4714:4717) = TCA
+X, Y =  TGA TGA
+______________________________________
+(30, 4678, 4681, 4684, 4687, 'CGA', 'CGA')
+score =  30
+x_start, x_end = 4678, 4681, y_start, y_end = 4684, 4687
+seq[4678:4681) = CGA and seq[4684:4687) = TCG
+X, Y =  CGA CGA
+______________________________________
+(30, 4660, 4663, 4663, 4666, 'AAT', 'AAT')
+score =  30
+x_start, x_end = 4660, 4663, y_start, y_end = 4663, 4666
+seq[4660:4663) = AAT and seq[4663:4666) = ATT
+X, Y =  AAT AAT
+______________________________________
+(30, 4651, 4654, 4657, 4660, 'CAA', 'CAA')
+score =  30
+x_start, x_end = 4651, 4654, y_start, y_end = 4657, 4660
+seq[4651:4654) = CAA and seq[4657:4660) = TTG
+X, Y =  CAA CAA
+______________________________________
+(30, 4542, 4545, 4545, 4548, 'TTG', 'TTG')
+score =  30
+x_start, x_end = 4542, 4545, y_start, y_end = 4545, 4548
+seq[4542:4545) = TTG and seq[4545:4548) = CAA
+X, Y =  TTG TTG
+______________________________________
+(30, 4491, 4494, 4495, 4498, 'TTT', 'TTT')
+score =  30
+x_start, x_end = 4491, 4494, y_start, y_end = 4495, 4498
+seq[4491:4494) = TTT and seq[4495:4498) = AAA
+X, Y =  TTT TTT
+______________________________________
+(30, 4405, 4408, 4409, 4412, 'AAA', 'AAA')
+score =  30
+x_start, x_end = 4405, 4408, y_start, y_end = 4409, 4412
+seq[4405:4408) = AAA and seq[4409:4412) = TTT
+X, Y =  AAA AAA
+______________________________________
+(30, 4401, 4404, 4406, 4409, 'TTT', 'TTT')
+score =  30
+x_start, x_end = 4401, 4404, y_start, y_end = 4406, 4409
+seq[4401:4404) = TTT and seq[4406:4409) = AAA
+X, Y =  TTT TTT
+______________________________________
+(30, 4394, 4397, 4400, 4403, 'AAC', 'AAC')
+score =  30
+x_start, x_end = 4394, 4397, y_start, y_end = 4400, 4403
+seq[4394:4397) = AAC and seq[4400:4403) = GTT
+X, Y =  AAC AAC
+______________________________________
+(30, 4376, 4379, 4381, 4384, 'AAT', 'AAT')
+score =  30
+x_start, x_end = 4376, 4379, y_start, y_end = 4381, 4384
+seq[4376:4379) = AAT and seq[4381:4384) = ATT
+X, Y =  AAT AAT
+______________________________________
+(30, 4351, 4354, 4356, 4359, 'CTT', 'CTT')
+score =  30
+x_start, x_end = 4351, 4354, y_start, y_end = 4356, 4359
+seq[4351:4354) = CTT and seq[4356:4359) = AAG
+X, Y =  CTT CTT
+______________________________________
+(30, 4325, 4328, 4329, 4332, 'GAG', 'GAG')
+score =  30
+x_start, x_end = 4325, 4328, y_start, y_end = 4329, 4332
+seq[4325:4328) = GAG and seq[4329:4332) = CTC
+X, Y =  GAG GAG
+______________________________________
+(30, 4152, 4155, 4158, 4161, 'GAG', 'GAG')
+score =  30
+x_start, x_end = 4152, 4155, y_start, y_end = 4158, 4161
+seq[4152:4155) = GAG and seq[4158:4161) = CTC
+X, Y =  GAG GAG
+______________________________________
+(30, 4058, 4061, 4065, 4068, 'ATT', 'ATT')
+score =  30
+x_start, x_end = 4058, 4061, y_start, y_end = 4065, 4068
+seq[4058:4061) = ATT and seq[4065:4068) = AAT
+X, Y =  ATT ATT
+______________________________________
+(30, 4035, 4038, 4041, 4044, 'AAT', 'AAT')
+score =  30
+x_start, x_end = 4035, 4038, y_start, y_end = 4041, 4044
+seq[4035:4038) = AAT and seq[4041:4044) = ATT
+X, Y =  AAT AAT
+______________________________________
+(30, 4026, 4029, 4029, 4032, 'AAC', 'AAC')
+score =  30
+x_start, x_end = 4026, 4029, y_start, y_end = 4029, 4032
+seq[4026:4029) = AAC and seq[4029:4032) = GTT
+X, Y =  AAC AAC
+______________________________________
+(30, 4021, 4024, 4028, 4031, 'ACG', 'ACG')
+score =  30
+x_start, x_end = 4021, 4024, y_start, y_end = 4028, 4031
+seq[4021:4024) = ACG and seq[4028:4031) = CGT
+X, Y =  ACG ACG
+______________________________________
+(30, 3982, 3985, 3988, 3991, 'GAG', 'GAG')
+score =  30
+x_start, x_end = 3982, 3985, y_start, y_end = 3988, 3991
+seq[3982:3985) = GAG and seq[3988:3991) = CTC
+X, Y =  GAG GAG
+______________________________________
+(30, 3894, 3897, 3898, 3901, 'AAA', 'AAA')
+score =  30
+x_start, x_end = 3894, 3897, y_start, y_end = 3898, 3901
+seq[3894:3897) = AAA and seq[3898:3901) = TTT
+X, Y =  AAA AAA
+______________________________________
+(30, 3864, 3867, 3869, 3872, 'AAT', 'AAT')
+score =  30
+x_start, x_end = 3864, 3867, y_start, y_end = 3869, 3872
+seq[3864:3867) = AAT and seq[3869:3872) = ATT
+X, Y =  AAT AAT
+______________________________________
+(30, 3860, 3863, 3866, 3869, 'TTA', 'TTA')
+score =  30
+x_start, x_end = 3860, 3863, y_start, y_end = 3866, 3869
+seq[3860:3863) = TTA and seq[3866:3869) = TAA
+X, Y =  TTA TTA
+______________________________________
+(30, 3840, 3843, 3845, 3848, 'TCG', 'TCG')
+score =  30
+x_start, x_end = 3840, 3843, y_start, y_end = 3845, 3848
+seq[3840:3843) = TCG and seq[3845:3848) = CGA
+X, Y =  TCG TCG
+______________________________________
+(30, 3691, 3694, 3694, 3697, 'CTG', 'CTG')
+score =  30
+x_start, x_end = 3691, 3694, y_start, y_end = 3694, 3697
+seq[3691:3694) = CTG and seq[3694:3697) = CAG
+X, Y =  CTG CTG
+______________________________________
+(30, 3671, 3674, 3676, 3679, 'CTT', 'CTT')
+score =  30
+x_start, x_end = 3671, 3674, y_start, y_end = 3676, 3679
+seq[3671:3674) = CTT and seq[3676:3679) = AAG
+X, Y =  CTT CTT
+______________________________________
+(30, 3643, 3646, 3649, 3652, 'GAG', 'GAG')
+score =  30
+x_start, x_end = 3643, 3646, y_start, y_end = 3649, 3652
+seq[3643:3646) = GAG and seq[3649:3652) = CTC
+X, Y =  GAG GAG
+______________________________________
+(30, 3525, 3528, 3531, 3534, 'AAT', 'AAT')
+score =  30
+x_start, x_end = 3525, 3528, y_start, y_end = 3531, 3534
+seq[3525:3528) = AAT and seq[3531:3534) = ATT
+X, Y =  AAT AAT
+______________________________________
+(30, 3479, 3482, 3485, 3488, 'TGA', 'TGA')
+score =  30
+x_start, x_end = 3479, 3482, y_start, y_end = 3485, 3488
+seq[3479:3482) = TGA and seq[3485:3488) = TCA
+X, Y =  TGA TGA
+______________________________________
+(30, 3421, 3424, 3426, 3429, 'ATG', 'ATG')
+score =  30
+x_start, x_end = 3421, 3424, y_start, y_end = 3426, 3429
+seq[3421:3424) = ATG and seq[3426:3429) = CAT
+X, Y =  ATG ATG
+______________________________________
+(30, 3301, 3304, 3307, 3310, 'GAG', 'GAG')
+score =  30
+x_start, x_end = 3301, 3304, y_start, y_end = 3307, 3310
+seq[3301:3304) = GAG and seq[3307:3310) = CTC
+X, Y =  GAG GAG
+______________________________________
+(30, 3208, 3211, 3213, 3216, 'TTT', 'TTT')
+score =  30
+x_start, x_end = 3208, 3211, y_start, y_end = 3213, 3216
+seq[3208:3211) = TTT and seq[3213:3216) = AAA
+X, Y =  TTT TTT
+______________________________________
+(30, 3183, 3186, 3188, 3191, 'AAT', 'AAT')
+score =  30
+x_start, x_end = 3183, 3186, y_start, y_end = 3188, 3191
+seq[3183:3186) = AAT and seq[3188:3191) = ATT
+X, Y =  AAT AAT
+______________________________________
+(30, 3158, 3161, 3163, 3166, 'CTT', 'CTT')
+score =  30
+x_start, x_end = 3158, 3161, y_start, y_end = 3163, 3166
+seq[3158:3161) = CTT and seq[3163:3166) = AAG
+X, Y =  CTT CTT
+______________________________________
+(30, 3132, 3135, 3136, 3139, 'GAG', 'GAG')
+score =  30
+x_start, x_end = 3132, 3135, y_start, y_end = 3136, 3139
+seq[3132:3135) = GAG and seq[3136:3139) = CTC
+X, Y =  GAG GAG
+______________________________________
+(30, 3079, 3082, 3084, 3087, 'ATG', 'ATG')
+score =  30
+x_start, x_end = 3079, 3082, y_start, y_end = 3084, 3087
+seq[3079:3082) = ATG and seq[3084:3087) = CAT
+X, Y =  ATG ATG
+______________________________________
+(30, 3012, 3015, 3018, 3021, 'AAT', 'AAT')
+score =  30
+x_start, x_end = 3012, 3015, y_start, y_end = 3018, 3021
+seq[3012:3015) = AAT and seq[3018:3021) = ATT
+X, Y =  AAT AAT
+______________________________________
+(30, 2959, 2962, 2965, 2968, 'GAG', 'GAG')
+score =  30
+x_start, x_end = 2959, 2962, y_start, y_end = 2965, 2968
+seq[2959:2962) = GAG and seq[2965:2968) = CTC
+X, Y =  GAG GAG
+______________________________________
+(30, 2865, 2868, 2872, 2875, 'ATT', 'ATT')
+score =  30
+x_start, x_end = 2865, 2868, y_start, y_end = 2872, 2875
+seq[2865:2868) = ATT and seq[2872:2875) = AAT
+X, Y =  ATT ATT
+______________________________________
+(30, 2842, 2845, 2848, 2851, 'AAT', 'AAT')
+score =  30
+x_start, x_end = 2842, 2845, y_start, y_end = 2848, 2851
+seq[2842:2845) = AAT and seq[2848:2851) = ATT
+X, Y =  AAT AAT
+______________________________________
+(30, 2817, 2820, 2822, 2825, 'CTT', 'CTT')
+score =  30
+x_start, x_end = 2817, 2820, y_start, y_end = 2822, 2825
+seq[2817:2820) = CTT and seq[2822:2825) = AAG
+X, Y =  CTT CTT
+______________________________________
+(30, 2789, 2792, 2795, 2798, 'GAG', 'GAG')
+score =  30
+x_start, x_end = 2789, 2792, y_start, y_end = 2795, 2798
+seq[2789:2792) = GAG and seq[2795:2798) = CTC
+X, Y =  GAG GAG
+______________________________________
+(30, 2702, 2705, 2706, 2709, 'AAA', 'AAA')
+score =  30
+x_start, x_end = 2702, 2705, y_start, y_end = 2706, 2709
+seq[2702:2705) = AAA and seq[2706:2709) = TTT
+X, Y =  AAA AAA
+______________________________________
+(30, 2672, 2675, 2677, 2680, 'AAT', 'AAT')
+score =  30
+x_start, x_end = 2672, 2675, y_start, y_end = 2677, 2680
+seq[2672:2675) = AAT and seq[2677:2680) = ATT
+X, Y =  AAT AAT
+______________________________________
+(30, 2668, 2671, 2674, 2677, 'TTA', 'TTA')
+score =  30
+x_start, x_end = 2668, 2671, y_start, y_end = 2674, 2677
+seq[2668:2671) = TTA and seq[2674:2677) = TAA
+X, Y =  TTA TTA
+______________________________________
+(30, 2529, 2532, 2534, 2537, 'TTT', 'TTT')
+score =  30
+x_start, x_end = 2529, 2532, y_start, y_end = 2534, 2537
+seq[2529:2532) = TTT and seq[2534:2537) = AAA
+X, Y =  TTT TTT
+______________________________________
+(30, 2505, 2508, 2509, 2512, 'ATT', 'ATT')
+score =  30
+x_start, x_end = 2505, 2508, y_start, y_end = 2509, 2512
+seq[2505:2508) = ATT and seq[2509:2512) = AAT
+X, Y =  ATT ATT
+______________________________________
+(30, 2499, 2502, 2502, 2505, 'TTG', 'TTG')
+score =  30
+x_start, x_end = 2499, 2502, y_start, y_end = 2502, 2505
+seq[2499:2502) = TTG and seq[2502:2505) = CAA
+X, Y =  TTG TTG
+______________________________________
+(30, 2495, 2498, 2498, 2501, 'AAC', 'AAC')
+score =  30
+x_start, x_end = 2495, 2498, y_start, y_end = 2498, 2501
+seq[2495:2498) = AAC and seq[2498:2501) = GTT
+X, Y =  AAC AAC
+______________________________________
+(30, 2448, 2451, 2452, 2455, 'TTT', 'TTT')
+score =  30
+x_start, x_end = 2448, 2451, y_start, y_end = 2452, 2455
+seq[2448:2451) = TTT and seq[2452:2455) = AAA
+X, Y =  TTT TTT
+______________________________________
+(30, 2436, 2439, 2442, 2445, 'AAC', 'AAC')
+score =  30
+x_start, x_end = 2436, 2439, y_start, y_end = 2442, 2445
+seq[2436:2439) = AAC and seq[2442:2445) = GTT
+X, Y =  AAC AAC
+______________________________________
+(26, 9911, 9914, 9915, 9919, 'AA-C', 'AATC')
+score =  26
+x_start, x_end = 9911, 9914, y_start, y_end = 9915, 9919
+seq[9911:9914) = AAC and seq[9915:9919) = GATT
+X, Y =  AA-C AATC
+______________________________________
+(26, 9866, 9870, 9872, 9875, 'GCAA', 'G-AA')
+score =  26
+x_start, x_end = 9866, 9870, y_start, y_end = 9872, 9875
+seq[9866:9870) = GCAA and seq[9872:9875) = TTC
+X, Y =  GCAA G-AA
+______________________________________
+(26, 9857, 9861, 9864, 9867, 'CGCA', 'CG-A')
+score =  26
+x_start, x_end = 9857, 9861, y_start, y_end = 9864, 9867
+seq[9857:9861) = CGCA and seq[9864:9867) = TCG
+X, Y =  CGCA CG-A
+______________________________________
+(26, 9808, 9811, 9813, 9817, 'GA-C', 'GATC')
+score =  26
+x_start, x_end = 9808, 9811, y_start, y_end = 9813, 9817
+seq[9808:9811) = GAC and seq[9813:9817) = GATC
+X, Y =  GA-C GATC
+______________________________________
+(26, 9767, 9771, 9773, 9776, 'GCAT', 'GC-T')
+score =  26
+x_start, x_end = 9767, 9771, y_start, y_end = 9773, 9776
+seq[9767:9771) = GCAT and seq[9773:9776) = AGC
+X, Y =  GCAT GC-T
+______________________________________
+(26, 9758, 9761, 9761, 9765, 'G-CA', 'GACA')
+score =  26
+x_start, x_end = 9758, 9761, y_start, y_end = 9761, 9765
+seq[9758:9761) = GCA and seq[9761:9765) = TGTC
+X, Y =  G-CA GACA
+______________________________________
+(26, 9753, 9757, 9758, 9761, 'TAGC', 'T-GC')
+score =  26
+x_start, x_end = 9753, 9757, y_start, y_end = 9758, 9761
+seq[9753:9757) = TAGC and seq[9758:9761) = GCA
+X, Y =  TAGC T-GC
+______________________________________
+(26, 9679, 9682, 9685, 9689, 'CG-T', 'CGAT')
+score =  26
+x_start, x_end = 9679, 9682, y_start, y_end = 9685, 9689
+seq[9679:9682) = CGT and seq[9685:9689) = ATCG
+X, Y =  CG-T CGAT
+______________________________________
+(26, 9612, 9616, 9617, 9620, 'CTAC', 'C-AC')
+score =  26
+x_start, x_end = 9612, 9616, y_start, y_end = 9617, 9620
+seq[9612:9616) = CTAC and seq[9617:9620) = GTG
+X, Y =  CTAC C-AC
+______________________________________
+(26, 9597, 9601, 9603, 9606, 'TGCT', 'T-CT')
+score =  26
+x_start, x_end = 9597, 9601, y_start, y_end = 9603, 9606
+seq[9597:9601) = TGCT and seq[9603:9606) = AGA
+X, Y =  TGCT T-CT
+______________________________________
+(26, 9590, 9594, 9595, 9598, 'AGTC', 'A-TC')
+score =  26
+x_start, x_end = 9590, 9594, y_start, y_end = 9595, 9598
+seq[9590:9594) = AGTC and seq[9595:9598) = GAT
+X, Y =  AGTC A-TC
+______________________________________
+(26, 9567, 9570, 9573, 9577, 'G-AA', 'GCAA')
+score =  26
+x_start, x_end = 9567, 9570, y_start, y_end = 9573, 9577
+seq[9567:9570) = GAA and seq[9573:9577) = TTGC
+X, Y =  G-AA GCAA
+______________________________________
+(26, 9483, 9486, 9489, 9493, 'T-TC', 'TGTC')
+score =  26
+x_start, x_end = 9483, 9486, y_start, y_end = 9489, 9493
+seq[9483:9486) = TTC and seq[9489:9493) = GACA
+X, Y =  T-TC TGTC
+______________________________________
+(26, 9471, 9475, 9478, 9481, 'TCGT', 'TC-T')
+score =  26
+x_start, x_end = 9471, 9475, y_start, y_end = 9478, 9481
+seq[9471:9475) = TCGT and seq[9478:9481) = AGA
+X, Y =  TCGT TC-T
+______________________________________
+(26, 9462, 9465, 9468, 9472, 'A-AA', 'ATAA')
+score =  26
+x_start, x_end = 9462, 9465, y_start, y_end = 9468, 9472
+seq[9462:9465) = AAA and seq[9468:9472) = TTAT
+X, Y =  A-AA ATAA
+______________________________________
+(26, 9447, 9450, 9453, 9457, 'T-GC', 'TGGC')
+score =  26
+x_start, x_end = 9447, 9450, y_start, y_end = 9453, 9457
+seq[9447:9450) = TGC and seq[9453:9457) = GCCA
+X, Y =  T-GC TGGC
+______________________________________
+(26, 9380, 9383, 9386, 9390, 'A-CG', 'ATCG')
+score =  26
+x_start, x_end = 9380, 9383, y_start, y_end = 9386, 9390
+seq[9380:9383) = ACG and seq[9386:9390) = CGAT
+X, Y =  A-CG ATCG
+______________________________________
+(26, 9351, 9355, 9358, 9361, 'TCGT', 'TC-T')
+score =  26
+x_start, x_end = 9351, 9355, y_start, y_end = 9358, 9361
+seq[9351:9355) = TCGT and seq[9358:9361) = AGA
+X, Y =  TCGT TC-T
+______________________________________
+(26, 9347, 9350, 9350, 9354, 'C-AA', 'CGAA')
+score =  26
+x_start, x_end = 9347, 9350, y_start, y_end = 9350, 9354
+seq[9347:9350) = CAA and seq[9350:9354) = TTCG
+X, Y =  C-AA CGAA
+______________________________________
+(26, 9333, 9336, 9338, 9342, 'A-TC', 'ACTC')
+score =  26
+x_start, x_end = 9333, 9336, y_start, y_end = 9338, 9342
+seq[9333:9336) = ATC and seq[9338:9342) = GAGT
+X, Y =  A-TC ACTC
+______________________________________
+(26, 9268, 9271, 9274, 9278, 'TT-C', 'TTAC')
+score =  26
+x_start, x_end = 9268, 9271, y_start, y_end = 9274, 9278
+seq[9268:9271) = TTC and seq[9274:9278) = GTAA
+X, Y =  TT-C TTAC
+______________________________________
+(26, 9256, 9259, 9261, 9265, 'CG-T', 'CGCT')
+score =  26
+x_start, x_end = 9256, 9259, y_start, y_end = 9261, 9265
+seq[9256:9259) = CGT and seq[9261:9265) = AGCG
+X, Y =  CG-T CGCT
+______________________________________
+(26, 9221, 9224, 9225, 9229, 'AA-A', 'AAGA')
+score =  26
+x_start, x_end = 9221, 9224, y_start, y_end = 9225, 9229
+seq[9221:9224) = AAA and seq[9225:9229) = TCTT
+X, Y =  AA-A AAGA
+______________________________________
+(26, 9179, 9183, 9186, 9189, 'CTGA', 'C-GA')
+score =  26
+x_start, x_end = 9179, 9183, y_start, y_end = 9186, 9189
+seq[9179:9183) = CTGA and seq[9186:9189) = TCG
+X, Y =  CTGA C-GA
+______________________________________
+(26, 9172, 9176, 9179, 9182, 'CATG', 'CA-G')
+score =  26
+x_start, x_end = 9172, 9176, y_start, y_end = 9179, 9182
+seq[9172:9176) = CATG and seq[9179:9182) = CTG
+X, Y =  CATG CA-G
+______________________________________
+(26, 9166, 9170, 9172, 9175, 'ATTG', 'A-TG')
+score =  26
+x_start, x_end = 9166, 9170, y_start, y_end = 9172, 9175
+seq[9166:9170) = ATTG and seq[9172:9175) = CAT
+X, Y =  ATTG A-TG
+______________________________________
+(26, 9149, 9153, 9155, 9158, 'CATA', 'C-TA')
+score =  26
+x_start, x_end = 9149, 9153, y_start, y_end = 9155, 9158
+seq[9149:9153) = CATA and seq[9155:9158) = TAG
+X, Y =  CATA C-TA
+______________________________________
+(26, 9107, 9111, 9111, 9114, 'TGGA', 'T-GA')
+score =  26
+x_start, x_end = 9107, 9111, y_start, y_end = 9111, 9114
+seq[9107:9111) = TGGA and seq[9111:9114) = TCA
+X, Y =  TGGA T-GA
+______________________________________
+(26, 9090, 9093, 9096, 9100, 'A-CA', 'AGCA')
+score =  26
+x_start, x_end = 9090, 9093, y_start, y_end = 9096, 9100
+seq[9090:9093) = ACA and seq[9096:9100) = TGCT
+X, Y =  A-CA AGCA
+______________________________________
+(26, 9064, 9067, 9067, 9071, 'CC-T', 'CCAT')
+score =  26
+x_start, x_end = 9064, 9067, y_start, y_end = 9067, 9071
+seq[9064:9067) = CCT and seq[9067:9071) = ATGG
+X, Y =  CC-T CCAT
+______________________________________
+(26, 9004, 9007, 9007, 9011, 'TC-A', 'TCGA')
+score =  26
+x_start, x_end = 9004, 9007, y_start, y_end = 9007, 9011
+seq[9004:9007) = TCA and seq[9007:9011) = TCGA
+X, Y =  TC-A TCGA
+______________________________________
+(26, 8886, 8889, 8892, 8896, 'AG-T', 'AGCT')
+score =  26
+x_start, x_end = 8886, 8889, y_start, y_end = 8892, 8896
+seq[8886:8889) = AGT and seq[8892:8896) = AGCT
+X, Y =  AG-T AGCT
+______________________________________
+(26, 8851, 8854, 8857, 8861, 'CT-T', 'CTAT')
+score =  26
+x_start, x_end = 8851, 8854, y_start, y_end = 8857, 8861
+seq[8851:8854) = CTT and seq[8857:8861) = ATAG
+X, Y =  CT-T CTAT
+______________________________________
+(26, 8807, 8811, 8814, 8817, 'ATAG', 'A-AG')
+score =  26
+x_start, x_end = 8807, 8811, y_start, y_end = 8814, 8817
+seq[8807:8811) = ATAG and seq[8814:8817) = CTT
+X, Y =  ATAG A-AG
+______________________________________
+(26, 8801, 8804, 8807, 8811, 'CT-T', 'CTAT')
+score =  26
+x_start, x_end = 8801, 8804, y_start, y_end = 8807, 8811
+seq[8801:8804) = CTT and seq[8807:8811) = ATAG
+X, Y =  CT-T CTAT
+______________________________________
+(26, 8795, 8799, 8801, 8804, 'ATAG', 'A-AG')
+score =  26
+x_start, x_end = 8795, 8799, y_start, y_end = 8801, 8804
+seq[8795:8799) = ATAG and seq[8801:8804) = CTT
+X, Y =  ATAG A-AG
+______________________________________
+(26, 8762, 8765, 8765, 8769, 'TC-T', 'TCGT')
+score =  26
+x_start, x_end = 8762, 8765, y_start, y_end = 8765, 8769
+seq[8762:8765) = TCT and seq[8765:8769) = ACGA
+X, Y =  TC-T TCGT
+______________________________________
+(26, 8734, 8738, 8740, 8743, 'AGAC', 'A-AC')
+score =  26
+x_start, x_end = 8734, 8738, y_start, y_end = 8740, 8743
+seq[8734:8738) = AGAC and seq[8740:8743) = GTT
+X, Y =  AGAC A-AC
+______________________________________
+(26, 8729, 8732, 8734, 8738, 'GT-T', 'GTCT')
+score =  26
+x_start, x_end = 8729, 8732, y_start, y_end = 8734, 8738
+seq[8729:8732) = GTT and seq[8734:8738) = AGAC
+X, Y =  GT-T GTCT
+______________________________________
+(26, 8724, 8728, 8729, 8732, 'ATAC', 'A-AC')
+score =  26
+x_start, x_end = 8724, 8728, y_start, y_end = 8729, 8732
+seq[8724:8728) = ATAC and seq[8729:8732) = GTT
+X, Y =  ATAC A-AC
+______________________________________
+(26, 8680, 8683, 8685, 8689, 'A-CG', 'ATCG')
+score =  26
+x_start, x_end = 8680, 8683, y_start, y_end = 8685, 8689
+seq[8680:8683) = ACG and seq[8685:8689) = CGAT
+X, Y =  A-CG ATCG
+______________________________________
+(26, 8671, 8675, 8676, 8679, 'TCTA', 'T-TA')
+score =  26
+x_start, x_end = 8671, 8675, y_start, y_end = 8676, 8679
+seq[8671:8675) = TCTA and seq[8676:8679) = TAA
+X, Y =  TCTA T-TA
+______________________________________
+(26, 8634, 8638, 8639, 8642, 'AGAT', 'A-AT')
+score =  26
+x_start, x_end = 8634, 8638, y_start, y_end = 8639, 8642
+seq[8634:8638) = AGAT and seq[8639:8642) = ATT
+X, Y =  AGAT A-AT
+______________________________________
+(26, 8609, 8612, 8612, 8616, 'AG-T', 'AGAT')
+score =  26
+x_start, x_end = 8609, 8612, y_start, y_end = 8612, 8616
+seq[8609:8612) = AGT and seq[8612:8616) = ATCT
+X, Y =  AG-T AGAT
+______________________________________
+(26, 8576, 8579, 8579, 8583, 'A-AT', 'ACAT')
+score =  26
+x_start, x_end = 8576, 8579, y_start, y_end = 8579, 8583
+seq[8576:8579) = AAT and seq[8579:8583) = ATGT
+X, Y =  A-AT ACAT
+______________________________________
+(26, 8466, 8470, 8473, 8476, 'AGTC', 'AG-C')
+score =  26
+x_start, x_end = 8466, 8470, y_start, y_end = 8473, 8476
+seq[8466:8470) = AGTC and seq[8473:8476) = GCT
+X, Y =  AGTC AG-C
+______________________________________
+(26, 8442, 8446, 8446, 8449, 'TAGT', 'TA-T')
+score =  26
+x_start, x_end = 8442, 8446, y_start, y_end = 8446, 8449
+seq[8442:8446) = TAGT and seq[8446:8449) = ATA
+X, Y =  TAGT TA-T
+______________________________________
+(26, 8426, 8429, 8430, 8434, 'T-AA', 'TGAA')
+score =  26
+x_start, x_end = 8426, 8429, y_start, y_end = 8430, 8434
+seq[8426:8429) = TAA and seq[8430:8434) = TTCA
+X, Y =  T-AA TGAA
+______________________________________
+(26, 8414, 8417, 8419, 8423, 'C-AA', 'CTAA')
+score =  26
+x_start, x_end = 8414, 8417, y_start, y_end = 8419, 8423
+seq[8414:8417) = CAA and seq[8419:8423) = TTAG
+X, Y =  C-AA CTAA
+______________________________________
+(26, 8405, 8408, 8408, 8412, 'AA-C', 'AAGC')
+score =  26
+x_start, x_end = 8405, 8408, y_start, y_end = 8408, 8412
+seq[8405:8408) = AAC and seq[8408:8412) = GCTT
+X, Y =  AA-C AAGC
+______________________________________
+(26, 8361, 8364, 8366, 8370, 'AT-T', 'ATCT')
+score =  26
+x_start, x_end = 8361, 8364, y_start, y_end = 8366, 8370
+seq[8361:8364) = ATT and seq[8366:8370) = AGAT
+X, Y =  AT-T ATCT
+______________________________________
+(26, 8345, 8349, 8351, 8354, 'CGTT', 'C-TT')
+score =  26
+x_start, x_end = 8345, 8349, y_start, y_end = 8351, 8354
+seq[8345:8349) = CGTT and seq[8351:8354) = AAG
+X, Y =  CGTT C-TT
+______________________________________
+(26, 8331, 8334, 8336, 8340, 'TC-T', 'TCAT')
+score =  26
+x_start, x_end = 8331, 8334, y_start, y_end = 8336, 8340
+seq[8331:8334) = TCT and seq[8336:8340) = ATGA
+X, Y =  TC-T TCAT
+______________________________________
+(26, 8315, 8319, 8321, 8324, 'AATC', 'AA-C')
+score =  26
+x_start, x_end = 8315, 8319, y_start, y_end = 8321, 8324
+seq[8315:8319) = AATC and seq[8321:8324) = GTT
+X, Y =  AATC AA-C
+______________________________________
+(26, 8291, 8294, 8297, 8301, 'A-TT', 'ACTT')
+score =  26
+x_start, x_end = 8291, 8294, y_start, y_end = 8297, 8301
+seq[8291:8294) = ATT and seq[8297:8301) = AAGT
+X, Y =  A-TT ACTT
+______________________________________
+(26, 8252, 8256, 8256, 8259, 'AATC', 'AA-C')
+score =  26
+x_start, x_end = 8252, 8256, y_start, y_end = 8256, 8259
+seq[8252:8256) = AATC and seq[8256:8259) = GTT
+X, Y =  AATC AA-C
+______________________________________
+(26, 8171, 8175, 8177, 8180, 'CGCA', 'CG-A')
+score =  26
+x_start, x_end = 8171, 8175, y_start, y_end = 8177, 8180
+seq[8171:8175) = CGCA and seq[8177:8180) = TCG
+X, Y =  CGCA CG-A
+______________________________________
+(26, 8158, 8162, 8164, 8167, 'ATCG', 'A-CG')
+score =  26
+x_start, x_end = 8158, 8162, y_start, y_end = 8164, 8167
+seq[8158:8162) = ATCG and seq[8164:8167) = CGT
+X, Y =  ATCG A-CG
+______________________________________
+(26, 8047, 8050, 8053, 8057, 'CG-G', 'CGAG')
+score =  26
+x_start, x_end = 8047, 8050, y_start, y_end = 8053, 8057
+seq[8047:8050) = CGG and seq[8053:8057) = CTCG
+X, Y =  CG-G CGAG
+______________________________________
+(26, 8028, 8032, 8034, 8037, 'CGAA', 'C-AA')
+score =  26
+x_start, x_end = 8028, 8032, y_start, y_end = 8034, 8037
+seq[8028:8032) = CGAA and seq[8034:8037) = TTG
+X, Y =  CGAA C-AA
+______________________________________
+(26, 7905, 7909, 7911, 7914, 'TATC', 'T-TC')
+score =  26
+x_start, x_end = 7905, 7909, y_start, y_end = 7911, 7914
+seq[7905:7909) = TATC and seq[7911:7914) = GAA
+X, Y =  TATC T-TC
+______________________________________
+(26, 7900, 7903, 7903, 7907, 'T-GT', 'TAGT')
+score =  26
+x_start, x_end = 7900, 7903, y_start, y_end = 7903, 7907
+seq[7900:7903) = TGT and seq[7903:7907) = ACTA
+X, Y =  T-GT TAGT
+______________________________________
+(26, 7877, 7881, 7883, 7886, 'TAGT', 'TA-T')
+score =  26
+x_start, x_end = 7877, 7881, y_start, y_end = 7883, 7886
+seq[7877:7881) = TAGT and seq[7883:7886) = ATA
+X, Y =  TAGT TA-T
+______________________________________
+(26, 7843, 7847, 7847, 7850, 'AATG', 'AA-G')
+score =  26
+x_start, x_end = 7843, 7847, y_start, y_end = 7847, 7850
+seq[7843:7847) = AATG and seq[7847:7850) = CTT
+X, Y =  AATG AA-G
+______________________________________
+(26, 7827, 7830, 7830, 7834, 'A-GA', 'ATGA')
+score =  26
+x_start, x_end = 7827, 7830, y_start, y_end = 7830, 7834
+seq[7827:7830) = AGA and seq[7830:7834) = TCAT
+X, Y =  A-GA ATGA
+______________________________________
+(26, 7822, 7825, 7828, 7832, 'G-TC', 'GATC')
+score =  26
+x_start, x_end = 7822, 7825, y_start, y_end = 7828, 7832
+seq[7822:7825) = GTC and seq[7828:7832) = GATC
+X, Y =  G-TC GATC
+______________________________________
+(26, 7813, 7817, 7819, 7822, 'CTTG', 'C-TG')
+score =  26
+x_start, x_end = 7813, 7817, y_start, y_end = 7819, 7822
+seq[7813:7817) = CTTG and seq[7819:7822) = CAG
+X, Y =  CTTG C-TG
+______________________________________
+(26, 7806, 7809, 7809, 7813, 'T-AA', 'TGAA')
+score =  26
+x_start, x_end = 7806, 7809, y_start, y_end = 7809, 7813
+seq[7806:7809) = TAA and seq[7809:7813) = TTCA
+X, Y =  T-AA TGAA
+______________________________________
+(26, 7764, 7767, 7769, 7773, 'CC-A', 'CCTA')
+score =  26
+x_start, x_end = 7764, 7767, y_start, y_end = 7769, 7773
+seq[7764:7767) = CCA and seq[7769:7773) = TAGG
+X, Y =  CC-A CCTA
+______________________________________
+(26, 7731, 7734, 7737, 7741, 'G-TC', 'GCTC')
+score =  26
+x_start, x_end = 7731, 7734, y_start, y_end = 7737, 7741
+seq[7731:7734) = GTC and seq[7737:7741) = GAGC
+X, Y =  G-TC GCTC
+______________________________________
+(26, 7702, 7706, 7707, 7710, 'GCCT', 'G-CT')
+score =  26
+x_start, x_end = 7702, 7706, y_start, y_end = 7707, 7710
+seq[7702:7706) = GCCT and seq[7707:7710) = AGC
+X, Y =  GCCT G-CT
+______________________________________
+(26, 7653, 7657, 7659, 7662, 'GCCA', 'G-CA')
+score =  26
+x_start, x_end = 7653, 7657, y_start, y_end = 7659, 7662
+seq[7653:7657) = GCCA and seq[7659:7662) = TGC
+X, Y =  GCCA G-CA
+______________________________________
+(26, 7623, 7627, 7628, 7631, 'ATGT', 'A-GT')
+score =  26
+x_start, x_end = 7623, 7627, y_start, y_end = 7628, 7631
+seq[7623:7627) = ATGT and seq[7628:7631) = ACT
+X, Y =  ATGT A-GT
+______________________________________
+(26, 7559, 7562, 7565, 7569, 'C-AT', 'CGAT')
+score =  26
+x_start, x_end = 7559, 7562, y_start, y_end = 7565, 7569
+seq[7559:7562) = CAT and seq[7565:7569) = ATCG
+X, Y =  C-AT CGAT
+______________________________________
+(26, 7550, 7554, 7557, 7560, 'GGTC', 'GG-C')
+score =  26
+x_start, x_end = 7550, 7554, y_start, y_end = 7557, 7560
+seq[7550:7554) = GGTC and seq[7557:7560) = GCC
+X, Y =  GGTC GG-C
+______________________________________
+(26, 7510, 7513, 7516, 7520, 'CT-A', 'CTGA')
+score =  26
+x_start, x_end = 7510, 7513, y_start, y_end = 7516, 7520
+seq[7510:7513) = CTA and seq[7516:7520) = TCAG
+X, Y =  CT-A CTGA
+______________________________________
+(26, 7476, 7479, 7480, 7484, 'AC-C', 'ACTC')
+score =  26
+x_start, x_end = 7476, 7479, y_start, y_end = 7480, 7484
+seq[7476:7479) = ACC and seq[7480:7484) = GAGT
+X, Y =  AC-C ACTC
+______________________________________
+(26, 7465, 7469, 7470, 7473, 'TCAA', 'T-AA')
+score =  26
+x_start, x_end = 7465, 7469, y_start, y_end = 7470, 7473
+seq[7465:7469) = TCAA and seq[7470:7473) = TTA
+X, Y =  TCAA T-AA
+______________________________________
+(26, 7413, 7416, 7419, 7423, 'GG-T', 'GGAT')
+score =  26
+x_start, x_end = 7413, 7416, y_start, y_end = 7419, 7423
+seq[7413:7416) = GGT and seq[7419:7423) = ATCC
+X, Y =  GG-T GGAT
+______________________________________
+(26, 7408, 7412, 7415, 7418, 'ACAA', 'A-AA')
+score =  26
+x_start, x_end = 7408, 7412, y_start, y_end = 7415, 7418
+seq[7408:7412) = ACAA and seq[7415:7418) = TTT
+X, Y =  ACAA A-AA
+______________________________________
+(26, 7377, 7380, 7383, 7387, 'TC-A', 'TCGA')
+score =  26
+x_start, x_end = 7377, 7380, y_start, y_end = 7383, 7387
+seq[7377:7380) = TCA and seq[7383:7387) = TCGA
+X, Y =  TC-A TCGA
+______________________________________
+(26, 7338, 7341, 7343, 7347, 'T-TG', 'TATG')
+score =  26
+x_start, x_end = 7338, 7341, y_start, y_end = 7343, 7347
+seq[7338:7341) = TTG and seq[7343:7347) = CATA
+X, Y =  T-TG TATG
+______________________________________
+(26, 7331, 7334, 7334, 7338, 'G-AA', 'GTAA')
+score =  26
+x_start, x_end = 7331, 7334, y_start, y_end = 7334, 7338
+seq[7331:7334) = GAA and seq[7334:7338) = TTAC
+X, Y =  G-AA GTAA
+______________________________________
+(26, 7292, 7295, 7296, 7300, 'G-TT', 'GCTT')
+score =  26
+x_start, x_end = 7292, 7295, y_start, y_end = 7296, 7300
+seq[7292:7295) = GTT and seq[7296:7300) = AAGC
+X, Y =  G-TT GCTT
+______________________________________
+(26, 7236, 7240, 7242, 7245, 'TGAT', 'T-AT')
+score =  26
+x_start, x_end = 7236, 7240, y_start, y_end = 7242, 7245
+seq[7236:7240) = TGAT and seq[7242:7245) = ATA
+X, Y =  TGAT T-AT
+______________________________________
+(26, 7220, 7224, 7225, 7228, 'AGTC', 'A-TC')
+score =  26
+x_start, x_end = 7220, 7224, y_start, y_end = 7225, 7228
+seq[7220:7224) = AGTC and seq[7225:7228) = GAT
+X, Y =  AGTC A-TC
+______________________________________
+(26, 7135, 7139, 7140, 7143, 'TGAG', 'T-AG')
+score =  26
+x_start, x_end = 7135, 7139, y_start, y_end = 7140, 7143
+seq[7135:7139) = TGAG and seq[7140:7143) = CTA
+X, Y =  TGAG T-AG
+______________________________________
+(26, 7104, 7107, 7109, 7113, 'TA-C', 'TATC')
+score =  26
+x_start, x_end = 7104, 7107, y_start, y_end = 7109, 7113
+seq[7104:7107) = TAC and seq[7109:7113) = GATA
+X, Y =  TA-C TATC
+______________________________________
+(26, 7053, 7056, 7059, 7063, 'T-TG', 'TCTG')
+score =  26
+x_start, x_end = 7053, 7056, y_start, y_end = 7059, 7063
+seq[7053:7056) = TTG and seq[7059:7063) = CAGA
+X, Y =  T-TG TCTG
+______________________________________
+(26, 7020, 7023, 7025, 7029, 'TT-A', 'TTGA')
+score =  26
+x_start, x_end = 7020, 7023, y_start, y_end = 7025, 7029
+seq[7020:7023) = TTA and seq[7025:7029) = TCAA
+X, Y =  TT-A TTGA
+______________________________________
+(26, 7011, 7014, 7014, 7018, 'G-CG', 'GCCG')
+score =  26
+x_start, x_end = 7011, 7014, y_start, y_end = 7014, 7018
+seq[7011:7014) = GCG and seq[7014:7018) = CGGC
+X, Y =  G-CG GCCG
+______________________________________
+(26, 6905, 6908, 6909, 6913, 'TC-G', 'TCAG')
+score =  26
+x_start, x_end = 6905, 6908, y_start, y_end = 6909, 6913
+seq[6905:6908) = TCG and seq[6909:6913) = CTGA
+X, Y =  TC-G TCAG
+______________________________________
+(26, 6856, 6859, 6860, 6864, 'GT-C', 'GTGC')
+score =  26
+x_start, x_end = 6856, 6859, y_start, y_end = 6860, 6864
+seq[6856:6859) = GTC and seq[6860:6864) = GCAC
+X, Y =  GT-C GTGC
+______________________________________
+(26, 6829, 6833, 6833, 6836, 'GCAC', 'GC-C')
+score =  26
+x_start, x_end = 6829, 6833, y_start, y_end = 6833, 6836
+seq[6829:6833) = GCAC and seq[6833:6836) = GGC
+X, Y =  GCAC GC-C
+______________________________________
+(26, 6819, 6822, 6825, 6829, 'T-CT', 'TCCT')
+score =  26
+x_start, x_end = 6819, 6822, y_start, y_end = 6825, 6829
+seq[6819:6822) = TCT and seq[6825:6829) = AGGA
+X, Y =  T-CT TCCT
+______________________________________
+(26, 6799, 6802, 6805, 6809, 'G-AG', 'GCAG')
+score =  26
+x_start, x_end = 6799, 6802, y_start, y_end = 6805, 6809
+seq[6799:6802) = GAG and seq[6805:6809) = CTGC
+X, Y =  G-AG GCAG
+______________________________________
+(26, 6780, 6784, 6786, 6789, 'AAGC', 'AA-C')
+score =  26
+x_start, x_end = 6780, 6784, y_start, y_end = 6786, 6789
+seq[6780:6784) = AAGC and seq[6786:6789) = GTT
+X, Y =  AAGC AA-C
+______________________________________
+(26, 6762, 6765, 6765, 6769, 'TG-C', 'TGTC')
+score =  26
+x_start, x_end = 6762, 6765, y_start, y_end = 6765, 6769
+seq[6762:6765) = TGC and seq[6765:6769) = GACA
+X, Y =  TG-C TGTC
+______________________________________
+(26, 6729, 6732, 6734, 6738, 'AA-G', 'AATG')
+score =  26
+x_start, x_end = 6729, 6732, y_start, y_end = 6734, 6738
+seq[6729:6732) = AAG and seq[6734:6738) = CATT
+X, Y =  AA-G AATG
+______________________________________
+(26, 6642, 6646, 6649, 6652, 'ATAT', 'A-AT')
+score =  26
+x_start, x_end = 6642, 6646, y_start, y_end = 6649, 6652
+seq[6642:6646) = ATAT and seq[6649:6652) = ATT
+X, Y =  ATAT A-AT
+______________________________________
+(26, 6595, 6598, 6598, 6602, 'T-AG', 'TGAG')
+score =  26
+x_start, x_end = 6595, 6598, y_start, y_end = 6598, 6602
+seq[6595:6598) = TAG and seq[6598:6602) = CTCA
+X, Y =  T-AG TGAG
+______________________________________
+(26, 6575, 6578, 6580, 6584, 'T-CC', 'TACC')
+score =  26
+x_start, x_end = 6575, 6578, y_start, y_end = 6580, 6584
+seq[6575:6578) = TCC and seq[6580:6584) = GGTA
+X, Y =  T-CC TACC
+______________________________________
+(26, 6525, 6529, 6531, 6534, 'TGGC', 'T-GC')
+score =  26
+x_start, x_end = 6525, 6529, y_start, y_end = 6531, 6534
+seq[6525:6529) = TGGC and seq[6531:6534) = GCA
+X, Y =  TGGC T-GC
+______________________________________
+(26, 6475, 6479, 6482, 6485, 'TGTT', 'T-TT')
+score =  26
+x_start, x_end = 6475, 6479, y_start, y_end = 6482, 6485
+seq[6475:6479) = TGTT and seq[6482:6485) = AAA
+X, Y =  TGTT T-TT
+______________________________________
+(26, 6455, 6459, 6462, 6465, 'TTGC', 'TT-C')
+score =  26
+x_start, x_end = 6455, 6459, y_start, y_end = 6462, 6465
+seq[6455:6459) = TTGC and seq[6462:6465) = GAA
+X, Y =  TTGC TT-C
+______________________________________
+(26, 6436, 6440, 6443, 6446, 'TCAA', 'T-AA')
+score =  26
+x_start, x_end = 6436, 6440, y_start, y_end = 6443, 6446
+seq[6436:6440) = TCAA and seq[6443:6446) = TTA
+X, Y =  TCAA T-AA
+______________________________________
+(26, 6374, 6377, 6379, 6383, 'GC-A', 'GCGA')
+score =  26
+x_start, x_end = 6374, 6377, y_start, y_end = 6379, 6383
+seq[6374:6377) = GCA and seq[6379:6383) = TCGC
+X, Y =  GC-A GCGA
+______________________________________
+(26, 6361, 6364, 6364, 6368, 'T-GC', 'TAGC')
+score =  26
+x_start, x_end = 6361, 6364, y_start, y_end = 6364, 6368
+seq[6361:6364) = TGC and seq[6364:6368) = GCTA
+X, Y =  T-GC TAGC
+______________________________________
+(26, 6344, 6347, 6349, 6353, 'T-GT', 'TCGT')
+score =  26
+x_start, x_end = 6344, 6347, y_start, y_end = 6349, 6353
+seq[6344:6347) = TGT and seq[6349:6353) = ACGA
+X, Y =  T-GT TCGT
+______________________________________
+(26, 6330, 6333, 6334, 6338, 'T-AT', 'TAAT')
+score =  26
+x_start, x_end = 6330, 6333, y_start, y_end = 6334, 6338
+seq[6330:6333) = TAT and seq[6334:6338) = ATTA
+X, Y =  T-AT TAAT
+______________________________________
+(26, 6234, 6237, 6238, 6242, 'A-AT', 'AGAT')
+score =  26
+x_start, x_end = 6234, 6237, y_start, y_end = 6238, 6242
+seq[6234:6237) = AAT and seq[6238:6242) = ATCT
+X, Y =  A-AT AGAT
+______________________________________
+(26, 6213, 6216, 6217, 6221, 'A-CC', 'AGCC')
+score =  26
+x_start, x_end = 6213, 6216, y_start, y_end = 6217, 6221
+seq[6213:6216) = ACC and seq[6217:6221) = GGCT
+X, Y =  A-CC AGCC
+______________________________________
+(26, 6139, 6143, 6143, 6146, 'GCAG', 'GC-G')
+score =  26
+x_start, x_end = 6139, 6143, y_start, y_end = 6143, 6146
+seq[6139:6143) = GCAG and seq[6143:6146) = CGC
+X, Y =  GCAG GC-G
+______________________________________
+(26, 6135, 6138, 6139, 6143, 'CT-C', 'CTGC')
+score =  26
+x_start, x_end = 6135, 6138, y_start, y_end = 6139, 6143
+seq[6135:6138) = CTC and seq[6139:6143) = GCAG
+X, Y =  CT-C CTGC
+______________________________________
+(26, 6114, 6117, 6120, 6124, 'TT-T', 'TTAT')
+score =  26
+x_start, x_end = 6114, 6117, y_start, y_end = 6120, 6124
+seq[6114:6117) = TTT and seq[6120:6124) = ATAA
+X, Y =  TT-T TTAT
+______________________________________
+(26, 6071, 6074, 6075, 6079, 'A-AT', 'AGAT')
+score =  26
+x_start, x_end = 6071, 6074, y_start, y_end = 6075, 6079
+seq[6071:6074) = AAT and seq[6075:6079) = ATCT
+X, Y =  A-AT AGAT
+______________________________________
+(26, 6056, 6059, 6059, 6063, 'T-GG', 'TAGG')
+score =  26
+x_start, x_end = 6056, 6059, y_start, y_end = 6059, 6063
+seq[6056:6059) = TGG and seq[6059:6063) = CCTA
+X, Y =  T-GG TAGG
+______________________________________
+(26, 6050, 6053, 6053, 6057, 'A-TT', 'AGTT')
+score =  26
+x_start, x_end = 6050, 6053, y_start, y_end = 6053, 6057
+seq[6050:6053) = ATT and seq[6053:6057) = AACT
+X, Y =  A-TT AGTT
+______________________________________
+(26, 5989, 5993, 5996, 5999, 'ATCT', 'AT-T')
+score =  26
+x_start, x_end = 5989, 5993, y_start, y_end = 5996, 5999
+seq[5989:5993) = ATCT and seq[5996:5999) = AAT
+X, Y =  ATCT AT-T
+______________________________________
+(26, 5936, 5939, 5940, 5944, 'GG-T', 'GGCT')
+score =  26
+x_start, x_end = 5936, 5939, y_start, y_end = 5940, 5944
+seq[5936:5939) = GGT and seq[5940:5944) = AGCC
+X, Y =  GG-T GGCT
+______________________________________
+(26, 5930, 5933, 5936, 5940, 'C-CC', 'CACC')
+score =  26
+x_start, x_end = 5930, 5933, y_start, y_end = 5936, 5940
+seq[5930:5933) = CCC and seq[5936:5940) = GGTG
+X, Y =  C-CC CACC
+______________________________________
+(26, 5906, 5910, 5911, 5914, 'TCCA', 'T-CA')
+score =  26
+x_start, x_end = 5906, 5910, y_start, y_end = 5911, 5914
+seq[5906:5910) = TCCA and seq[5911:5914) = TGA
+X, Y =  TCCA T-CA
+______________________________________
+(26, 5902, 5905, 5906, 5910, 'T-GA', 'TGGA')
+score =  26
+x_start, x_end = 5902, 5905, y_start, y_end = 5906, 5910
+seq[5902:5905) = TGA and seq[5906:5910) = TCCA
+X, Y =  T-GA TGGA
+______________________________________
+(26, 5860, 5864, 5864, 5867, 'CTTC', 'C-TC')
+score =  26
+x_start, x_end = 5860, 5864, y_start, y_end = 5864, 5867
+seq[5860:5864) = CTTC and seq[5864:5867) = GAG
+X, Y =  CTTC C-TC
+______________________________________
+(26, 5851, 5854, 5856, 5860, 'A-CT', 'ATCT')
+score =  26
+x_start, x_end = 5851, 5854, y_start, y_end = 5856, 5860
+seq[5851:5854) = ACT and seq[5856:5860) = AGAT
+X, Y =  A-CT ATCT
+______________________________________
+(26, 5811, 5814, 5817, 5821, 'TC-C', 'TCGC')
+score =  26
+x_start, x_end = 5811, 5814, y_start, y_end = 5817, 5821
+seq[5811:5814) = TCC and seq[5817:5821) = GCGA
+X, Y =  TC-C TCGC
+______________________________________
+(26, 5764, 5767, 5769, 5773, 'G-AG', 'GTAG')
+score =  26
+x_start, x_end = 5764, 5767, y_start, y_end = 5769, 5773
+seq[5764:5767) = GAG and seq[5769:5773) = CTAC
+X, Y =  G-AG GTAG
+______________________________________
+(26, 5727, 5730, 5731, 5735, 'CA-T', 'CAGT')
+score =  26
+x_start, x_end = 5727, 5730, y_start, y_end = 5731, 5735
+seq[5727:5730) = CAT and seq[5731:5735) = ACTG
+X, Y =  CA-T CAGT
+______________________________________
+(26, 5703, 5706, 5708, 5712, 'G-AT', 'GAAT')
+score =  26
+x_start, x_end = 5703, 5706, y_start, y_end = 5708, 5712
+seq[5703:5706) = GAT and seq[5708:5712) = ATTC
+X, Y =  G-AT GAAT
+______________________________________
+(26, 5694, 5697, 5699, 5703, 'CT-G', 'CTCG')
+score =  26
+x_start, x_end = 5694, 5697, y_start, y_end = 5699, 5703
+seq[5694:5697) = CTG and seq[5699:5703) = CGAG
+X, Y =  CT-G CTCG
+______________________________________
+(26, 5672, 5676, 5678, 5681, 'TTCG', 'TT-G')
+score =  26
+x_start, x_end = 5672, 5676, y_start, y_end = 5678, 5681
+seq[5672:5676) = TTCG and seq[5678:5681) = CAA
+X, Y =  TTCG TT-G
+______________________________________
+(26, 5620, 5623, 5624, 5628, 'T-AT', 'TAAT')
+score =  26
+x_start, x_end = 5620, 5623, y_start, y_end = 5624, 5628
+seq[5620:5623) = TAT and seq[5624:5628) = ATTA
+X, Y =  T-AT TAAT
+______________________________________
+(26, 5590, 5593, 5593, 5597, 'T-GA', 'TGGA')
+score =  26
+x_start, x_end = 5590, 5593, y_start, y_end = 5593, 5597
+seq[5590:5593) = TGA and seq[5593:5597) = TCCA
+X, Y =  T-GA TGGA
+______________________________________
+(26, 5495, 5499, 5499, 5502, 'AACT', 'AA-T')
+score =  26
+x_start, x_end = 5495, 5499, y_start, y_end = 5499, 5502
+seq[5495:5499) = AACT and seq[5499:5502) = ATT
+X, Y =  AACT AA-T
+______________________________________
+(26, 5489, 5492, 5493, 5497, 'TT-C', 'TTAC')
+score =  26
+x_start, x_end = 5489, 5492, y_start, y_end = 5493, 5497
+seq[5489:5492) = TTC and seq[5493:5497) = GTAA
+X, Y =  TT-C TTAC
+______________________________________
+(26, 5440, 5443, 5444, 5448, 'TA-G', 'TATG')
+score =  26
+x_start, x_end = 5440, 5443, y_start, y_end = 5444, 5448
+seq[5440:5443) = TAG and seq[5444:5448) = CATA
+X, Y =  TA-G TATG
+______________________________________
+(26, 5434, 5438, 5439, 5442, 'TCAG', 'T-AG')
+score =  26
+x_start, x_end = 5434, 5438, y_start, y_end = 5439, 5442
+seq[5434:5438) = TCAG and seq[5439:5442) = CTA
+X, Y =  TCAG T-AG
+______________________________________
+(26, 5424, 5428, 5429, 5432, 'AAGC', 'AA-C')
+score =  26
+x_start, x_end = 5424, 5428, y_start, y_end = 5429, 5432
+seq[5424:5428) = AAGC and seq[5429:5432) = GTT
+X, Y =  AAGC AA-C
+______________________________________
+(26, 5404, 5408, 5409, 5412, 'AATC', 'AA-C')
+score =  26
+x_start, x_end = 5404, 5408, y_start, y_end = 5409, 5412
+seq[5404:5408) = AATC and seq[5409:5412) = GTT
+X, Y =  AATC AA-C
+______________________________________
+(26, 5341, 5344, 5347, 5351, 'T-GA', 'TAGA')
+score =  26
+x_start, x_end = 5341, 5344, y_start, y_end = 5347, 5351
+seq[5341:5344) = TGA and seq[5347:5351) = TCTA
+X, Y =  T-GA TAGA
+______________________________________
+(26, 5335, 5338, 5339, 5343, 'C-AT', 'CAAT')
+score =  26
+x_start, x_end = 5335, 5338, y_start, y_end = 5339, 5343
+seq[5335:5338) = CAT and seq[5339:5343) = ATTG
+X, Y =  C-AT CAAT
+______________________________________
+(26, 5316, 5319, 5320, 5324, 'G-TT', 'GATT')
+score =  26
+x_start, x_end = 5316, 5319, y_start, y_end = 5320, 5324
+seq[5316:5319) = GTT and seq[5320:5324) = AATC
+X, Y =  G-TT GATT
+______________________________________
+(26, 5289, 5293, 5293, 5296, 'TTGT', 'TT-T')
+score =  26
+x_start, x_end = 5289, 5293, y_start, y_end = 5293, 5296
+seq[5289:5293) = TTGT and seq[5293:5296) = AAA
+X, Y =  TTGT TT-T
+______________________________________
+(26, 5285, 5288, 5290, 5294, 'T-CA', 'TACA')
+score =  26
+x_start, x_end = 5285, 5288, y_start, y_end = 5290, 5294
+seq[5285:5288) = TCA and seq[5290:5294) = TGTA
+X, Y =  T-CA TACA
+______________________________________
+(26, 5265, 5268, 5269, 5273, 'CC-T', 'CCGT')
+score =  26
+x_start, x_end = 5265, 5268, y_start, y_end = 5269, 5273
+seq[5265:5268) = CCT and seq[5269:5273) = ACGG
+X, Y =  CC-T CCGT
+______________________________________
+(26, 5256, 5259, 5261, 5265, 'A-AA', 'AGAA')
+score =  26
+x_start, x_end = 5256, 5259, y_start, y_end = 5261, 5265
+seq[5256:5259) = AAA and seq[5261:5265) = TTCT
+X, Y =  A-AA AGAA
+______________________________________
+(26, 5190, 5193, 5195, 5199, 'AG-C', 'AGAC')
+score =  26
+x_start, x_end = 5190, 5193, y_start, y_end = 5195, 5199
+seq[5190:5193) = AGC and seq[5195:5199) = GTCT
+X, Y =  AG-C AGAC
+______________________________________
+(26, 5178, 5181, 5183, 5187, 'AA-T', 'AAGT')
+score =  26
+x_start, x_end = 5178, 5181, y_start, y_end = 5183, 5187
+seq[5178:5181) = AAT and seq[5183:5187) = ACTT
+X, Y =  AA-T AAGT
+______________________________________
+(26, 5158, 5162, 5165, 5168, 'ATAA', 'A-AA')
+score =  26
+x_start, x_end = 5158, 5162, y_start, y_end = 5165, 5168
+seq[5158:5162) = ATAA and seq[5165:5168) = TTT
+X, Y =  ATAA A-AA
+______________________________________
+(26, 5119, 5122, 5123, 5127, 'AC-A', 'ACTA')
+score =  26
+x_start, x_end = 5119, 5122, y_start, y_end = 5123, 5127
+seq[5119:5122) = ACA and seq[5123:5127) = TAGT
+X, Y =  AC-A ACTA
+______________________________________
+(26, 5094, 5098, 5100, 5103, 'CGTG', 'CG-G')
+score =  26
+x_start, x_end = 5094, 5098, y_start, y_end = 5100, 5103
+seq[5094:5098) = CGTG and seq[5100:5103) = CCG
+X, Y =  CGTG CG-G
+______________________________________
+(26, 5089, 5092, 5095, 5099, 'G-AC', 'GCAC')
+score =  26
+x_start, x_end = 5089, 5092, y_start, y_end = 5095, 5099
+seq[5089:5092) = GAC and seq[5095:5099) = GTGC
+X, Y =  G-AC GCAC
+______________________________________
+(26, 5012, 5015, 5018, 5022, 'TC-T', 'TCAT')
+score =  26
+x_start, x_end = 5012, 5015, y_start, y_end = 5018, 5022
+seq[5012:5015) = TCT and seq[5018:5022) = ATGA
+X, Y =  TC-T TCAT
+______________________________________
+(26, 5005, 5009, 5012, 5015, 'ACGA', 'A-GA')
+score =  26
+x_start, x_end = 5005, 5009, y_start, y_end = 5012, 5015
+seq[5005:5009) = ACGA and seq[5012:5015) = TCT
+X, Y =  ACGA A-GA
+______________________________________
+(26, 4990, 4994, 4994, 4997, 'TACA', 'TA-A')
+score =  26
+x_start, x_end = 4990, 4994, y_start, y_end = 4994, 4997
+seq[4990:4994) = TACA and seq[4994:4997) = TTA
+X, Y =  TACA TA-A
+______________________________________
+(26, 4985, 4988, 4991, 4995, 'A-GT', 'ATGT')
+score =  26
+x_start, x_end = 4985, 4988, y_start, y_end = 4991, 4995
+seq[4985:4988) = AGT and seq[4991:4995) = ACAT
+X, Y =  A-GT ATGT
+______________________________________
+(26, 4953, 4957, 4958, 4961, 'TGCT', 'T-CT')
+score =  26
+x_start, x_end = 4953, 4957, y_start, y_end = 4958, 4961
+seq[4953:4957) = TGCT and seq[4958:4961) = AGA
+X, Y =  TGCT T-CT
+______________________________________
+(26, 4923, 4926, 4926, 4930, 'A-AG', 'ACAG')
+score =  26
+x_start, x_end = 4923, 4926, y_start, y_end = 4926, 4930
+seq[4923:4926) = AAG and seq[4926:4930) = CTGT
+X, Y =  A-AG ACAG
+______________________________________
+(26, 4879, 4883, 4885, 4888, 'TAGT', 'TA-T')
+score =  26
+x_start, x_end = 4879, 4883, y_start, y_end = 4885, 4888
+seq[4879:4883) = TAGT and seq[4885:4888) = ATA
+X, Y =  TAGT TA-T
+______________________________________
+(26, 4867, 4870, 4872, 4876, 'A-TG', 'AGTG')
+score =  26
+x_start, x_end = 4867, 4870, y_start, y_end = 4872, 4876
+seq[4867:4870) = ATG and seq[4872:4876) = CACT
+X, Y =  A-TG AGTG
+______________________________________
+(26, 4857, 4860, 4862, 4866, 'A-AA', 'AGAA')
+score =  26
+x_start, x_end = 4857, 4860, y_start, y_end = 4862, 4866
+seq[4857:4860) = AAA and seq[4862:4866) = TTCT
+X, Y =  A-AA AGAA
+______________________________________
+(26, 4796, 4800, 4800, 4803, 'TAAC', 'T-AC')
+score =  26
+x_start, x_end = 4796, 4800, y_start, y_end = 4800, 4803
+seq[4796:4800) = TAAC and seq[4800:4803) = GTA
+X, Y =  TAAC T-AC
+______________________________________
+(26, 4789, 4793, 4795, 4798, 'TCAT', 'T-AT')
+score =  26
+x_start, x_end = 4789, 4793, y_start, y_end = 4795, 4798
+seq[4789:4793) = TCAT and seq[4795:4798) = ATA
+X, Y =  TCAT T-AT
+______________________________________
+(26, 4729, 4732, 4735, 4739, 'AA-C', 'AATC')
+score =  26
+x_start, x_end = 4729, 4732, y_start, y_end = 4735, 4739
+seq[4729:4732) = AAC and seq[4735:4739) = GATT
+X, Y =  AA-C AATC
+______________________________________
+(26, 4554, 4558, 4560, 4563, 'TTAG', 'TT-G')
+score =  26
+x_start, x_end = 4554, 4558, y_start, y_end = 4560, 4563
+seq[4554:4558) = TTAG and seq[4560:4563) = CAA
+X, Y =  TTAG TT-G
+______________________________________
+(26, 4518, 4521, 4521, 4525, 'GA-C', 'GAGC')
+score =  26
+x_start, x_end = 4518, 4521, y_start, y_end = 4521, 4525
+seq[4518:4521) = GAC and seq[4521:4525) = GCTC
+X, Y =  GA-C GAGC
+______________________________________
+(26, 4382, 4385, 4388, 4392, 'TT-C', 'TTGC')
+score =  26
+x_start, x_end = 4382, 4385, y_start, y_end = 4388, 4392
+seq[4382:4385) = TTC and seq[4388:4392) = GCAA
+X, Y =  TT-C TTGC
+______________________________________
+(26, 4368, 4372, 4373, 4376, 'TCGC', 'T-GC')
+score =  26
+x_start, x_end = 4368, 4372, y_start, y_end = 4373, 4376
+seq[4368:4372) = TCGC and seq[4373:4376) = GCA
+X, Y =  TCGC T-GC
+______________________________________
+(26, 4320, 4323, 4323, 4327, 'T-TT', 'TCTT')
+score =  26
+x_start, x_end = 4320, 4323, y_start, y_end = 4323, 4327
+seq[4320:4323) = TTT and seq[4323:4327) = AAGA
+X, Y =  T-TT TCTT
+______________________________________
+(26, 4191, 4195, 4198, 4201, 'GCAG', 'GC-G')
+score =  26
+x_start, x_end = 4191, 4195, y_start, y_end = 4198, 4201
+seq[4191:4195) = GCAG and seq[4198:4201) = CGC
+X, Y =  GCAG GC-G
+______________________________________
+(26, 4176, 4179, 4179, 4183, 'GA-C', 'GAGC')
+score =  26
+x_start, x_end = 4176, 4179, y_start, y_end = 4179, 4183
+seq[4176:4179) = GAC and seq[4179:4183) = GCTC
+X, Y =  GA-C GAGC
+______________________________________
+(26, 4169, 4172, 4175, 4179, 'GT-A', 'GTCA')
+score =  26
+x_start, x_end = 4169, 4172, y_start, y_end = 4175, 4179
+seq[4169:4172) = GTA and seq[4175:4179) = TGAC
+X, Y =  GT-A GTCA
+______________________________________
+(26, 4063, 4067, 4070, 4073, 'CTAA', 'C-AA')
+score =  26
+x_start, x_end = 4063, 4067, y_start, y_end = 4070, 4073
+seq[4063:4067) = CTAA and seq[4070:4073) = TTG
+X, Y =  CTAA C-AA
+______________________________________
+(26, 4042, 4045, 4047, 4051, 'TT-C', 'TTGC')
+score =  26
+x_start, x_end = 4042, 4045, y_start, y_end = 4047, 4051
+seq[4042:4045) = TTC and seq[4047:4051) = GCAA
+X, Y =  TT-C TTGC
+______________________________________
+(26, 4030, 4034, 4037, 4040, 'TTCA', 'TT-A')
+score =  26
+x_start, x_end = 4030, 4034, y_start, y_end = 4037, 4040
+seq[4030:4034) = TTCA and seq[4037:4040) = TAA
+X, Y =  TTCA TT-A
+______________________________________
+(26, 3870, 3873, 3876, 3880, 'TT-C', 'TTGC')
+score =  26
+x_start, x_end = 3870, 3873, y_start, y_end = 3876, 3880
+seq[3870:3873) = TTC and seq[3876:3880) = GCAA
+X, Y =  TT-C TTGC
+______________________________________
+(26, 3855, 3858, 3858, 3862, 'AA-C', 'AAGC')
+score =  26
+x_start, x_end = 3855, 3858, y_start, y_end = 3858, 3862
+seq[3855:3858) = AAC and seq[3858:3862) = GCTT
+X, Y =  AA-C AAGC
+______________________________________
+(26, 3850, 3854, 3857, 3860, 'GCAG', 'GC-G')
+score =  26
+x_start, x_end = 3850, 3854, y_start, y_end = 3857, 3860
+seq[3850:3854) = GCAG and seq[3857:3860) = CGC
+X, Y =  GCAG GC-G
+______________________________________
+(26, 3810, 3814, 3817, 3820, 'TGAG', 'T-AG')
+score =  26
+x_start, x_end = 3810, 3814, y_start, y_end = 3817, 3820
+seq[3810:3814) = TGAG and seq[3817:3820) = CTA
+X, Y =  TGAG T-AG
+______________________________________
+(26, 3703, 3707, 3709, 3712, 'TTAG', 'TT-G')
+score =  26
+x_start, x_end = 3703, 3707, y_start, y_end = 3709, 3712
+seq[3703:3707) = TTAG and seq[3709:3712) = CAA
+X, Y =  TTAG TT-G
+______________________________________
+(26, 3695, 3699, 3702, 3705, 'AGAT', 'A-AT')
+score =  26
+x_start, x_end = 3695, 3699, y_start, y_end = 3702, 3705
+seq[3695:3699) = AGAT and seq[3702:3705) = ATT
+X, Y =  AGAT A-AT
+______________________________________
+(26, 3682, 3686, 3689, 3692, 'GCAG', 'GC-G')
+score =  26
+x_start, x_end = 3682, 3686, y_start, y_end = 3689, 3692
+seq[3682:3686) = GCAG and seq[3689:3692) = CGC
+X, Y =  GCAG GC-G
+______________________________________
+(26, 3511, 3515, 3518, 3521, 'GCAG', 'GC-G')
+score =  26
+x_start, x_end = 3511, 3515, y_start, y_end = 3518, 3521
+seq[3511:3515) = GCAG and seq[3518:3521) = CGC
+X, Y =  GCAG GC-G
+______________________________________
+(26, 3500, 3503, 3504, 3508, 'C-TC', 'CTTC')
+score =  26
+x_start, x_end = 3500, 3503, y_start, y_end = 3504, 3508
+seq[3500:3503) = CTC and seq[3504:3508) = GAAG
+X, Y =  C-TC CTTC
+______________________________________
+(26, 3496, 3499, 3499, 3503, 'GA-C', 'GAGC')
+score =  26
+x_start, x_end = 3496, 3499, y_start, y_end = 3499, 3503
+seq[3496:3499) = GAC and seq[3499:3503) = GCTC
+X, Y =  GA-C GAGC
+______________________________________
+(26, 3329, 3332, 3333, 3337, 'C-TC', 'CTTC')
+score =  26
+x_start, x_end = 3329, 3332, y_start, y_end = 3333, 3337
+seq[3329:3332) = CTC and seq[3333:3337) = GAAG
+X, Y =  C-TC CTTC
+______________________________________
+(26, 3325, 3328, 3328, 3332, 'GA-C', 'GAGC')
+score =  26
+x_start, x_end = 3325, 3328, y_start, y_end = 3328, 3332
+seq[3325:3328) = GAC and seq[3328:3332) = GCTC
+X, Y =  GA-C GAGC
+______________________________________
+(26, 3189, 3192, 3195, 3199, 'TT-C', 'TTGC')
+score =  26
+x_start, x_end = 3189, 3192, y_start, y_end = 3195, 3199
+seq[3189:3192) = TTC and seq[3195:3199) = GCAA
+X, Y =  TT-C TTGC
+______________________________________
+(26, 3175, 3179, 3180, 3183, 'TCGC', 'T-GC')
+score =  26
+x_start, x_end = 3175, 3179, y_start, y_end = 3180, 3183
+seq[3175:3179) = TCGC and seq[3180:3183) = GCA
+X, Y =  TCGC T-GC
+______________________________________
+(26, 3169, 3172, 3175, 3179, 'GC-A', 'GCGA')
+score =  26
+x_start, x_end = 3169, 3172, y_start, y_end = 3175, 3179
+seq[3169:3172) = GCA and seq[3175:3179) = TCGC
+X, Y =  GC-A GCGA
+______________________________________
+(26, 3019, 3023, 3025, 3028, 'TTAG', 'TT-G')
+score =  26
+x_start, x_end = 3019, 3023, y_start, y_end = 3025, 3028
+seq[3019:3023) = TTAG and seq[3025:3028) = CAA
+X, Y =  TTAG TT-G
+______________________________________
+(26, 2998, 3002, 3005, 3008, 'GCAG', 'GC-G')
+score =  26
+x_start, x_end = 2998, 3002, y_start, y_end = 3005, 3008
+seq[2998:3002) = GCAG and seq[3005:3008) = CGC
+X, Y =  GCAG GC-G
+______________________________________
+(26, 2983, 2986, 2986, 2990, 'GA-C', 'GAGC')
+score =  26
+x_start, x_end = 2983, 2986, y_start, y_end = 2986, 2990
+seq[2983:2986) = GAC and seq[2986:2990) = GCTC
+X, Y =  GA-C GAGC
+______________________________________
+(26, 2870, 2874, 2877, 2880, 'CTAA', 'C-AA')
+score =  26
+x_start, x_end = 2870, 2874, y_start, y_end = 2877, 2880
+seq[2870:2874) = CTAA and seq[2877:2880) = TTG
+X, Y =  CTAA C-AA
+______________________________________
+(26, 2849, 2852, 2854, 2858, 'TT-C', 'TTGC')
+score =  26
+x_start, x_end = 2849, 2852, y_start, y_end = 2854, 2858
+seq[2849:2852) = TTC and seq[2854:2858) = GCAA
+X, Y =  TT-C TTGC
+______________________________________
+(26, 2835, 2839, 2841, 2844, 'TGTT', 'T-TT')
+score =  26
+x_start, x_end = 2835, 2839, y_start, y_end = 2841, 2844
+seq[2835:2839) = TGTT and seq[2841:2844) = AAA
+X, Y =  TGTT T-TT
+______________________________________
+(26, 2678, 2681, 2684, 2688, 'TT-C', 'TTGC')
+score =  26
+x_start, x_end = 2678, 2681, y_start, y_end = 2684, 2688
+seq[2678:2681) = TTC and seq[2684:2688) = GCAA
+X, Y =  TT-C TTGC
+______________________________________
+(26, 2663, 2666, 2666, 2670, 'AA-C', 'AAGC')
+score =  26
+x_start, x_end = 2663, 2666, y_start, y_end = 2666, 2670
+seq[2663:2666) = AAC and seq[2666:2670) = GCTT
+X, Y =  AA-C AAGC
+______________________________________
+(26, 2658, 2662, 2665, 2668, 'GCAG', 'GC-G')
+score =  26
+x_start, x_end = 2658, 2662, y_start, y_end = 2665, 2668
+seq[2658:2662) = GCAG and seq[2665:2668) = CGC
+X, Y =  GCAG GC-G
+______________________________________
+(26, 2653, 2657, 2658, 2661, 'TGAC', 'TG-C')
+score =  26
+x_start, x_end = 2653, 2657, y_start, y_end = 2658, 2661
+seq[2653:2657) = TGAC and seq[2658:2661) = GCA
+X, Y =  TGAC TG-C
+______________________________________
+(26, 2648, 2652, 2653, 2656, 'TCGA', 'TC-A')
+score =  26
+x_start, x_end = 2648, 2652, y_start, y_end = 2653, 2656
+seq[2648:2652) = TCGA and seq[2653:2656) = TGA
+X, Y =  TCGA TC-A
+______________________________________
+(26, 2618, 2622, 2625, 2628, 'TGAG', 'T-AG')
+score =  26
+x_start, x_end = 2618, 2622, y_start, y_end = 2625, 2628
+seq[2618:2622) = TGAG and seq[2625:2628) = CTA
+X, Y =  TGAG T-AG
+______________________________________
+(26, 2479, 2482, 2483, 2487, 'C-TC', 'CTTC')
+score =  26
+x_start, x_end = 2479, 2482, y_start, y_end = 2483, 2487
+seq[2479:2482) = CTC and seq[2483:2487) = GAAG
+X, Y =  C-TC CTTC
+______________________________________
+(26, 2475, 2478, 2478, 2482, 'GA-C', 'GAGC')
+score =  26
+x_start, x_end = 2475, 2478, y_start, y_end = 2478, 2482
+seq[2475:2478) = GAC and seq[2478:2482) = GCTC
+X, Y =  GA-C GAGC
+______________________________________
+(25, 9986, 9990, 9992, 9996, 'CTCA', 'CTGA')
+score =  25
+x_start, x_end = 9986, 9990, y_start, y_end = 9992, 9996
+seq[9986:9990) = CTCA and seq[9992:9996) = TCAG
+X, Y =  CTCA CTGA
+______________________________________
+(25, 9824, 9828, 9828, 9832, 'ATAG', 'ACAG')
+score =  25
+x_start, x_end = 9824, 9828, y_start, y_end = 9828, 9832
+seq[9824:9828) = ATAG and seq[9828:9832) = CTGT
+X, Y =  ATAG ACAG
+______________________________________
+(25, 9819, 9823, 9824, 9828, 'CGAT', 'CTAT')
+score =  25
+x_start, x_end = 9819, 9823, y_start, y_end = 9824, 9828
+seq[9819:9823) = CGAT and seq[9824:9828) = ATAG
+X, Y =  CGAT CTAT
+______________________________________
+(25, 9327, 9331, 9331, 9335, 'ATCG', 'ATTG')
+score =  25
+x_start, x_end = 9327, 9331, y_start, y_end = 9331, 9335
+seq[9327:9331) = ATCG and seq[9331:9335) = CAAT
+X, Y =  ATCG ATTG
+______________________________________
+(25, 9294, 9298, 9299, 9303, 'TGGA', 'TCGA')
+score =  25
+x_start, x_end = 9294, 9298, y_start, y_end = 9299, 9303
+seq[9294:9298) = TGGA and seq[9299:9303) = TCGA
+X, Y =  TGGA TCGA
+______________________________________
+(25, 9237, 9241, 9241, 9245, 'TTCG', 'TTAG')
+score =  25
+x_start, x_end = 9237, 9241, y_start, y_end = 9241, 9245
+seq[9237:9241) = TTCG and seq[9241:9245) = CTAA
+X, Y =  TTCG TTAG
+______________________________________
+(25, 9112, 9116, 9118, 9122, 'CAAG', 'CTAG')
+score =  25
+x_start, x_end = 9112, 9116, y_start, y_end = 9118, 9122
+seq[9112:9116) = CAAG and seq[9118:9122) = CTAG
+X, Y =  CAAG CTAG
+______________________________________
+(25, 9041, 9045, 9046, 9050, 'GGCA', 'GGTA')
+score =  25
+x_start, x_end = 9041, 9045, y_start, y_end = 9046, 9050
+seq[9041:9045) = GGCA and seq[9046:9050) = TACC
+X, Y =  GGCA GGTA
+______________________________________
+(25, 8999, 9003, 9004, 9008, 'AGGA', 'ATGA')
+score =  25
+x_start, x_end = 8999, 9003, y_start, y_end = 9004, 9008
+seq[8999:9003) = AGGA and seq[9004:9008) = TCAT
+X, Y =  AGGA ATGA
+______________________________________
+(25, 8922, 8926, 8926, 8930, 'TTCG', 'TTAG')
+score =  25
+x_start, x_end = 8922, 8926, y_start, y_end = 8926, 8930
+seq[8922:8926) = TTCG and seq[8926:8930) = CTAA
+X, Y =  TTCG TTAG
+______________________________________
+(25, 8702, 8706, 8707, 8711, 'GTTC', 'GTGC')
+score =  25
+x_start, x_end = 8702, 8706, y_start, y_end = 8707, 8711
+seq[8702:8706) = GTTC and seq[8707:8711) = GCAC
+X, Y =  GTTC GTGC
+______________________________________
+(25, 7985, 7989, 7991, 7995, 'TAGA', 'TCGA')
+score =  25
+x_start, x_end = 7985, 7989, y_start, y_end = 7991, 7995
+seq[7985:7989) = TAGA and seq[7991:7995) = TCGA
+X, Y =  TAGA TCGA
+______________________________________
+(25, 7977, 7981, 7983, 7987, 'TAGT', 'TACT')
+score =  25
+x_start, x_end = 7977, 7981, y_start, y_end = 7983, 7987
+seq[7977:7981) = TAGT and seq[7983:7987) = AGTA
+X, Y =  TAGT TACT
+______________________________________
+(25, 7749, 7753, 7755, 7759, 'ACTA', 'ATTA')
+score =  25
+x_start, x_end = 7749, 7753, y_start, y_end = 7755, 7759
+seq[7749:7753) = ACTA and seq[7755:7759) = TAAT
+X, Y =  ACTA ATTA
+______________________________________
+(25, 7681, 7685, 7686, 7690, 'TAAC', 'TGAC')
+score =  25
+x_start, x_end = 7681, 7685, y_start, y_end = 7686, 7690
+seq[7681:7685) = TAAC and seq[7686:7690) = GTCA
+X, Y =  TAAC TGAC
+______________________________________
+(25, 7633, 7637, 7638, 7642, 'CTTC', 'CATC')
+score =  25
+x_start, x_end = 7633, 7637, y_start, y_end = 7638, 7642
+seq[7633:7637) = CTTC and seq[7638:7642) = GATG
+X, Y =  CTTC CATC
+______________________________________
+(25, 7611, 7615, 7615, 7619, 'GTAA', 'GCAA')
+score =  25
+x_start, x_end = 7611, 7615, y_start, y_end = 7615, 7619
+seq[7611:7615) = GTAA and seq[7615:7619) = TTGC
+X, Y =  GTAA GCAA
+______________________________________
+(25, 7142, 7146, 7148, 7152, 'ATCG', 'ATTG')
+score =  25
+x_start, x_end = 7142, 7146, y_start, y_end = 7148, 7152
+seq[7142:7146) = ATCG and seq[7148:7152) = CAAT
+X, Y =  ATCG ATTG
+______________________________________
+(25, 7125, 7129, 7130, 7134, 'AGGA', 'ATGA')
+score =  25
+x_start, x_end = 7125, 7129, y_start, y_end = 7130, 7134
+seq[7125:7129) = AGGA and seq[7130:7134) = TCAT
+X, Y =  AGGA ATGA
+______________________________________
+(25, 6909, 6913, 6915, 6919, 'CTGA', 'CTTA')
+score =  25
+x_start, x_end = 6909, 6913, y_start, y_end = 6915, 6919
+seq[6909:6913) = CTGA and seq[6915:6919) = TAAG
+X, Y =  CTGA CTTA
+______________________________________
+(25, 6849, 6853, 6855, 6859, 'GCCT', 'GACT')
+score =  25
+x_start, x_end = 6849, 6853, y_start, y_end = 6855, 6859
+seq[6849:6853) = GCCT and seq[6855:6859) = AGTC
+X, Y =  GCCT GACT
+______________________________________
+(25, 6742, 6746, 6747, 6751, 'TGAT', 'TCAT')
+score =  25
+x_start, x_end = 6742, 6746, y_start, y_end = 6747, 6751
+seq[6742:6746) = TGAT and seq[6747:6751) = ATGA
+X, Y =  TGAT TCAT
+______________________________________
+(25, 6737, 6741, 6743, 6747, 'TCTC', 'TATC')
+score =  25
+x_start, x_end = 6737, 6741, y_start, y_end = 6743, 6747
+seq[6737:6741) = TCTC and seq[6743:6747) = GATA
+X, Y =  TCTC TATC
+______________________________________
+(25, 6380, 6384, 6385, 6389, 'CGCT', 'CGGT')
+score =  25
+x_start, x_end = 6380, 6384, y_start, y_end = 6385, 6389
+seq[6380:6384) = CGCT and seq[6385:6389) = ACCG
+X, Y =  CGCT CGGT
+______________________________________
+(25, 6039, 6043, 6044, 6048, 'TTGT', 'TTAT')
+score =  25
+x_start, x_end = 6039, 6043, y_start, y_end = 6044, 6048
+seq[6039:6043) = TTGT and seq[6044:6048) = ATAA
+X, Y =  TTGT TTAT
+______________________________________
+(25, 5963, 5967, 5967, 5971, 'ATAC', 'ATGC')
+score =  25
+x_start, x_end = 5963, 5967, y_start, y_end = 5967, 5971
+seq[5963:5967) = ATAC and seq[5967:5971) = GCAT
+X, Y =  ATAC ATGC
+______________________________________
+(25, 5168, 5172, 5173, 5177, 'TCAC', 'TAAC')
+score =  25
+x_start, x_end = 5168, 5172, y_start, y_end = 5173, 5177
+seq[5168:5172) = TCAC and seq[5173:5177) = GTTA
+X, Y =  TCAC TAAC
+______________________________________
+(25, 5030, 5034, 5034, 5038, 'GAAG', 'GCAG')
+score =  25
+x_start, x_end = 5030, 5034, y_start, y_end = 5034, 5038
+seq[5030:5034) = GAAG and seq[5034:5038) = CTGC
+X, Y =  GAAG GCAG
+______________________________________
+(25, 4918, 4922, 4923, 4927, 'GATT', 'GCTT')
+score =  25
+x_start, x_end = 4918, 4922, y_start, y_end = 4923, 4927
+seq[4918:4922) = GATT and seq[4923:4927) = AAGC
+X, Y =  GATT GCTT
+______________________________________
+(25, 4621, 4625, 4625, 4629, 'ATAC', 'ATTC')
+score =  25
+x_start, x_end = 4621, 4625, y_start, y_end = 4625, 4629
+seq[4621:4625) = ATAC and seq[4625:4629) = GAAT
+X, Y =  ATAC ATTC
+______________________________________
+(25, 4614, 4618, 4619, 4623, 'ATGA', 'ATCA')
+score =  25
+x_start, x_end = 4614, 4618, y_start, y_end = 4619, 4623
+seq[4614:4618) = ATGA and seq[4619:4623) = TGAT
+X, Y =  ATGA ATCA
+______________________________________
+(25, 4180, 4184, 4184, 4188, 'CTCG', 'CTTG')
+score =  25
+x_start, x_end = 4180, 4184, y_start, y_end = 4184, 4188
+seq[4180:4184) = CTCG and seq[4184:4188) = CAAG
+X, Y =  CTCG CTTG
+______________________________________
+(25, 2987, 2991, 2991, 2995, 'CTCG', 'CTTG')
+score =  25
+x_start, x_end = 2987, 2991, y_start, y_end = 2991, 2995
+seq[2987:2991) = CTCG and seq[2991:2995) = CAAG
+X, Y =  CTCG CTTG
+______________________________________
+(22, 9954, 9957, 9958, 9963, 'C--CT', 'CGGCT')
+score =  22
+x_start, x_end = 9954, 9957, y_start, y_end = 9958, 9963
+seq[9954:9957) = CCT and seq[9958:9963) = AGCCG
+X, Y =  C--CT CGGCT
+______________________________________
+(22, 9923, 9926, 9926, 9931, 'A-A-C', 'AGATC')
+score =  22
+x_start, x_end = 9923, 9926, y_start, y_end = 9926, 9931
+seq[9923:9926) = AAC and seq[9926:9931) = GATCT
+X, Y =  A-A-C AGATC
+______________________________________
+(22, 9878, 9881, 9883, 9888, 'G--AT', 'GCTAT')
+score =  22
+x_start, x_end = 9878, 9881, y_start, y_end = 9883, 9888
+seq[9878:9881) = GAT and seq[9883:9888) = ATAGC
+X, Y =  G--AT GCTAT
+______________________________________
+(22, 9829, 9834, 9835, 9838, 'TGTCT', 'T-T-T')
+score =  22
+x_start, x_end = 9829, 9834, y_start, y_end = 9835, 9838
+seq[9829:9834) = TGTCT and seq[9835:9838) = AAA
+X, Y =  TGTCT T-T-T
+______________________________________
+(22, 9794, 9797, 9799, 9804, 'T--GT', 'TCAGT')
+score =  22
+x_start, x_end = 9794, 9797, y_start, y_end = 9799, 9804
+seq[9794:9797) = TGT and seq[9799:9804) = ACTGA
+X, Y =  T--GT TCAGT
+______________________________________
+(22, 9691, 9694, 9695, 9700, 'T--AT', 'TGAAT')
+score =  22
+x_start, x_end = 9691, 9694, y_start, y_end = 9695, 9700
+seq[9691:9694) = TAT and seq[9695:9700) = ATTCA
+X, Y =  T--AT TGAAT
+______________________________________
+(22, 9628, 9632, 9634, 9638, 'T-CTA', 'TAC-A')
+score =  22
+x_start, x_end = 9628, 9632, y_start, y_end = 9634, 9638
+seq[9628:9632) = TCTA and seq[9634:9638) = TGTA
+X, Y =  T-CTA TAC-A
+______________________________________
+(22, 9608, 9611, 9612, 9617, 'C-T-G', 'CGTAG')
+score =  22
+x_start, x_end = 9608, 9611, y_start, y_end = 9612, 9617
+seq[9608:9611) = CTG and seq[9612:9617) = CTACG
+X, Y =  C-T-G CGTAG
+______________________________________
+(22, 9466, 9469, 9470, 9475, 'AC--T', 'ACGAT')
+score =  22
+x_start, x_end = 9466, 9469, y_start, y_end = 9470, 9475
+seq[9466:9469) = ACT and seq[9470:9475) = ATCGT
+X, Y =  AC--T ACGAT
+______________________________________
+(22, 9443, 9446, 9447, 9452, 'A-G-A', 'ACGCA')
+score =  22
+x_start, x_end = 9443, 9446, y_start, y_end = 9447, 9452
+seq[9443:9446) = AGA and seq[9447:9452) = TGCGT
+X, Y =  A-G-A ACGCA
+______________________________________
+(22, 9406, 9411, 9411, 9414, 'CTTTC', 'C--TC')
+score =  22
+x_start, x_end = 9406, 9411, y_start, y_end = 9411, 9414
+seq[9406:9411) = CTTTC and seq[9411:9414) = GAG
+X, Y =  CTTTC C--TC
+______________________________________
+(22, 9279, 9282, 9284, 9289, 'A--AA', 'ATCAA')
+score =  22
+x_start, x_end = 9279, 9282, y_start, y_end = 9284, 9289
+seq[9279:9282) = AAA and seq[9284:9289) = TTGAT
+X, Y =  A--AA ATCAA
+______________________________________
+(22, 9228, 9231, 9232, 9237, 'T-G-C', 'TAGAC')
+score =  22
+x_start, x_end = 9228, 9231, y_start, y_end = 9232, 9237
+seq[9228:9231) = TGC and seq[9232:9237) = GTCTA
+X, Y =  T-G-C TAGAC
+______________________________________
+(22, 9189, 9193, 9194, 9198, 'A-ACT', 'AGA-T')
+score =  22
+x_start, x_end = 9189, 9193, y_start, y_end = 9194, 9198
+seq[9189:9193) = AACT and seq[9194:9198) = ATCT
+X, Y =  A-ACT AGA-T
+______________________________________
+(22, 9124, 9127, 9127, 9132, 'GG--T', 'GGAAT')
+score =  22
+x_start, x_end = 9124, 9127, y_start, y_end = 9127, 9132
+seq[9124:9127) = GGT and seq[9127:9132) = ATTCC
+X, Y =  GG--T GGAAT
+______________________________________
+(22, 8984, 8989, 8989, 8992, 'ATCAG', 'A--AG')
+score =  22
+x_start, x_end = 8984, 8989, y_start, y_end = 8989, 8992
+seq[8984:8989) = ATCAG and seq[8989:8992) = CTT
+X, Y =  ATCAG A--AG
+______________________________________
+(22, 8954, 8958, 8958, 8962, 'ATA-G', 'A-ACG')
+score =  22
+x_start, x_end = 8954, 8958, y_start, y_end = 8958, 8962
+seq[8954:8958) = ATAG and seq[8958:8962) = CGTT
+X, Y =  ATA-G A-ACG
+______________________________________
+(22, 8880, 8883, 8884, 8889, 'A--GT', 'ACTGT')
+score =  22
+x_start, x_end = 8880, 8883, y_start, y_end = 8884, 8889
+seq[8880:8883) = AGT and seq[8884:8889) = ACAGT
+X, Y =  A--GT ACTGT
+______________________________________
+(22, 8857, 8862, 8863, 8866, 'ATAGA', 'A-A-A')
+score =  22
+x_start, x_end = 8857, 8862, y_start, y_end = 8863, 8866
+seq[8857:8862) = ATAGA and seq[8863:8866) = TTT
+X, Y =  ATAGA A-A-A
+______________________________________
+(22, 8833, 8836, 8837, 8842, 'A--AG', 'ACCAG')
+score =  22
+x_start, x_end = 8833, 8836, y_start, y_end = 8837, 8842
+seq[8833:8836) = AAG and seq[8837:8842) = CTGGT
+X, Y =  A--AG ACCAG
+______________________________________
+(22, 8818, 8821, 8823, 8828, 'CT--T', 'CTACT')
+score =  22
+x_start, x_end = 8818, 8821, y_start, y_end = 8823, 8828
+seq[8818:8821) = CTT and seq[8823:8828) = AGTAG
+X, Y =  CT--T CTACT
+______________________________________
+(22, 8790, 8794, 8796, 8800, 'A-TCA', 'ACT-A')
+score =  22
+x_start, x_end = 8790, 8794, y_start, y_end = 8796, 8800
+seq[8790:8794) = ATCA and seq[8796:8800) = TAGT
+X, Y =  A-TCA ACT-A
+______________________________________
+(22, 8715, 8718, 8720, 8725, 'T-C-G', 'TGCTG')
+score =  22
+x_start, x_end = 8715, 8718, y_start, y_end = 8720, 8725
+seq[8715:8718) = TCG and seq[8720:8725) = CAGCA
+X, Y =  T-C-G TGCTG
+______________________________________
+(22, 8602, 8607, 8608, 8611, 'CTTCG', 'C-T-G')
+score =  22
+x_start, x_end = 8602, 8607, y_start, y_end = 8608, 8611
+seq[8602:8607) = CTTCG and seq[8608:8611) = CAG
+X, Y =  CTTCG C-T-G
+______________________________________
+(22, 8448, 8451, 8453, 8458, 'A--AA', 'AGGAA')
+score =  22
+x_start, x_end = 8448, 8451, y_start, y_end = 8453, 8458
+seq[8448:8451) = AAA and seq[8453:8458) = TTCCT
+X, Y =  A--AA AGGAA
+______________________________________
+(22, 8376, 8380, 8381, 8385, 'T-TCA', 'TGT-A')
+score =  22
+x_start, x_end = 8376, 8380, y_start, y_end = 8381, 8385
+seq[8376:8380) = TTCA and seq[8381:8385) = TACA
+X, Y =  T-TCA TGT-A
+______________________________________
+(22, 8339, 8342, 8343, 8348, 'A-G-A', 'ACGCA')
+score =  22
+x_start, x_end = 8339, 8342, y_start, y_end = 8343, 8348
+seq[8339:8342) = AGA and seq[8343:8348) = TGCGT
+X, Y =  A-G-A ACGCA
+______________________________________
+(22, 8303, 8306, 8308, 8313, 'TC--G', 'TCTAG')
+score =  22
+x_start, x_end = 8303, 8306, y_start, y_end = 8308, 8313
+seq[8303:8306) = TCG and seq[8308:8313) = CTAGA
+X, Y =  TC--G TCTAG
+______________________________________
+(22, 8296, 8299, 8300, 8305, 'GA--A', 'GATTA')
+score =  22
+x_start, x_end = 8296, 8299, y_start, y_end = 8300, 8305
+seq[8296:8299) = GAA and seq[8300:8305) = TAATC
+X, Y =  GA--A GATTA
+______________________________________
+(22, 8245, 8249, 8250, 8254, 'TCT-A', 'T-TGA')
+score =  22
+x_start, x_end = 8245, 8249, y_start, y_end = 8250, 8254
+seq[8245:8249) = TCTA and seq[8250:8254) = TCAA
+X, Y =  TCT-A T-TGA
+______________________________________
+(22, 8198, 8201, 8202, 8207, 'C-A-A', 'CGATA')
+score =  22
+x_start, x_end = 8198, 8201, y_start, y_end = 8202, 8207
+seq[8198:8201) = CAA and seq[8202:8207) = TATCG
+X, Y =  C-A-A CGATA
+______________________________________
+(22, 8151, 8154, 8155, 8160, 'A--GG', 'ATTGG')
+score =  22
+x_start, x_end = 8151, 8154, y_start, y_end = 8155, 8160
+seq[8151:8154) = AGG and seq[8155:8160) = CCAAT
+X, Y =  A--GG ATTGG
+______________________________________
+(22, 8136, 8139, 8141, 8146, 'AA--A', 'AATCA')
+score =  22
+x_start, x_end = 8136, 8139, y_start, y_end = 8141, 8146
+seq[8136:8139) = AAA and seq[8141:8146) = TGATT
+X, Y =  AA--A AATCA
+______________________________________
+(22, 8127, 8132, 8132, 8135, 'GAAAC', 'G--AC')
+score =  22
+x_start, x_end = 8127, 8132, y_start, y_end = 8132, 8135
+seq[8127:8132) = GAAAC and seq[8132:8135) = GTC
+X, Y =  GAAAC G--AC
+______________________________________
+(22, 8097, 8100, 8102, 8107, 'T--TT', 'TCCTT')
+score =  22
+x_start, x_end = 8097, 8100, y_start, y_end = 8102, 8107
+seq[8097:8100) = TTT and seq[8102:8107) = AAGGA
+X, Y =  T--TT TCCTT
+______________________________________
+(22, 8035, 8038, 8040, 8045, 'T--GG', 'TACGG')
+score =  22
+x_start, x_end = 8035, 8038, y_start, y_end = 8040, 8045
+seq[8035:8038) = TGG and seq[8040:8045) = CCGTA
+X, Y =  T--GG TACGG
+______________________________________
+(22, 7915, 7918, 7919, 7924, 'AA--A', 'AACGA')
+score =  22
+x_start, x_end = 7915, 7918, y_start, y_end = 7919, 7924
+seq[7915:7918) = AAA and seq[7919:7924) = TCGTT
+X, Y =  AA--A AACGA
+______________________________________
+(22, 7818, 7821, 7823, 7828, 'T-C-A', 'TCCGA')
+score =  22
+x_start, x_end = 7818, 7821, y_start, y_end = 7823, 7828
+seq[7818:7821) = TCA and seq[7823:7828) = TCGGA
+X, Y =  T-C-A TCCGA
+______________________________________
+(22, 7784, 7789, 7790, 7793, 'TACCA', 'TA--A')
+score =  22
+x_start, x_end = 7784, 7789, y_start, y_end = 7790, 7793
+seq[7784:7789) = TACCA and seq[7790:7793) = TTA
+X, Y =  TACCA TA--A
+______________________________________
+(22, 7775, 7780, 7782, 7785, 'AGAAT', 'AG--T')
+score =  22
+x_start, x_end = 7775, 7780, y_start, y_end = 7782, 7785
+seq[7775:7780) = AGAAT and seq[7782:7785) = ACT
+X, Y =  AGAAT AG--T
+______________________________________
+(22, 7698, 7701, 7701, 7706, 'A--CG', 'AGGCG')
+score =  22
+x_start, x_end = 7698, 7701, y_start, y_end = 7701, 7706
+seq[7698:7701) = ACG and seq[7701:7706) = CGCCT
+X, Y =  A--CG AGGCG
+______________________________________
+(22, 7675, 7680, 7681, 7684, 'TCTCA', 'T-T-A')
+score =  22
+x_start, x_end = 7675, 7680, y_start, y_end = 7681, 7684
+seq[7675:7680) = TCTCA and seq[7681:7684) = TAA
+X, Y =  TCTCA T-T-A
+______________________________________
+(22, 7540, 7543, 7543, 7548, 'G--GG', 'GTTGG')
+score =  22
+x_start, x_end = 7540, 7543, y_start, y_end = 7543, 7548
+seq[7540:7543) = GGG and seq[7543:7548) = CCAAC
+X, Y =  G--GG GTTGG
+______________________________________
+(22, 7456, 7459, 7461, 7466, 'A--TT', 'AGGTT')
+score =  22
+x_start, x_end = 7456, 7459, y_start, y_end = 7461, 7466
+seq[7456:7459) = ATT and seq[7461:7466) = AACCT
+X, Y =  A--TT AGGTT
+______________________________________
+(22, 7365, 7368, 7368, 7373, 'A-A-A', 'ACAGA')
+score =  22
+x_start, x_end = 7365, 7368, y_start, y_end = 7368, 7373
+seq[7365:7368) = AAA and seq[7368:7373) = TCTGT
+X, Y =  A-A-A ACAGA
+______________________________________
+(22, 7356, 7359, 7361, 7366, 'T--GA', 'TCAGA')
+score =  22
+x_start, x_end = 7356, 7359, y_start, y_end = 7361, 7366
+seq[7356:7359) = TGA and seq[7361:7366) = TCTGA
+X, Y =  T--GA TCAGA
+______________________________________
+(22, 7299, 7302, 7302, 7307, 'C-C-A', 'CTCGA')
+score =  22
+x_start, x_end = 7299, 7302, y_start, y_end = 7302, 7307
+seq[7299:7302) = CCA and seq[7302:7307) = TCGAG
+X, Y =  C-C-A CTCGA
+______________________________________
+(22, 7258, 7263, 7264, 7267, 'TATCG', 'T-T-G')
+score =  22
+x_start, x_end = 7258, 7263, y_start, y_end = 7264, 7267
+seq[7258:7263) = TATCG and seq[7264:7267) = CAA
+X, Y =  TATCG T-T-G
+______________________________________
+(22, 7187, 7190, 7192, 7197, 'C--CT', 'CGGCT')
+score =  22
+x_start, x_end = 7187, 7190, y_start, y_end = 7192, 7197
+seq[7187:7190) = CCT and seq[7192:7197) = AGCCG
+X, Y =  C--CT CGGCT
+______________________________________
+(22, 7154, 7157, 7159, 7164, 'T--TG', 'TACTG')
+score =  22
+x_start, x_end = 7154, 7157, y_start, y_end = 7159, 7164
+seq[7154:7157) = TTG and seq[7159:7164) = CAGTA
+X, Y =  T--TG TACTG
+______________________________________
+(22, 7075, 7080, 7082, 7085, 'TAGCA', 'T-G-A')
+score =  22
+x_start, x_end = 7075, 7080, y_start, y_end = 7082, 7085
+seq[7075:7080) = TAGCA and seq[7082:7085) = TCA
+X, Y =  TAGCA T-G-A
+______________________________________
+(22, 7038, 7041, 7043, 7048, 'TC--G', 'TCTTG')
+score =  22
+x_start, x_end = 7038, 7041, y_start, y_end = 7043, 7048
+seq[7038:7041) = TCG and seq[7043:7048) = CAAGA
+X, Y =  TC--G TCTTG
+______________________________________
+(22, 6824, 6828, 6830, 6834, 'CAG-G', 'C-GTG')
+score =  22
+x_start, x_end = 6824, 6828, y_start, y_end = 6830, 6834
+seq[6824:6828) = CAGG and seq[6830:6834) = CACG
+X, Y =  CAG-G C-GTG
+______________________________________
+(22, 6811, 6814, 6816, 6821, 'G-A-T', 'GAACT')
+score =  22
+x_start, x_end = 6811, 6814, y_start, y_end = 6816, 6821
+seq[6811:6814) = GAT and seq[6816:6821) = AGTTC
+X, Y =  G-A-T GAACT
+______________________________________
+(22, 6806, 6809, 6811, 6816, 'TG--C', 'TGATC')
+score =  22
+x_start, x_end = 6806, 6809, y_start, y_end = 6811, 6816
+seq[6806:6809) = TGC and seq[6811:6816) = GATCA
+X, Y =  TG--C TGATC
+______________________________________
+(22, 6770, 6773, 6774, 6779, 'T-T-T', 'TCTCT')
+score =  22
+x_start, x_end = 6770, 6773, y_start, y_end = 6774, 6779
+seq[6770:6773) = TTT and seq[6774:6779) = AGAGA
+X, Y =  T-T-T TCTCT
+______________________________________
+(22, 6712, 6715, 6717, 6722, 'C--TT', 'CGATT')
+score =  22
+x_start, x_end = 6712, 6715, y_start, y_end = 6717, 6722
+seq[6712:6715) = CTT and seq[6717:6722) = AATCG
+X, Y =  C--TT CGATT
+______________________________________
+(22, 6512, 6515, 6515, 6520, 'C--TC', 'CAATC')
+score =  22
+x_start, x_end = 6512, 6515, y_start, y_end = 6515, 6520
+seq[6512:6515) = CTC and seq[6515:6520) = GATTG
+X, Y =  C--TC CAATC
+______________________________________
+(22, 6175, 6178, 6180, 6185, 'C--AC', 'CGAAC')
+score =  22
+x_start, x_end = 6175, 6178, y_start, y_end = 6180, 6185
+seq[6175:6178) = CAC and seq[6180:6185) = GTTCG
+X, Y =  C--AC CGAAC
+______________________________________
+(22, 6129, 6134, 6135, 6138, 'GAACG', 'G-A-G')
+score =  22
+x_start, x_end = 6129, 6134, y_start, y_end = 6135, 6138
+seq[6129:6134) = GAACG and seq[6135:6138) = CTC
+X, Y =  GAACG G-A-G
+______________________________________
+(22, 5894, 5897, 5899, 5904, 'CA--A', 'CATTA')
+score =  22
+x_start, x_end = 5894, 5897, y_start, y_end = 5899, 5904
+seq[5894:5897) = CAA and seq[5899:5904) = TAATG
+X, Y =  CA--A CATTA
+______________________________________
+(22, 5753, 5756, 5757, 5762, 'A--CG', 'ATTCG')
+score =  22
+x_start, x_end = 5753, 5756, y_start, y_end = 5757, 5762
+seq[5753:5756) = ACG and seq[5757:5762) = CGAAT
+X, Y =  A--CG ATTCG
+______________________________________
+(22, 5666, 5669, 5671, 5676, 'C--AT', 'CGAAT')
+score =  22
+x_start, x_end = 5666, 5669, y_start, y_end = 5671, 5676
+seq[5666:5669) = CAT and seq[5671:5676) = ATTCG
+X, Y =  C--AT CGAAT
+______________________________________
+(22, 5585, 5588, 5588, 5593, 'T--TG', 'TCATG')
+score =  22
+x_start, x_end = 5585, 5588, y_start, y_end = 5588, 5593
+seq[5585:5588) = TTG and seq[5588:5593) = CATGA
+X, Y =  T--TG TCATG
+______________________________________
+(22, 5549, 5552, 5553, 5558, 'A--AA', 'AGCAA')
+score =  22
+x_start, x_end = 5549, 5552, y_start, y_end = 5553, 5558
+seq[5549:5552) = AAA and seq[5553:5558) = TTGCT
+X, Y =  A--AA AGCAA
+______________________________________
+(22, 5410, 5413, 5415, 5420, 'T--TC', 'TAATC')
+score =  22
+x_start, x_end = 5410, 5413, y_start, y_end = 5415, 5420
+seq[5410:5413) = TTC and seq[5415:5420) = GATTA
+X, Y =  T--TC TAATC
+______________________________________
+(22, 5384, 5387, 5389, 5394, 'GA--A', 'GAGCA')
+score =  22
+x_start, x_end = 5384, 5387, y_start, y_end = 5389, 5394
+seq[5384:5387) = GAA and seq[5389:5394) = TGCTC
+X, Y =  GA--A GAGCA
+______________________________________
+(22, 5248, 5253, 5255, 5258, 'TATCG', 'T-T-G')
+score =  22
+x_start, x_end = 5248, 5253, y_start, y_end = 5255, 5258
+seq[5248:5253) = TATCG and seq[5255:5258) = CAA
+X, Y =  TATCG T-T-G
+______________________________________
+(22, 5237, 5241, 5241, 5245, 'ATA-G', 'A-ACG')
+score =  22
+x_start, x_end = 5237, 5241, y_start, y_end = 5241, 5245
+seq[5237:5241) = ATAG and seq[5241:5245) = CGTT
+X, Y =  ATA-G A-ACG
+______________________________________
+(22, 5076, 5079, 5081, 5086, 'G-G-C', 'GTGTC')
+score =  22
+x_start, x_end = 5076, 5079, y_start, y_end = 5081, 5086
+seq[5076:5079) = GGC and seq[5081:5086) = GACAC
+X, Y =  G-G-C GTGTC
+______________________________________
+(22, 4963, 4968, 4970, 4973, 'TCTCG', 'T-T-G')
+score =  22
+x_start, x_end = 4963, 4968, y_start, y_end = 4970, 4973
+seq[4963:4968) = TCTCG and seq[4970:4973) = CAA
+X, Y =  TCTCG T-T-G
+______________________________________
+(22, 4762, 4765, 4765, 4770, 'T--TG', 'TCATG')
+score =  22
+x_start, x_end = 4762, 4765, y_start, y_end = 4765, 4770
+seq[4762:4765) = TTG and seq[4765:4770) = CATGA
+X, Y =  T--TG TCATG
+______________________________________
+(22, 4683, 4686, 4686, 4691, 'TT--C', 'TTGGC')
+score =  22
+x_start, x_end = 4683, 4686, y_start, y_end = 4686, 4691
+seq[4683:4686) = TTC and seq[4686:4691) = GCCAA
+X, Y =  TT--C TTGGC
+______________________________________
+(22, 4667, 4671, 4672, 4676, 'CAC-T', 'C-CGT')
+score =  22
+x_start, x_end = 4667, 4671, y_start, y_end = 4672, 4676
+seq[4667:4671) = CACT and seq[4672:4676) = ACGG
+X, Y =  CAC-T C-CGT
+______________________________________
+(22, 4608, 4613, 4613, 4616, 'ATAAC', 'AT--C')
+score =  22
+x_start, x_end = 4608, 4613, y_start, y_end = 4613, 4616
+seq[4608:4613) = ATAAC and seq[4613:4616) = GAT
+X, Y =  ATAAC AT--C
+______________________________________
+(22, 4330, 4335, 4336, 4339, 'TCAGA', 'T--GA')
+score =  22
+x_start, x_end = 4330, 4335, y_start, y_end = 4336, 4339
+seq[4330:4335) = TCAGA and seq[4336:4339) = TCA
+X, Y =  TCAGA T--GA
+______________________________________
+(22, 4159, 4164, 4165, 4168, 'TCAGA', 'T--GA')
+score =  22
+x_start, x_end = 4159, 4164, y_start, y_end = 4165, 4168
+seq[4159:4164) = TCAGA and seq[4165:4168) = TCA
+X, Y =  TCAGA T--GA
+______________________________________
+(22, 3845, 3849, 3850, 3854, 'C-GAC', 'CTG-C')
+score =  22
+x_start, x_end = 3845, 3849, y_start, y_end = 3850, 3854
+seq[3845:3849) = CGAC and seq[3850:3854) = GCAG
+X, Y =  C-GAC CTG-C
+______________________________________
+(22, 3829, 3832, 3834, 3839, 'CA--A', 'CATTA')
+score =  22
+x_start, x_end = 3829, 3832, y_start, y_end = 3834, 3839
+seq[3829:3832) = CAA and seq[3834:3839) = TAATG
+X, Y =  CA--A CATTA
+______________________________________
+(22, 3818, 3823, 3824, 3827, 'TAAGA', 'T--GA')
+score =  22
+x_start, x_end = 3818, 3823, y_start, y_end = 3824, 3827
+seq[3818:3823) = TAAGA and seq[3824:3827) = TCA
+X, Y =  TAAGA T--GA
+______________________________________
+(22, 3650, 3655, 3656, 3659, 'TCAGA', 'T--GA')
+score =  22
+x_start, x_end = 3650, 3655, y_start, y_end = 3656, 3659
+seq[3650:3655) = TCAGA and seq[3656:3659) = TCA
+X, Y =  TCAGA T--GA
+______________________________________
+(22, 3532, 3536, 3538, 3542, 'T-TAG', 'TCT-G')
+score =  22
+x_start, x_end = 3532, 3536, y_start, y_end = 3538, 3542
+seq[3532:3536) = TTAG and seq[3538:3542) = CAGA
+X, Y =  T-TAG TCT-G
+______________________________________
+(22, 3308, 3313, 3314, 3317, 'TCAGA', 'T--GA')
+score =  22
+x_start, x_end = 3308, 3313, y_start, y_end = 3314, 3317
+seq[3308:3313) = TCAGA and seq[3314:3317) = TCA
+X, Y =  TCAGA T--GA
+______________________________________
+(22, 3137, 3142, 3143, 3146, 'TCAGA', 'T--GA')
+score =  22
+x_start, x_end = 3137, 3142, y_start, y_end = 3143, 3146
+seq[3137:3142) = TCAGA and seq[3143:3146) = TCA
+X, Y =  TCAGA T--GA
+______________________________________
+(22, 2966, 2971, 2972, 2975, 'TCAGA', 'T--GA')
+score =  22
+x_start, x_end = 2966, 2971, y_start, y_end = 2972, 2975
+seq[2966:2971) = TCAGA and seq[2972:2975) = TCA
+X, Y =  TCAGA T--GA
+______________________________________
+(22, 2796, 2801, 2802, 2805, 'TCAGA', 'T--GA')
+score =  22
+x_start, x_end = 2796, 2801, y_start, y_end = 2802, 2805
+seq[2796:2801) = TCAGA and seq[2802:2805) = TCA
+X, Y =  TCAGA T--GA
+______________________________________
+(22, 2642, 2647, 2649, 2652, 'TAACG', 'T--CG')
+score =  22
+x_start, x_end = 2642, 2647, y_start, y_end = 2649, 2652
+seq[2642:2647) = TAACG and seq[2649:2652) = CGA
+X, Y =  TAACG T--CG
+______________________________________
+(22, 2626, 2631, 2632, 2635, 'TAAGA', 'T--GA')
+score =  22
+x_start, x_end = 2626, 2631, y_start, y_end = 2632, 2635
+seq[2626:2631) = TAAGA and seq[2632:2635) = TCA
+X, Y =  TAAGA T--GA
+______________________________________
+(22, 2485, 2489, 2490, 2494, 'A-GAC', 'ATG-C')
+score =  22
+x_start, x_end = 2485, 2489, y_start, y_end = 2490, 2494
+seq[2485:2489) = AGAC and seq[2490:2494) = GCAT
+X, Y =  A-GAC ATG-C
+______________________________________
+(21, 9684, 9688, 9688, 9693, 'T-ATC', 'TAAGC')
+score =  21
+x_start, x_end = 9684, 9688, y_start, y_end = 9688, 9693
+seq[9684:9688) = TATC and seq[9688:9693) = GCTTA
+X, Y =  T-ATC TAAGC
+______________________________________
+(21, 9674, 9678, 9678, 9683, 'GTC-T', 'GACGT')
+score =  21
+x_start, x_end = 9674, 9678, y_start, y_end = 9678, 9683
+seq[9674:9678) = GTCT and seq[9678:9683) = ACGTC
+X, Y =  GTC-T GACGT
+______________________________________
+(21, 9571, 9576, 9577, 9581, 'AATTG', 'AA-CG')
+score =  21
+x_start, x_end = 9571, 9576, y_start, y_end = 9577, 9581
+seq[9571:9576) = AATTG and seq[9577:9581) = CGTT
+X, Y =  AATTG AA-CG
+______________________________________
+(21, 9142, 9147, 9148, 9152, 'ATAAC', 'AT-GC')
+score =  21
+x_start, x_end = 9142, 9147, y_start, y_end = 9148, 9152
+seq[9142:9147) = ATAAC and seq[9148:9152) = GCAT
+X, Y =  ATAAC AT-GC
+______________________________________
+(21, 8690, 8695, 8696, 8700, 'ATCCG', 'A-CTG')
+score =  21
+x_start, x_end = 8690, 8695, y_start, y_end = 8696, 8700
+seq[8690:8695) = ATCCG and seq[8696:8700) = CAGT
+X, Y =  ATCCG A-CTG
+______________________________________
+(21, 8460, 8464, 8464, 8469, 'A-GGT', 'ACTGT')
+score =  21
+x_start, x_end = 8460, 8464, y_start, y_end = 8464, 8469
+seq[8460:8464) = AGGT and seq[8464:8469) = ACAGT
+X, Y =  A-GGT ACTGT
+______________________________________
+(21, 7995, 8000, 8000, 8004, 'AGGAA', 'A-TAA')
+score =  21
+x_start, x_end = 7995, 8000, y_start, y_end = 8000, 8004
+seq[7995:8000) = AGGAA and seq[8000:8004) = TTAT
+X, Y =  AGGAA A-TAA
+______________________________________
+(21, 7955, 7960, 7960, 7964, 'TCCAC', 'T-GAC')
+score =  21
+x_start, x_end = 7955, 7960, y_start, y_end = 7960, 7964
+seq[7955:7960) = TCCAC and seq[7960:7964) = GTCA
+X, Y =  TCCAC T-GAC
+______________________________________
+(21, 7687, 7692, 7692, 7696, 'TCAAG', 'T-GAG')
+score =  21
+x_start, x_end = 7687, 7692, y_start, y_end = 7692, 7696
+seq[7687:7692) = TCAAG and seq[7692:7696) = CTCA
+X, Y =  TCAAG T-GAG
+______________________________________
+(21, 7605, 7609, 7609, 7614, 'T-CCG', 'TACTG')
+score =  21
+x_start, x_end = 7605, 7609, y_start, y_end = 7609, 7614
+seq[7605:7609) = TCCG and seq[7609:7614) = CAGTA
+X, Y =  T-CCG TACTG
+______________________________________
+(21, 7324, 7329, 7329, 7333, 'TACAG', 'T-CCG')
+score =  21
+x_start, x_end = 7324, 7329, y_start, y_end = 7329, 7333
+seq[7324:7329) = TACAG and seq[7329:7333) = CGGA
+X, Y =  TACAG T-CCG
+______________________________________
+(21, 6915, 6920, 6921, 6925, 'TAAGA', 'T-GGA')
+score =  21
+x_start, x_end = 6915, 6920, y_start, y_end = 6921, 6925
+seq[6915:6920) = TAAGA and seq[6921:6925) = TCCA
+X, Y =  TAAGA T-GGA
+______________________________________
+(21, 6899, 6904, 6905, 6909, 'GAAGA', 'G-CGA')
+score =  21
+x_start, x_end = 6899, 6904, y_start, y_end = 6905, 6909
+seq[6899:6904) = GAAGA and seq[6905:6909) = TCGC
+X, Y =  GAAGA G-CGA
+______________________________________
+(21, 6531, 6535, 6536, 6541, 'G-CAC', 'GTCTC')
+score =  21
+x_start, x_end = 6531, 6535, y_start, y_end = 6536, 6541
+seq[6531:6535) = GCAC and seq[6536:6541) = GAGAC
+X, Y =  G-CAC GTCTC
+______________________________________
