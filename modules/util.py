@@ -19,19 +19,20 @@ def abs(x):
 
 
 def read_single_fasta_file(file_path):
-    seq = ""
+    name, seq = "", ""
     multi = 0
     with open(file_path) as f:
         for line in f:
             if line[0] == ">":
                 multi += 1
+                name = line[1:]
                 continue
             if multi > 1:
                 print("Error: multi fasta file.")
                 print("Please use single fasta file, which contains only one DNA sequence.")
                 return
             seq += line.strip().upper()
-    return seq
+    return name, seq
 
 
 def zeros(size):

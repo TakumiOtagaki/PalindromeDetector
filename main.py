@@ -13,30 +13,27 @@ def main():
         input_file = args[1]
     else:
         print("Error: invalid number of arguments.")
+        print("Please input the path of the input file.")
         return
-    # seq = "TAATTTCCCCCCCCCCCAAAAAAAATTTTTTTT"
-    # seq = "AAAGAAACCTTTTCA"
 
-    # else:
-    #     print("use the default sequence.")
-    #     seq = "ATTCCATAGGGGGAATCCTAGGTGACTGAACTC"
-    #     Threshold = 20
 
-    seq = read_single_fasta_file(input_file)
+    name, seq = read_single_fasta_file(input_file)
     seq = seq[:10000]
-    # Threshold, D, match, mismatch, gap = 20, 10, 10, -5, -4
+    print("name = ", name)
+
+    Threshold, D, match, mismatch, gap = get_parameters("./parameters.txt")
     print("Parameters:")
     print("Threshold, D, match, mismatch, gap")
-    print(get_parameters("./parameters.txt"))
-    Threshold, D, match, mismatch, gap = get_parameters("./parameters.txt")
+    print(f"{Threshold}, {D}, {match}, {mismatch}, {gap}")
 
 
     alignments = palindrome_detector_with_band_overlap_restriction_in_linearspace(seq, match, mismatch, gap, Threshold, D)
     print(f"\n\nResults: alignments which score >= {Threshold}")
+    print("The number of high-scored alignments = ", len(alignments))
     print("______________________________________")
-    
 
-    # print("alignments = ", alignments)
+
+
     alignments = sorted(alignments, key=lambda x: x[0], reverse=True)
     for alignment in alignments:
         score, x_start, x_end, y_start, y_end, X, Y = alignment
