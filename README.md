@@ -13,10 +13,10 @@ Detect all Palindrome with distance restriction in Linear Time and Space.
 
 # How to use:
 1. Change parameters such as Threshold score, match/mismatch score, gap score and so on in parameters.txt.
-2. python3 main.py <your fasta file path>
+2. python3 main.py your_fasta_file_path
   - Then, the result will be in your terminal.
-3. if you want to, do 
-  - python3 main.py <your fasta file path> > <output file path>
+3. if you want
+  - python3 main.py your_fasta_file_path > output_file_path
  
   
 # For example
