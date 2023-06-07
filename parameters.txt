@@ -1,0 +1,2 @@
+Threshold,D,match,mismatch,gap
+20,10,10,-5,-4

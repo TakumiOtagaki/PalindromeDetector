@@ -1,3 +1,11 @@
+def get_parameters(parameters_file):
+    f = open(parameters_file, mode='r')
+    data = f.readlines()[1]
+    T, D, match, mismatch, gap = tuple(map(int, data.split(",")))
+
+    return T, D, match, mismatch, gap
+
+
 
 def inverse_order_comlementary(seq):
     """
@@ -10,12 +18,18 @@ def abs(x):
     return x if x >= 0 else -x
 
 
-def read_fasta_file(file_path):
+def read_single_fasta_file(file_path):
     seq = ""
+    multi = 0
     with open(file_path) as f:
         for line in f:
             if line[0] == ">":
+                multi += 1
                 continue
+            if multi > 1:
+                print("Error: multi fasta file.")
+                print("Please use single fasta file, which contains only one DNA sequence.")
+                return
             seq += line.strip().upper()
     return seq
 

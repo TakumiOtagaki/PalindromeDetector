@@ -3,8 +3,8 @@
 import numpy as np
 import pandas as pd
 import sys
-import time
-from modules.util import *
+
+from .util import *
 
 INT_MAX = sys.maxsize
 
@@ -15,14 +15,14 @@ INT_MAX = sys.maxsize
 # In other words, the loop is n-D < i + j <= n
 
 
-def OSD_detector_with_band_overlap_restriction(seq1, match, mismatch, gap, Threshold, band_width):
+def Palindrome_detector_with_band_overlap_restriction(seq1, match, mismatch, gap, Threshold, band_width):
     seq2 = inverse_order_comlementary(seq1)
     gap = np.abs(gap)
     D = band_width
     n, m = len(seq1), len(seq2)
     D = min(D, n)
 
-    def traceback_local_OSD(traceback, F):
+    def traceback_local_Palindrome(traceback, F):
         (i, j) = n-1, traceback[n][0]
         # alignments = [(x_start, x_end, y_start, y_end, x_string, y_string) for alignment in all alignments]
         # x_start, x_end, y_start, y_end are 0-indexed.
@@ -113,7 +113,7 @@ def OSD_detector_with_band_overlap_restriction(seq1, match, mismatch, gap, Thres
             # traceback[i][j] = arrows[np.argmax(max_candidate)]
     print(pd.DataFrame(F, columns=list(" "+seq2), index=list(" "+seq1)).T)
     print(pd.DataFrame(traceback, columns=list(" "+seq2), index=list(" "+seq1)).T)
-    alignments = traceback_local_OSD(traceback, F)
+    alignments = traceback_local_Palindrome(traceback, F)
     return F, traceback, alignments
 
 
@@ -125,7 +125,7 @@ def main():
     Threshold = 20
     D = 10
     seq2 = inverse_order_comlementary(seq1)
-    F, traceback, alignments = OSD_detector_with_band_overlap_restriction(
+    F, traceback, alignments = Palindrome_detector_with_band_overlap_restriction(
         seq1, match, mismatch, gap, Threshold, D)
     print("Threshold = ", Threshold)
     print("______________________________________")

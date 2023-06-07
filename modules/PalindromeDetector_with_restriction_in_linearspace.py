@@ -3,7 +3,7 @@
 
 # import pandas as pd
 import sys
-from modules.util import *
+from .util import *
 
 INT_MAX = sys.maxsize
 
@@ -31,13 +31,14 @@ def palindrome_detector_with_band_overlap_restriction_in_linearspace(seq1, match
         # return min(m, n - i)
         return n - i
 
-    def traceback_local_palindrome(traceback, F):
+    def traceback_local_palindrome(traceback):
         (i, j) = n-1, traceback[n][0]
         # alignments = [(x_start, x_end, y_start, y_end, x_string, y_string) for alignment in all alignments]
         # x_start, x_end, y_start, y_end are 0-indexed.
         alignments = []
         X, Y, score = "", "", 0
         x_start, y_start = INT_MAX, INT_MAX  # infty
+        x_end, y_end = None, None
         while True:
             if j == top_j(i):
                 # match region completed.
@@ -82,11 +83,8 @@ def palindrome_detector_with_band_overlap_restriction_in_linearspace(seq1, match
 
                 else:
                     print("invalid traceback matrix in palindrome LinearSpace")
-                    # print(pd.DataFrame(F, index=list(" "+seq1)).T)
-                    # print(pd.DataFrame(traceback, index=list(" "+seq1)).T)
                     sys.exit(1)
 
-                    pass
         return alignments
 
     # Initialize the scoring matrix
@@ -97,8 +95,6 @@ def palindrome_detector_with_band_overlap_restriction_in_linearspace(seq1, match
         F[0][k] = max(0, F[0][k - 1])
     # Initialize the traceback matrix
     traceback = zeros((n+1, D+1))
-    # traceback = [["" for j in range(D+1)] for i in range(n+1)]
-    # arrows = ["⇧", "↖", "←", "↑"]
 
     # Recurrence:
     for i in range(1, n+1):
@@ -116,37 +112,12 @@ def palindrome_detector_with_band_overlap_restriction_in_linearspace(seq1, match
             F[i][j - top_j(i)] = max(max_candidate)
             # Update the traceback matrix
             traceback[i][j - top_j(i)] = argmax(max_candidate)
-            # traceback[i][j - top_j(i)] = arrows[np.argmax(max_candidate)]
-    # print(pd.DataFrame(F, index=list(" "+seq1)).T)
-    # print(pd.DataFrame(traceback, index=list(" "+seq1)).T)
-    alignments = traceback_local_palindrome(traceback, F)
-    return F, traceback, alignments
 
+
+    alignments = traceback_local_palindrome(traceback)
+    return alignments
 
 def main():
-    # seq1 = "TAATTTCCCCCCCCCCCAAAAAAAATTTTTTTT"
-    seq1 = "AAAGAAACCTTTTCA"
-    # seq1 = "ATTCCATAGGGGGAATCCTAGGTGACTGAACTC"
-    match, mismatch, gap = 10, -5, -4
-    Threshold = 20
-    D = 10
-    seq2 = inverse_order_comlementary(seq1)
-    F, traceback, alignments = palindrome_detector_with_band_overlap_restriction_in_linearspace(
-        seq1, match, mismatch, gap, Threshold, D)
-    print("Threshold = ", Threshold)
-    print("______________________________________")
-    # print("alignments = ", alignments)
-    alignments = sorted(alignments, key=lambda x: x[0], reverse=True)
-    for alignment in alignments:
-        score, x_start, x_end, y_start, y_end, X, Y = alignment
-        print(alignment)
-        print("score = ", score)
-        print(
-            f"x_start, x_end = {x_start}, {x_end}, y_start, y_end = {y_start}, {y_end}")
-        print(
-            f"seq1[{x_start}:{x_end}) = {seq1[x_start:x_end]} and seq1[{y_start}:{y_end}) = {seq1[y_start:y_end]}")
-        print("forward, reverse_complementary = ", X, Y)
-        print("______________________________________")
     return
 
 
